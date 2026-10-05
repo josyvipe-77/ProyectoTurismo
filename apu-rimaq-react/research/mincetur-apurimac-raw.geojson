@@ -1,0 +1,3172 @@
+{
+  "type": "FeatureCollection",
+  "totalFeatures": 112,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283291",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8644",
+        "des_nombre": "CASA HACIENDA DE PACHACHACA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "CASA-HACIENDA",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "ABANCAY",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8644",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283292",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.90137887001038,
+          -13.650999052498792
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "4672",
+        "des_nombre": "CASA HACIENDA DE ILLANYA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "CASA-HACIENDA",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "ABANCAY",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=4672",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283293",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.886169,
+          -13.639939
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "4675",
+        "des_nombre": "CASA HACIENDA DE PATIBAMBA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "CASA-HACIENDA",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "ABANCAY",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=4675",
+        "des_jerarquia": "1",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283294",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.87840910255909,
+          -13.637387177938106
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8010",
+        "des_nombre": "CATEDRAL DE ABANCAY",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "ABANCAY",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8010",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283295",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.02989959716791,
+          -13.886745105947286
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8007",
+        "des_nombre": "RIO DE PACHACHACA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "H. RÍOS",
+        "des_categoria3": "",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "ABANCAY",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8007",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283296",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.87471771240234,
+          -13.635904674965195
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8641",
+        "des_nombre": "PLAZA MICAELA BASTIDAS",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "PLAZAS",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "ABANCAY",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8641",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283297",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8648",
+        "des_nombre": "CUEVA ASNAQ TOQO",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "M. GRUTAS, CAVERNAS Y CUEVAS",
+        "des_categoria3": "GRUTAS, CAVERNAS Y CUEVAS",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "ABANCAY",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8648",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283298",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.87993729114532,
+          -13.636710115097541
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8642",
+        "des_nombre": "PARQUE  OCAMPO",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "PARQUES",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "ABANCAY",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8642",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283299",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.87827968597412,
+          -13.66846416107387
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8256",
+        "des_nombre": "MIRADOR DEL CERRO QUISAPATA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "Ñ. LUGARES PINTORESCOS",
+        "des_categoria3": "MIRADOR NATURAL",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "ABANCAY",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8256",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283300",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8067",
+        "des_nombre": "TALLARIN DE CASA",
+        "id_categoria1": 3,
+        "des_categoria1": "3. FOLCLORE",
+        "des_categoria2": "GASTRONOMÍA",
+        "des_categoria3": "PLATOS TÍPICOS",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "ABANCAY",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8067",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283301",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.93738612268447,
+          -13.663068141447953
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "31",
+        "des_nombre": "PUENTE COLONIAL PACHACHACA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "OBRA DE INGENIERÍA (PUENTE Y CANALES DE RIEGO )",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "ABANCAY",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=31",
+        "des_jerarquia": "2",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283302",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8995",
+        "des_nombre": "BOSQUE DE RONTOCCOCHA - MOROCCOCHA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "Ñ. LUGARES PINTORESCOS",
+        "des_categoria3": "BOSQUES",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "ABANCAY",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8995",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283303",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8004",
+        "des_nombre": "CARNAVAL ABANQUINO",
+        "id_categoria1": 5,
+        "des_categoria1": "5. ACONTECIMIENTOS PROGRAMADOS",
+        "des_categoria2": "FIESTAS",
+        "des_categoria3": "CARNAVALES",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "ABANCAY",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8004",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283305",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.87885904312134,
+          -13.637353943907508
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8640",
+        "des_nombre": "PLAZA DE ARMAS DE ABANCAY",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "PLAZAS",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "ABANCAY",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8640",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283306",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8646",
+        "des_nombre": "CASA HACIENDA DE CASINCHIHUA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "CASA-HACIENDA",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "CHACOCHE",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8646",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283307",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.91952900000001,
+          -14.35141
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "5902",
+        "des_nombre": "LAGUNA MARAMARA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "G. CUERPO DE AGUA",
+        "des_categoria3": "LAGUNA",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "CIRCA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=5902",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283308",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8645",
+        "des_nombre": "CASA  HACIENDA DE VILCABAMBA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "CASA-HACIENDA",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "CIRCA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8645",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283309",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.97921657562256,
+          -13.853549316183589
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "5923",
+        "des_nombre": "TERECCMANA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "A. MONTAÑAS",
+        "des_categoria3": "CERRO",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "CIRCA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=5923",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283310",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.97825366258621,
+          -13.850361770628991
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "4673",
+        "des_nombre": "CASA HACIENDA DE YACA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "CASA-HACIENDA",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "CIRCA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=4673",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283312",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.97793179750443,
+          -13.849999783524302
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "4685",
+        "des_nombre": "CAPILLA DE YACA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "CAPILLA",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "CIRCA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=4685",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283313",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.80286133289337,
+          -13.547273879362903
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "571",
+        "des_nombre": "CONJUNTO ARQUEOLÓGICO DE SAYWITE",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "SITIOS ARQUEOLÓGICOS",
+        "des_categoria3": "EDIFICACIONES (TEMPLOS, FORTALEZAS, PLAZAS, CEMENTERIOS...)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "CURAHUASI",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=571",
+        "des_jerarquia": "1",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283314",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8388",
+        "des_nombre": "LAGUNA DE CCOCHA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "G. CUERPO DE AGUA",
+        "des_categoria3": "LAGUNA",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "CURAHUASI",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8388",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283315",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8399",
+        "des_nombre": "BOSQUE DE CCOLLPA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "Ñ. LUGARES PINTORESCOS",
+        "des_categoria3": "BOSQUES",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "CURAHUASI",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8399",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283316",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.57588326778739,
+          -13.563066182995525
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8729",
+        "des_nombre": "RIO APURIMAC",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "H. RÍOS",
+        "des_categoria3": "RÍOS",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "CURAHUASI",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8729",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283317",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.70722448825836,
+          -13.519141623475061
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "2039",
+        "des_nombre": "MIRADOR CAPITÁN RUMI",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "Ñ. LUGARES PINTORESCOS",
+        "des_categoria3": "MIRADOR NATURAL",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "CURAHUASI",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=2039",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283318",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.69538333333333,
+          -13.523558333333334
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "3055",
+        "des_nombre": "MIRADOR SAN CRISTOBAL",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "Ñ. LUGARES PINTORESCOS",
+        "des_categoria3": "MIRADOR NATURAL",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "CURAHUASI",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=3055",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283319",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6959277777778,
+          -13.542775
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "32",
+        "des_nombre": "TEMPLO SANTA CATALINA DE CURAHUASI",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "CURAHUASI",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=32",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283320",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.63884149241494,
+          -13.542986882051624
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "575",
+        "des_nombre": "BAÑOS TERMALES DE CCONOC",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "K. AGUAS MINERO MEDICINALES",
+        "des_categoria3": "AGUAS TERMALES",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "CURAHUASI",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=575",
+        "des_jerarquia": "2",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283321",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.69485467091738,
+          -13.521361742819664
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "602",
+        "des_nombre": "CAÑÓN DEL APURÍMAC",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "E. CAÑONES",
+        "des_categoria3": "CAÑONES",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "CURAHUASI",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=602",
+        "des_jerarquia": "2",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283322",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.12113761901861,
+          -13.458161365094176
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "2041",
+        "des_nombre": "MIRADOR DE CACHICUNCA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "Ñ. LUGARES PINTORESCOS",
+        "des_categoria3": "MIRADOR NATURAL",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "HUANIPACA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=2041",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283323",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.92930603027344,
+          -13.482868330917942
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "4677",
+        "des_nombre": "CASA HACIENDA DE TAMBOBAMBA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "CASA-HACIENDA",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "HUANIPACA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=4677",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283324",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.8902934057785,
+          -13.436407670006357
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8746",
+        "des_nombre": "MIRADOR DE KIUÑALLA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "Ñ. LUGARES PINTORESCOS",
+        "des_categoria3": "MIRADOR NATURAL",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "HUANIPACA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8746",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283325",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.98095567124165,
+          -13.565682658557927
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "9023",
+        "des_nombre": "RUTA KARKATERA – CCOYA - OCCOPATA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "Ñ. LUGARES PINTORESCOS",
+        "des_categoria3": "CAMINO PINTORESCO",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "HUANIPACA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=9023",
+        "des_jerarquia": null,
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283326",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.95446800000002,
+          -13.502884
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "1798",
+        "des_nombre": "CAMINO INCA HUANIPACA-CHOQEKIRAW-CACHORA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "LUGARES HISTÓRICOS",
+        "des_categoria3": "OTROS",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "HUANIPACA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=1798",
+        "des_jerarquia": "2",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283327",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.83225400000003,
+          -13.797343
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "1799",
+        "des_nombre": "TEMPLO COLONIAL DE CAYPE",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "LAMBRAMA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=1799",
+        "des_jerarquia": "1",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283328",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.06816100000003,
+          -13.871447
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "2043",
+        "des_nombre": "AGUAS TERMALES DE SANTO TOMAS",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "K. AGUAS MINERO MEDICINALES",
+        "des_categoria3": "AGUAS TERMALES",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "PICHIRHUA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=2043",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283329",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8647",
+        "des_nombre": "CASA HACIENDA DE CHONTAY",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "CASA-HACIENDA",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "PICHIRHUA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8647",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283330",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.81281232833862,
+          -13.512087176537039
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "3942",
+        "des_nombre": "SITIO ARQUEOLOGICO DE INKARAQAY",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "SITIOS ARQUEOLÓGICOS",
+        "des_categoria3": "EDIFICACIONES (TEMPLOS, FORTALEZAS, PLAZAS, CEMENTERIOS...)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "SAN PEDRO DE CACHORA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=3942",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283331",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.81035542488098,
+          -13.44196690262416
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8066",
+        "des_nombre": "MIRADOR DE CAPULIYOC",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "Ñ. LUGARES PINTORESCOS",
+        "des_categoria3": "MIRADOR NATURAL",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "SAN PEDRO DE CACHORA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8066",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283332",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.88666236523437,
+          -13.577189271793486
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "577",
+        "des_nombre": "SANTUARIO NACIONAL DE AMPAY",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "N. ÁREAS PROTEGIDAS",
+        "des_categoria3": "SANTUARIOS NACIONALES",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "TAMBURCO",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=577",
+        "des_jerarquia": "2",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283333",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.85742282867432,
+          -13.606469037983127
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8068",
+        "des_nombre": "PUENTE  CAPELO",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "OBRA DE INGENIERÍA (PUENTE Y CANALES DE RIEGO )",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "TAMBURCO",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8068",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283334",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.87245392799377,
+          -13.620890142659263
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8006",
+        "des_nombre": "USNO MOQO",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "LUGARES HISTÓRICOS",
+        "des_categoria3": "EDIFICACIONES (CASAS, BALCONES, CUARTOS, VENTANAS, PATIOS, MURALLAS, PUENTES...)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "TAMBURCO",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8006",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283335",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.86079569312199,
+          -13.61883599736895
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "4678",
+        "des_nombre": "PARQUE RECREACIONAL EL MIRADOR (TARACCASA)",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "PARQUES",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "TAMBURCO",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=4678",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283336",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8065",
+        "des_nombre": "FERIA AGROPECUARIA, AGROINDUSTRIAL Y ARTESANAL DE SAN ANTONIO",
+        "id_categoria1": 3,
+        "des_categoria1": "3. FOLCLORE",
+        "des_categoria2": "FERIAS Y MERCADOS",
+        "des_categoria3": "FERIAS ARTESANALES",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "TAMBURCO",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8065",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283337",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38997542858124,
+          -13.6564229920654
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8806",
+        "des_nombre": "PLAZA DE ARMAS DE ANDAHUAYLAS",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "PLAZAS",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "ANDAHUAYLAS",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8806",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283338",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3849,
+          -13.6564
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "6935",
+        "des_nombre": "FESTIVIDAD NAVIDEÑA DEL NIÑUCHANCHIC (NUESTRO NIÑITO)",
+        "id_categoria1": 5,
+        "des_categoria1": "5. ACONTECIMIENTOS PROGRAMADOS",
+        "des_categoria2": "FIESTAS",
+        "des_categoria3": "FIESTAS RELIGIOSAS",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "ANDAHUAYLAS",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=6935",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283339",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8634",
+        "des_nombre": "ENCUENTRO DE CARNAVAL ORIGINARIO DEL PERÚ - PUKLLAY ANDAHUAYLAS",
+        "id_categoria1": 5,
+        "des_categoria1": "5. ACONTECIMIENTOS PROGRAMADOS",
+        "des_categoria2": "FIESTAS",
+        "des_categoria3": "CARNAVALES",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "ANDAHUAYLAS",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8634",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283340",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8246",
+        "des_nombre": "SANTUARIO DE CAMPANAYOQ",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "Ñ. LUGARES PINTORESCOS",
+        "des_categoria3": "MIRADOR NATURAL",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "ANDAHUAYLAS",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8246",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283341",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8833",
+        "des_nombre": "PACCHA JOSÉ MARÍA ARGUEDAS",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "OTROS (MONUMENTO, PILETA, ETC)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "ANDAHUAYLAS",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8833",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283342",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3366584777832,
+          -13.608950823599878
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "1316",
+        "des_nombre": "LAGUNA PACUCHA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "G. CUERPO DE AGUA",
+        "des_categoria3": "LAGUNA",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "ANDAHUAYLAS",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=1316",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283343",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38997970304109,
+          -13.656943000000002
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "650",
+        "des_nombre": "TEMPLO SAN PEDRO DE ANDAHUAYLAS",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "ANDAHUAYLAS",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=650",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283344",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "9022",
+        "des_nombre": "TINKUY CURAMBA",
+        "id_categoria1": 5,
+        "des_categoria1": "5. ACONTECIMIENTOS PROGRAMADOS",
+        "des_categoria2": "FIESTAS",
+        "des_categoria3": "OTROS",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "KISHUARA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=9022",
+        "des_jerarquia": null,
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283345",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.093323,
+          -13.508417
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "1800",
+        "des_nombre": "CONJUNTO ARQUEOLÓGICO DE CURAMBA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "SITIOS ARQUEOLÓGICOS",
+        "des_categoria3": "EDIFICACIONES (TEMPLOS, FORTALEZAS, PLAZAS, CEMENTERIOS...)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "KISHUARA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=1800",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283346",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8378",
+        "des_nombre": "BOSQUE DE CHINCHAY",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "Ñ. LUGARES PINTORESCOS",
+        "des_categoria3": "BOSQUES",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "PACOBAMBA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8378",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283347",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.26942056085204,
+          -13.605871377046503
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "578",
+        "des_nombre": "CONJUNTO ARQUEOLÓGICO DE SÓNDOR",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "SITIOS ARQUEOLÓGICOS",
+        "des_categoria3": "EDIFICACIONES (TEMPLOS, FORTALEZAS, PLAZAS, CEMENTERIOS...)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "PACUCHA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=578",
+        "des_jerarquia": "2",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283348",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8869",
+        "des_nombre": "SONDOR RAYMI – LA EPOPEYA CHANKA",
+        "id_categoria1": 5,
+        "des_categoria1": "5. ACONTECIMIENTOS PROGRAMADOS",
+        "des_categoria2": "FIESTAS",
+        "des_categoria3": "FIESTAS RELIGIOSAS",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "PACUCHA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8869",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283349",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8874",
+        "des_nombre": "PLAZA DE ARMAS DE PAMPACHIRI",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "PLAZAS",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "PAMPACHIRI",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8874",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283350",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.55827331542969,
+          -14.174858879215774
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8264",
+        "des_nombre": "PANCULA PAMPA DE PABELLONES",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "A. MONTAÑAS",
+        "des_categoria3": "BOSQUE DE PIEDRA",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "PAMPACHIRI",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8264",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283351",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "9027",
+        "des_nombre": "LAGUNA HUANCACCOCHA (WANKAQOCHA)",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "G. CUERPO DE AGUA",
+        "des_categoria3": "LAGUNA",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "PAMPACHIRI",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=9027",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283352",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "9024",
+        "des_nombre": "SUTOQMACHAY",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "M. GRUTAS, CAVERNAS Y CUEVAS",
+        "des_categoria3": "GRUTAS, CAVERNAS Y CUEVAS",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "TALAVERA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=9024",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283353",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.44142556190491,
+          -13.658687925582507
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "603",
+        "des_nombre": "AGUAS MINERALES DE HUALALACHI",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "K. AGUAS MINERO MEDICINALES",
+        "des_categoria3": "AGUAS NO TERMALES",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "TALAVERA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=603",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283354",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8266",
+        "des_nombre": "COMPLEJO ARQUEOLÓGICO DE ACHANCHI",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "SITIOS ARQUEOLÓGICOS",
+        "des_categoria3": "EDIFICACIONES (TEMPLOS, FORTALEZAS, PLAZAS, CEMENTERIOS...)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "TALAVERA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8266",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283355",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8827",
+        "des_nombre": "TEMPLO SANTIAGO APÓSTOL DE TALAVERA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "TALAVERA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8827",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283356",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8823",
+        "des_nombre": "PLAZA DE ARMAS DE TALAVERA LA REYNA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "PLAZAS",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "TALAVERA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8823",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283357",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8274",
+        "des_nombre": "PETROGLIFOS DE CCOMPICANCHA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "SITIOS ARQUEOLÓGICOS",
+        "des_categoria3": "PETROGLIFOS (GRABADOS EN PIEDRA)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "TALAVERA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8274",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283358",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.878019,
+          -14.365151
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "455",
+        "des_nombre": "TEMPLO SAN SALVADOR DE ANTABAMBA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANTABAMBA",
+        "des_distrito": "ANTABAMBA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=455",
+        "des_jerarquia": "2",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283359",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8877",
+        "des_nombre": "HUAYLIA",
+        "id_categoria1": 5,
+        "des_categoria1": "5. ACONTECIMIENTOS PROGRAMADOS",
+        "des_categoria2": "FIESTAS",
+        "des_categoria3": "FIESTAS RELIGIOSAS",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANTABAMBA",
+        "des_distrito": "ANTABAMBA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8877",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283360",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.86145687103271,
+          -14.476787518660974
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "529",
+        "des_nombre": "AGUAS TERMALES DE CCOCHO",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "K. AGUAS MINERO MEDICINALES",
+        "des_categoria3": "AGUAS TERMALES",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANTABAMBA",
+        "des_distrito": "ANTABAMBA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=529",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283361",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8883",
+        "des_nombre": "MAYURA ANTABAMBINA",
+        "id_categoria1": 5,
+        "des_categoria1": "5. ACONTECIMIENTOS PROGRAMADOS",
+        "des_categoria2": "FIESTAS",
+        "des_categoria3": "FIESTAS RELIGIOSAS",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANTABAMBA",
+        "des_distrito": "ANTABAMBA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8883",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283362",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.89441572883607,
+          -14.339382428425038
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "423",
+        "des_nombre": "TEMPLO COLONIAL DE HUAQUIRCA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANTABAMBA",
+        "des_distrito": "HUAQUIRCA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=423",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283363",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.86579132080078,
+          -14.399766565389355
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "580",
+        "des_nombre": "LAGUNA DE MATARA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "G. CUERPO DE AGUA",
+        "des_categoria3": "LAGUNA",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANTABAMBA",
+        "des_distrito": "HUAQUIRCA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=580",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283364",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "9042",
+        "des_nombre": "CATARATA FUSIRAY",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "I. CAIDAS DE AGUA",
+        "des_categoria3": "CATARATAS/CASCADAS",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANTABAMBA",
+        "des_distrito": "OROPESA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=9042",
+        "des_jerarquia": null,
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283365",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.53722199999999,
+          -14.354861
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "601",
+        "des_nombre": "AGUAS TERMALES DE KILKATA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "K. AGUAS MINERO MEDICINALES",
+        "des_categoria3": "AGUAS TERMALES",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANTABAMBA",
+        "des_distrito": "OROPESA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=601",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283366",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8882",
+        "des_nombre": "FIESTA PATRONAL DE SAN JUAN BAUTISTA DE PACHACONAS",
+        "id_categoria1": 5,
+        "des_categoria1": "5. ACONTECIMIENTOS PROGRAMADOS",
+        "des_categoria2": "FIESTAS",
+        "des_categoria3": "FIESTAS PATRONALES",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANTABAMBA",
+        "des_distrito": "PACHACONAS",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8882",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283367",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.19995833333331,
+          -14.336608333333333
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "4269",
+        "des_nombre": "BOSQUE DE TITANKAS O PUYAS DE RAYMONDI",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "Ñ. LUGARES PINTORESCOS",
+        "des_categoria3": "BOSQUES",
+        "des_region": "APURIMAC",
+        "des_provincia": "AYMARAES",
+        "des_distrito": "CAPAYA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=4269",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283368",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.16687717196658,
+          -14.367851237036547
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "29",
+        "des_nombre": "ANDENERÍAS DE CARAYBAMBA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "LUGARES HISTÓRICOS",
+        "des_categoria3": "OBRAS DE INGENIERÍA (ANDENES, CANALES DE RIEGO, PUENTES....)",
+        "des_region": "APURIMAC",
+        "des_provincia": "AYMARAES",
+        "des_distrito": "CARAYBAMBA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=29",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283369",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8892",
+        "des_nombre": "PUEBLO HISTÓRICO DE MUTCA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "PUEBLOS",
+        "des_categoria3": "PUEBLOS TRADICIONALES",
+        "des_region": "APURIMAC",
+        "des_provincia": "AYMARAES",
+        "des_distrito": "CHALHUANCA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8892",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283370",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.276745,
+          -14.283773
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "36",
+        "des_nombre": "BAÑOS TERMALES DE PINCAHUACHO",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "K. AGUAS MINERO MEDICINALES",
+        "des_categoria3": "AGUAS TERMALES",
+        "des_region": "APURIMAC",
+        "des_provincia": "AYMARAES",
+        "des_distrito": "CHALHUANCA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=36",
+        "des_jerarquia": "1",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283371",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8893",
+        "des_nombre": "TEMPLO SAN FELIPE DE MUTCA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "AYMARAES",
+        "des_distrito": "CHALHUANCA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8893",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283372",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2431,
+          -14.2951
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "5057",
+        "des_nombre": "FIESTA MAYOR DEL SEÑOR DE ANIMAS",
+        "id_categoria1": 5,
+        "des_categoria1": "5. ACONTECIMIENTOS PROGRAMADOS",
+        "des_categoria2": "FIESTAS",
+        "des_categoria3": "FIESTAS PATRONALES",
+        "des_region": "APURIMAC",
+        "des_provincia": "AYMARAES",
+        "des_distrito": "CHALHUANCA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=5057",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283373",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.25610277777776,
+          -14.292108333333333
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "33",
+        "des_nombre": "TEMPLO DE CHUQUINGA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "AYMARAES",
+        "des_distrito": "CHALHUANCA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=33",
+        "des_jerarquia": "2",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283374",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.20663649338616,
+          -14.427659053963948
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "1801",
+        "des_nombre": "TEMPLO NUESTRA SEÑORA DE LAS MERCEDES DE PAMPAMARCA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "AYMARAES",
+        "des_distrito": "COTARUSE",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=1801",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283375",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "9021",
+        "des_nombre": "CONDORCOCCHA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "G. CUERPO DE AGUA",
+        "des_categoria3": "LAGUNA",
+        "des_region": "APURIMAC",
+        "des_provincia": "AYMARAES",
+        "des_distrito": "SAÑAYCA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=9021",
+        "des_jerarquia": null,
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283376",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "9026",
+        "des_nombre": "AGUAS TERMALES DE PACAYCA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "K. AGUAS MINERO MEDICINALES",
+        "des_categoria3": "AGUAS NO TERMALES",
+        "des_region": "APURIMAC",
+        "des_provincia": "AYMARAES",
+        "des_distrito": "SORAYA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=9026",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283377",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.81410241127014,
+          -13.489172476150227
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "4688",
+        "des_nombre": "VALLE DEL PAMPAS",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "C. VALLES",
+        "des_categoria3": "VALLES",
+        "des_region": "APURIMAC",
+        "des_provincia": "CHINCHEROS",
+        "des_distrito": "CHINCHEROS",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=4688",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283378",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.73803403439331,
+          -13.611938030618077
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "34",
+        "des_nombre": "TEMPLO COLONIAL DE COCHARCAS",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "CHINCHEROS",
+        "des_distrito": "COCHARCAS",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=34",
+        "des_jerarquia": "2",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283379",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.741,
+          -13.6103
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "7512",
+        "des_nombre": "FESTIVIDAD RELIGIOSA DE LA VIRGEN DE COCHARCAS O MAMACHA COCHARCAS",
+        "id_categoria1": 5,
+        "des_categoria1": "5. ACONTECIMIENTOS PROGRAMADOS",
+        "des_categoria2": "FIESTAS",
+        "des_categoria3": "FIESTAS RELIGIOSAS",
+        "des_region": "APURIMAC",
+        "des_provincia": "CHINCHEROS",
+        "des_distrito": "COCHARCAS",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=7512",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283380",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "9285",
+        "des_nombre": "DORADOS DE MARAMARA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "A. MONTAÑAS",
+        "des_categoria3": "CERRO",
+        "des_region": "APURIMAC",
+        "des_provincia": "CHINCHEROS",
+        "des_distrito": "HUACCANA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=9285",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283381",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "9025",
+        "des_nombre": "LAGUNA DE  ANORI",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "G. CUERPO DE AGUA",
+        "des_categoria3": "LAGUNA",
+        "des_region": "APURIMAC",
+        "des_provincia": "CHINCHEROS",
+        "des_distrito": "HUACCANA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=9025",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283382",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "7306",
+        "des_nombre": "COMPLEJO ARQUEOLOGICO DE MUYO MUYO",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "SITIOS ARQUEOLÓGICOS",
+        "des_categoria3": "EDIFICACIONES (TEMPLOS, FORTALEZAS, PLAZAS, CEMENTERIOS...)",
+        "des_region": "APURIMAC",
+        "des_provincia": "CHINCHEROS",
+        "des_distrito": "URANMARCA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=7306",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283383",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.24641025066376,
+          -14.118602157492754
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "30",
+        "des_nombre": "COMPLEJO ARQUEOLOGICO DE MARKAPUCHUNGO",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "SITIOS ARQUEOLÓGICOS",
+        "des_categoria3": "EDIFICACIONES (TEMPLOS, FORTALEZAS, PLAZAS, CEMENTERIOS...)",
+        "des_region": "APURIMAC",
+        "des_provincia": "COTABAMBAS",
+        "des_distrito": "CHALLHUAHUACHO",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=30",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283384",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.35609114170074,
+          -13.746896508610655
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "582",
+        "des_nombre": "TEMPLO SAN AGUSTÍN DE COTABAMBAS",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "COTABAMBAS",
+        "des_distrito": "COTABAMBAS",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=582",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283385",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.18872934579849,
+          -14.213923477524533
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "573",
+        "des_nombre": "TEMPLO DE SAN PEDRO DE HAQUIRA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "COTABAMBAS",
+        "des_distrito": "HAQUIRA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=573",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283386",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.18826532363892,
+          -14.214134085128581
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "422",
+        "des_nombre": "TEMPLO SAN JUAN DE LLAQWA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "COTABAMBAS",
+        "des_distrito": "HAQUIRA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=422",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283387",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.18316199999998,
+          -14.184986
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "583",
+        "des_nombre": "COMPLEJO ARQUEOLOGICO DE MARKANSAYA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "SITIOS ARQUEOLÓGICOS",
+        "des_categoria3": "EDIFICACIONES (TEMPLOS, FORTALEZAS, PLAZAS, CEMENTERIOS...)",
+        "des_region": "APURIMAC",
+        "des_provincia": "COTABAMBAS",
+        "des_distrito": "HAQUIRA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=583",
+        "des_jerarquia": "1",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283388",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.18793541104509,
+          -14.21336600254673
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "651",
+        "des_nombre": "CÁRCEL DE HAQUIRA QAQACARCEL",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "LUGARES HISTÓRICOS",
+        "des_categoria3": "EDIFICACIONES (CASAS, BALCONES, CUARTOS, VENTANAS, PATIOS, MURALLAS, PUENTES...)",
+        "des_region": "APURIMAC",
+        "des_provincia": "COTABAMBAS",
+        "des_distrito": "HAQUIRA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=651",
+        "des_jerarquia": "2",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283389",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.17453333333333,
+          -13.946261111111111
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "1419",
+        "des_nombre": "TEMPLO TAMBOBAMBA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "COTABAMBAS",
+        "des_distrito": "TAMBOBAMBA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=1419",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283390",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.805001,
+          -13.996322
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "1797",
+        "des_nombre": "CENTRO DE CONSERVACIÓN DE VICUÑAS DE LLIULLITA",
+        "id_categoria1": 4,
+        "des_categoria1": "4. REALIZACIONES TÉCNICAS, CIENTÍFICAS Y ARTÍSTISTICAS CONTEMPORANEAS",
+        "des_categoria2": "EXPLOTACIONES  AGROPECUARIAS Y PESQUERAS",
+        "des_categoria3": "GANADERÍA / GRANJAS",
+        "des_region": "APURIMAC",
+        "des_provincia": "GRAU",
+        "des_distrito": "CHUQUIBAMBILLA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=1797",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283391",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.78266944444442,
+          -14.045608333333334
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "584",
+        "des_nombre": "LAGUNA DE OCCOCCO",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "G. CUERPO DE AGUA",
+        "des_categoria3": "LAGUNA",
+        "des_region": "APURIMAC",
+        "des_provincia": "GRAU",
+        "des_distrito": "CHUQUIBAMBILLA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=584",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283392",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.80034542093739,
+          -14.001159588200967
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8321",
+        "des_nombre": "LAGUNA DE LLIULLITA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "G. CUERPO DE AGUA",
+        "des_categoria3": "LAGUNA",
+        "des_region": "APURIMAC",
+        "des_provincia": "GRAU",
+        "des_distrito": "CHUQUIBAMBILLA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8321",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283393",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8320",
+        "des_nombre": "TRES CRUCES",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "MIRADORES",
+        "des_region": "APURIMAC",
+        "des_provincia": "GRAU",
+        "des_distrito": "MAMARA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8320",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283394",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.58986044047549,
+          -14.22908639498622
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "585",
+        "des_nombre": "TEMPLO SAN MIGUEL DE MAMARA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "GRAU",
+        "des_distrito": "MAMARA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=585",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283395",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.61460833333331,
+          -14.115222222222222
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "653",
+        "des_nombre": "TEMPLO COLONIAL DE AYRIHUANCA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "GRAU",
+        "des_distrito": "MICAELA BASTIDAS",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=653",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283396",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.62368801719663,
+          -14.076341186648484
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "652",
+        "des_nombre": "PUENTE COLONIAL DE SAN NICOLAS DE TOLENTINO",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "OBRA DE INGENIERÍA (PUENTE Y CANALES DE RIEGO )",
+        "des_region": "APURIMAC",
+        "des_provincia": "GRAU",
+        "des_distrito": "VILCABAMBA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=652",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.283593",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8809",
+        "des_nombre": "PLAZA DE ARMAS DE SAN JERÓNIMO",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "PLAZAS",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "SAN JERÓNIMO",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8809",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.285354",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8215",
+        "des_nombre": "PETROGLIFOS DE QAQACORRAL",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "SITIOS ARQUEOLÓGICOS",
+        "des_categoria3": "PETROGLIFOS (GRABADOS EN PIEDRA)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "SAN JERÓNIMO",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8215",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.285590",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.86227762699127,
+          -13.529745068382926
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "576",
+        "des_nombre": "COMPLEJO ARQUEOLOGICO DE QORIMARCA",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "SITIOS ARQUEOLÓGICOS",
+        "des_categoria3": "EDIFICACIONES (TEMPLOS, FORTALEZAS, PLAZAS, CEMENTERIOS...)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "HUANIPACA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=576",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.285700",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36492896080017,
+          -13.651043361976988
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8217",
+        "des_nombre": "TEMPLO DE SAN JERÓNIMO",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "IGLESIAS (TEMPLO, CATEDRAL, ETC.)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "SAN JERÓNIMO",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8217",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.286399",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8212",
+        "des_nombre": "PEROGLIFOS  DE LLAMACHAYOQ",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "SITIOS ARQUEOLÓGICOS",
+        "des_categoria3": "PETROGLIFOS (GRABADOS EN PIEDRA)",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "SAN JERÓNIMO",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8212",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.286400",
+      "geometry": null,
+      "geometry_name": "geom",
+      "properties": {
+        "geom": null,
+        "cod_directorio": "D_IRT",
+        "cod_reg": "9019",
+        "des_nombre": "BOSQUE DE PIEDRAS DE CCENHUA",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "A. MONTAÑAS",
+        "des_categoria3": "BOSQUE DE PIEDRA",
+        "des_region": "APURIMAC",
+        "des_provincia": "CHINCHEROS",
+        "des_distrito": "RANRACANCHA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=9019",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.286524",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.87697479128838,
+          -13.636273509541475
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "8643",
+        "des_nombre": "CASA DE DAVID SAMANEZ OCAMPO",
+        "id_categoria1": 2,
+        "des_categoria1": "2. MANIFESTACIONES CULTURALES",
+        "des_categoria2": "ARQUITECTURA Y ESPACIOS URBANOS",
+        "des_categoria3": "CASA DE VALOR ARQUITECTÓNICO",
+        "des_region": "APURIMAC",
+        "des_provincia": "ABANCAY",
+        "des_distrito": "ABANCAY",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=8643",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIG1GEOIRT.286839",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.20400714874268,
+          -13.48826220645699
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "cod_directorio": "D_IRT",
+        "cod_reg": "2042",
+        "des_nombre": "MIRADOR DE HUASCATAY",
+        "id_categoria1": 1,
+        "des_categoria1": "1. SITIOS NATURALES",
+        "des_categoria2": "Ñ. LUGARES PINTORESCOS",
+        "des_categoria3": "MIRADOR NATURAL",
+        "des_region": "APURIMAC",
+        "des_provincia": "ANDAHUAYLAS",
+        "des_distrito": "PACOBAMBA",
+        "des_web": "HTTP://FICHA.SIGMINCETUR.MINCETUR.GOB.PE/INDEX.ASPX?COD_FICHA=2042",
+        "des_jerarquia": "Por jerarquizar",
+        "usu_crea": null,
+        "fec_crea": null,
+        "usu_modi": null,
+        "fec_modi": null
+      }
+    }
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  }
+}

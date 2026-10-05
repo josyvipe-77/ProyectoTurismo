@@ -1,0 +1,461 @@
+[
+  {
+    "id": "pacucha-sondor",
+    "name": "Pacucha y la memoria Chanka",
+    "province": "Andahuaylas",
+    "base": "Andahuaylas",
+    "duration": "½–1 día",
+    "kind": "Circuito local",
+    "stops": ["8806", "1316", "578"],
+    "note": "Un recorrido continuo desde Andahuaylas hacia Pacucha y Sóndor. Muchkani es una extensión que parte de Pacucha y requiere tiempo adicional.",
+    "legs": [
+      {
+        "from": "8806",
+        "to": "1316",
+        "detail": "Andahuaylas → Parque de la Sirena, Pacucha: 15 km / 30 min en taxi. La ficha de la laguna usa otro punto de llegada: 17 km.",
+        "source": "578"
+      },
+      {
+        "from": "1316",
+        "to": "578",
+        "detail": "Parque de la Sirena → Sóndor: 6 km / 15 min en taxi por vía afirmada.",
+        "source": "578"
+      }
+    ],
+    "branches": [
+      {
+        "name": "Mirador de Muchkani",
+        "stops": ["14383"],
+        "note": "Desde Pacucha: 15 km / 30 min hasta el ingreso, más 200 m a pie, según ficha 14383. Volver al eje principal.",
+        "source": "14383"
+      }
+    ]
+  },
+  {
+    "id": "chumbao",
+    "name": "Andahuaylas y Talavera",
+    "province": "Andahuaylas",
+    "base": "Andahuaylas",
+    "duration": "1 día",
+    "kind": "Circuito local",
+    "stops": ["8806", "650", "8833", "8823", "8827", "603"],
+    "note": "Agrupa el centro de Andahuaylas y el ramal occidental hacia Talavera y Hualalachi. San Jerónimo es otro ramal, al este; no se añade como salto final.",
+    "legs": [
+      {
+        "from": "8806",
+        "to": "8823",
+        "detail": "Andahuaylas → plaza de Talavera: 5 km / 15 min en taxi. Plaza → templo: 30 m.",
+        "source": "8827"
+      }
+    ],
+    "branches": [
+      {
+        "name": "Waywaka y Campanayocc",
+        "stops": ["waywaka", "8246"],
+        "note": "Ramal al sur de la ciudad; elegirlo como extensión de la visita urbana. Accesos pendientes de confirmar.",
+        "source": "8246"
+      },
+      {
+        "name": "San Jerónimo",
+        "stops": ["8809", "8217"],
+        "note": "Desde Andahuaylas: 3 km / 10 min en taxi; plaza → templo: 25 m. Regresar a Andahuaylas para seguir hacia Talavera.",
+        "source": "8217"
+      }
+    ]
+  },
+  {
+    "id": "abancay-urbano",
+    "name": "Abancay y Tamburco",
+    "province": "Abancay",
+    "base": "Abancay",
+    "duration": "½–1 día",
+    "kind": "Circuito local",
+    "stops": ["8640", "8010", "8642", "8641", "8006", "4678"],
+    "note": "Centro histórico, memoria de Micaela Bastidas, Usno Moqo y Taraccasa. Ampay se reserva para una jornada de caminata.",
+    "legs": [
+      {
+        "from": "8640",
+        "to": "4678",
+        "detail": "Desde la plaza de Abancay al ingreso de Taraccasa: 12 km / 20 min en bus según su ficha. Confirmar el tramo peatonal.",
+        "source": "4678"
+      }
+    ],
+    "branches": [
+      {
+        "name": "Mirador de Quisapata",
+        "stops": ["8256"],
+        "note": "Salida independiente al sur; no es una parada de paso hacia Tamburco.",
+        "source": "8256"
+      }
+    ]
+  },
+  {
+    "id": "pachachaca",
+    "name": "Illanya y el valle de Pachachaca",
+    "province": "Abancay",
+    "base": "Abancay",
+    "duration": "1 día",
+    "kind": "Corredor con desvíos",
+    "stops": ["11102", "31", "13092", "4673", "4685"],
+    "note": "Eje hacia el suroeste: Illanya, puente colonial, sector Cotarma y Yaca. Paqpachaca está en Pichirhua; no confundirlo con el puente colonial de Pachachaca.",
+    "legs": [
+      {
+        "from": "11102",
+        "to": "31",
+        "detail": "Son paradas del valle propuestas desde Abancay. No se ha publicado aquí una distancia vial entre ambas.",
+        "source": "31"
+      },
+      {
+        "from": "31",
+        "to": "13092",
+        "detail": "Paqpachaca: acceso desde Abancay a Ituconga–Cotarma de 35 km / 35 min; luego 10 m a pie, según ficha.",
+        "source": "13092"
+      },
+      {
+        "from": "13092",
+        "to": "4673",
+        "detail": "Yaca: 37 km desde Abancay. La cercanía de los sectores no sustituye la confirmación de estacionamiento y accesos.",
+        "source": "8007"
+      }
+    ],
+    "branches": [
+      {
+        "name": "Destilería Donaires",
+        "stops": ["14655"],
+        "note": "Ramal del sector Pachachaca: 1 km a pie desde el paradero del desvío, según ficha. Coordinar visita.",
+        "source": "14655"
+      }
+    ]
+  },
+  {
+    "id": "ampay",
+    "name": "Ampay: bosques y lagunas",
+    "province": "Abancay",
+    "base": "Abancay / Tamburco",
+    "duration": "1–2 días",
+    "kind": "Sendero autorizado",
+    "stops": ["577", "intimpas", "angasqocha", "usphaqocha"],
+    "note": "Se recorre caminando por senderos autorizados. El pin representa el santuario, no el acceso ni el trazado del sendero. La extensión a la laguna alta depende de condición física y autorización.",
+    "legs": [
+      {
+        "from": "577",
+        "to": "angasqocha",
+        "detail": "Consultar el recorrido y condiciones con SERNANP. Los sectores internos carecen de pin contrastado en este catálogo.",
+        "source": "577"
+      }
+    ],
+    "branches": [
+      {
+        "name": "Otros sectores de Ampay",
+        "stops": ["faccha", "huillcaqocha", "bosque-enano", "abra-ampay"],
+        "note": "No son paradas consecutivas obligatorias: elegir un sendero habilitado con guardaparques u orientación autorizada.",
+        "source": "577"
+      }
+    ]
+  },
+  {
+    "id": "curahuasi",
+    "name": "Saywite, Curahuasi y Cconoc",
+    "province": "Abancay",
+    "base": "Abancay / Curahuasi",
+    "duration": "1–2 días",
+    "kind": "Corredor con desvíos",
+    "stops": ["571", "32", "575"],
+    "note": "Sigue el corredor hacia Curahuasi. Los miradores se visitan como ramales con retorno a Curahuasi antes de bajar a Cconoc; no se supone una carretera directa entre miradores y termas.",
+    "legs": [
+      {
+        "from": "571",
+        "to": "32",
+        "detail": "Curahuasi → Saywite: 25 km / 25 min, según ficha 571. El tramo se puede recorrer en sentido inverso.",
+        "source": "571"
+      },
+      {
+        "from": "32",
+        "to": "575",
+        "detail": "Paradero de Curahuasi → Cconoc: 29 km / 40 min en taxi, según ficha 575. La guía 2023 publica 21 km: confirmar origen y acceso.",
+        "source": "575"
+      }
+    ],
+    "branches": [
+      {
+        "name": "Capitán Rumi",
+        "stops": ["2039"],
+        "note": "Ramal desde Curahuasi: 3,5 km / 15 min en taxi. Retornar al corredor.",
+        "source": "2039"
+      },
+      {
+        "name": "San Cristóbal",
+        "stops": ["3055"],
+        "note": "Ramal desde Curahuasi con tramo peatonal. La ficha y la guía difieren en distancia; confirmar recorrido antes de visitar.",
+        "source": "3055"
+      }
+    ]
+  },
+  {
+    "id": "cachora",
+    "name": "Cachora y Capuliyoc",
+    "province": "Abancay",
+    "base": "San Pedro de Cachora",
+    "duration": "1 día",
+    "kind": "Circuito local",
+    "stops": ["8066"],
+    "note": "Cachora → Capuliyoc es un acceso documentado. Choquequirao está en Cusco y requiere otra travesía; no se incorpora como atractivo situado en Apurímac.",
+    "legs": [
+      {
+        "from": "8066",
+        "to": "8066",
+        "detail": "Plaza de Cachora → Capuliyoc: 12 km / 30 min en taxi por trocha, según ficha. El pin queda pendiente por discrepancia con el límite cartográfico.",
+        "source": "8066"
+      }
+    ],
+    "branches": [
+      {
+        "name": "Incaraccay",
+        "stops": ["3942"],
+        "note": "Salida distinta desde Cachora: 15 km por trocha más 1 km a pie. No asumir conexión directa Incaraccay–Capuliyoc.",
+        "source": "3942"
+      }
+    ]
+  },
+  {
+    "id": "karkatera",
+    "name": "Karkatera y Ccoya",
+    "province": "Abancay",
+    "base": "Abancay",
+    "duration": "1 día",
+    "kind": "Corredor con desvíos",
+    "stops": ["9023", "qello-yaku", "ccoya"],
+    "note": "Circuito documentado por PROMPERÚ. Karkatera tiene un marcador referencial del tramo de túneles. Qello Yaku y el mirador de Ccoya siguen pendientes de ubicación contrastada.",
+    "legs": [
+      {
+        "from": "9023",
+        "to": "qello-yaku",
+        "detail": "Abancay → poblado Karkatera: 25 km / 1 h; poblado → túneles: 3 km / 15 min, según ficha 9023. Los demás enlaces requieren validación local.",
+        "source": "9023"
+      }
+    ],
+    "branches": []
+  },
+  {
+    "id": "pampachiri",
+    "name": "Pampachiri y sus paisajes de piedra",
+    "province": "Andahuaylas",
+    "base": "Pampachiri",
+    "duration": "2 días",
+    "kind": "Corredor con desvíos",
+    "stops": ["8874", "ayamachay", "8264", "aukillaqta", "12256"],
+    "note": "Mantener Pampachiri como circuito propio. Ayamachay, Aukillaqta y Awquimarca son sectores de visita que deben ordenarse con orientación local, no puntos GPS inventados.",
+    "legs": [
+      {
+        "from": "8874",
+        "to": "8264",
+        "detail": "Plaza de Pampachiri → bosque: 30 km / 30 min por trocha según ficha 8264. Confirmar sector de llegada y estado de vía.",
+        "source": "8264"
+      }
+    ],
+    "branches": [
+      {
+        "name": "Larkay y catarata",
+        "stops": ["larkay", "catarata-pampachiri"],
+        "note": "Extensión descrita por la guía; sin enlace vial o pin contrastado. No incluir automáticamente en el mismo día.",
+        "source": "8264"
+      }
+    ]
+  },
+  {
+    "id": "chalhuanca",
+    "name": "Chalhuanca, Chuquinga y Pincahuacho",
+    "province": "Aymaraes",
+    "base": "Chalhuanca",
+    "duration": "1 día",
+    "kind": "Circuito local",
+    "stops": ["33", "36"],
+    "note": "Agrupa patrimonio y termas alrededor de Chalhuanca. Mutca y Pampamarca son ramales, con regreso o jornada adicional.",
+    "legs": [
+      {
+        "from": "33",
+        "to": "36",
+        "detail": "Desde el paradero de Chalhuanca hasta Pincahuacho: 7 km / 25 min en taxi, según ficha 36. No confundir con una distancia desde la puerta del templo.",
+        "source": "36"
+      }
+    ],
+    "branches": [
+      {
+        "name": "Mutca",
+        "stops": ["8892", "8893"],
+        "note": "Registros históricos del SIG; confirmar acceso y estado de los lugares antes de programar.",
+        "source": "8892"
+      },
+      {
+        "name": "Pampamarca",
+        "stops": ["1801"],
+        "note": "Salida hacia el sur. Revisar la ficha del templo y reservar tiempo adicional.",
+        "source": "1801"
+      }
+    ]
+  },
+  {
+    "id": "antabamba",
+    "name": "Antabamba y Huaquirca",
+    "province": "Antabamba",
+    "base": "Antabamba",
+    "duration": "1 día",
+    "kind": "Circuito local",
+    "stops": ["455", "423"],
+    "note": "Templos de Antabamba y Huaquirca conectados por un acceso publicado. Matara y Ccocho se tratan como salidas independientes; su proximidad en el mapa no acredita una carretera continua.",
+    "legs": [
+      {
+        "from": "455",
+        "to": "423",
+        "detail": "Antabamba → plaza de Huaquirca: 20 km / 1 h en combi por trocha; plaza → templo: 50 m.",
+        "source": "423"
+      }
+    ],
+    "branches": [
+      {
+        "name": "Laguna Matara",
+        "stops": ["580"],
+        "note": "Acceso publicado desde Antabamba. Confirmar recorrido y condiciones antes de unirlo con Huaquirca.",
+        "source": "580"
+      },
+      {
+        "name": "Termas de Ccocho",
+        "stops": ["529"],
+        "note": "Desde Antabamba: 30 km por trocha hasta el anexo y luego 1 km a pie. Es otro ramal.",
+        "source": "529"
+      }
+    ]
+  },
+  {
+    "id": "haquira",
+    "name": "El patrimonio de Haquira",
+    "province": "Cotabambas",
+    "base": "Haquira",
+    "duration": "½–1 día",
+    "kind": "Circuito local",
+    "stops": ["573", "651"],
+    "note": "Templo de San Pedro y cárcel de piedra en el núcleo urbano. Llaqwa y Markansaya necesitan salidas específicas desde Haquira.",
+    "legs": [
+      {
+        "from": "573",
+        "to": "651",
+        "detail": "Ambos accesos parten de la plaza de Haquira: templo a 25 m; cárcel a 500 m según sus fichas. La guía 2023 indica 200 m para la cárcel.",
+        "source": "651"
+      }
+    ],
+    "branches": [
+      {
+        "name": "San Juan de Llaqwa",
+        "stops": ["422"],
+        "note": "18 km / 35 min desde Haquira, según ficha. Se excluye el pin del SIG por discrepancia de ubicación.",
+        "source": "422"
+      },
+      {
+        "name": "Markansaya",
+        "stops": ["583"],
+        "note": "Desde Haquira: 20 km por trocha hasta el desvío, luego 3 km a pie. No es una parada urbana cercana.",
+        "source": "583"
+      }
+    ]
+  },
+  {
+    "id": "lliullita",
+    "name": "Lliullita: agua y conservación",
+    "province": "Grau",
+    "base": "Chuquibambilla",
+    "duration": "1 día",
+    "kind": "Propuesta por proximidad",
+    "stops": ["1797", "8321"],
+    "note": "Centro de vicuñas y laguna pertenecen al sector Lliullita. Su secuencia es una propuesta espacial; el enlace peatonal debe confirmarse. Occocco se excluye por contradicción de acceso.",
+    "legs": [
+      {
+        "from": "1797",
+        "to": "8321",
+        "detail": "Centro de vicuñas: acceso desde Chuquibambilla al sector Lliullita de 18 km / 45 min y 1 km a pie, según ficha 1797. Sin distancia vial validada hasta la laguna.",
+        "source": "1797"
+      }
+    ],
+    "branches": []
+  },
+  {
+    "id": "cocharcas",
+    "name": "Cocharcas: plaza y santuario",
+    "province": "Chincheros",
+    "base": "Cocharcas / Uripa",
+    "duration": "½–1 día",
+    "kind": "Circuito local",
+    "stops": ["14127", "34"],
+    "note": "Plaza y templo en el mismo núcleo de Cocharcas. Anori, Ccenhua y Muyu Muyu corresponden a distintos ramales desde Uripa o Chincheros, no a una cadena local.",
+    "legs": [
+      {
+        "from": "14127",
+        "to": "34",
+        "detail": "Uripa → localidad de Cocharcas: 33 km / 1 h en combi, según ficha 14127. Recorrido urbano entre plaza y templo; confirmar horarios.",
+        "source": "14127"
+      }
+    ],
+    "branches": []
+  },
+  {
+    "id": "conexion-pacucha-cconoc",
+    "name": "De Pacucha a Cconoc, con escalas",
+    "province": "Interprovincial",
+    "base": "Andahuaylas → Abancay → Curahuasi",
+    "duration": "3–4 días propuestos",
+    "kind": "Conexión regional",
+    "stops": ["1316", "8806", "1800", "8640", "571", "32", "575"],
+    "note": "Volver de Pacucha al eje de Andahuaylas; considerar Curamba como desvío, continuar a Abancay y después al corredor Saywite–Curahuasi–Cconoc. Es una propuesta por etapas, no una ruta corta ni un cálculo automático de carretera.",
+    "legs": [
+      {
+        "from": "1316",
+        "to": "8806",
+        "detail": "Regreso al eje de Andahuaylas. Sóndor puede visitarse antes de salir de Pacucha.",
+        "source": "1316"
+      },
+      {
+        "from": "8806",
+        "to": "1800",
+        "detail": "Curamba es una visita opcional desde el corredor de Kishuara; confirmar ramal y tiempo de visita.",
+        "source": "1800"
+      },
+      {
+        "from": "1800",
+        "to": "8640",
+        "detail": "Etapa hacia Abancay; no se ha calculado aquí una distancia vial Curamba–Abancay.",
+        "source": "1800"
+      },
+      {
+        "from": "8640",
+        "to": "571",
+        "detail": "Abancay → Ramal: 46 km / 45 min; Ramal → Saywite: 2 km / 10 min en taxi, según ficha 571.",
+        "source": "571"
+      },
+      {
+        "from": "571",
+        "to": "32",
+        "detail": "Saywite ↔ Curahuasi: 25 km / 25 min según ficha 571.",
+        "source": "571"
+      },
+      {
+        "from": "32",
+        "to": "575",
+        "detail": "Curahuasi → Cconoc: 29 km / 40 min en taxi según ficha 575. Confirmar punto de partida.",
+        "source": "575"
+      }
+    ],
+    "branches": [
+      {
+        "name": "Sóndor antes de salir",
+        "stops": ["578"],
+        "note": "Extensión del circuito de Pacucha, previa al traslado regional.",
+        "source": "578"
+      },
+      {
+        "name": "Miradores de Curahuasi",
+        "stops": ["2039", "3055"],
+        "note": "Ramales con retorno a Curahuasi. No se presentan como una conexión directa entre los dos miradores.",
+        "source": "3055"
+      }
+    ]
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-05T02:11:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3155352530,
+      "lat": -13.5368215,
+      "lon": -73.0004063,
+      "tags": {
+        "name": "Ccoya",
+        "place": "village",
+        "source": "bing,geocatmin,GNS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3544155911,
+      "lat": -13.5216119,
+      "lon": -73.0009827,
+      "tags": {
+        "name": "Ccoya",
+        "place": "hamlet",
+        "source": "bing,geocatmin,GNS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6818019638,
+      "lat": -13.610995,
+      "lon": -72.9541655,
+      "tags": {
+        "name": "Karcatera"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6916464365,
+      "lat": -13.5384379,
+      "lon": -72.9996391,
+      "tags": {
+        "name": "Ccoya"
+      }
+    },
+    {
+      "type": "way",
+      "id": 310159538,
+      "bounds": {
+        "minlat": -13.5637991,
+        "minlon": -72.9779821,
+        "maxlat": -13.5620835,
+        "maxlon": -72.9757158
+      },
+      "geometry": [
+        {
+          "lat": -13.5620835,
+          "lon": -72.9757158
+        },
+        {
+          "lat": -13.5628083,
+          "lon": -72.9768126
+        },
+        {
+          "lat": -13.5637991,
+          "lon": -72.9779821
+        }
+      ],
+      "tags": {
+        "fixme": "tunnel ?",
+        "highway": "primary",
+        "name": "Túneles de Karkatera",
+        "ref": "AP-103",
+        "tourism": "attraction"
+      }
+    }
+  ]
+}

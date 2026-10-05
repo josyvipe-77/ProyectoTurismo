@@ -1,0 +1,26 @@
+# Local configuration and dependencies
+**/.env
+**/.env.*
+!**/.env.example
+**/*.local
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/.cache/
+**/__pycache__/
+**/*.pyc
+**/*.tsbuildinfo
+**/*.log
+
+# Local references, delivery archives and generated repository copies
+/.tooling/
+/stitch-export/
+/refero-*.png
+/*.zip
+/Apu-Rimaq-repositorio*/
+/apu-rimaq-react/research/illustrations/masters/
+/apu-rimaq-react/qa/*.png
+/apu-rimaq-react/qa/*.jpg
+/apu-rimaq-react/qa/*.jpeg
+**/.DS_Store
+**/.idea/
