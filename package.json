@@ -1,0 +1,39 @@
+{
+  "name": "jacs-destinos",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint --no-ignore src tests scripts/*.mjs vite.config.ts",
+    "preview": "vite preview",
+    "test": "node --test tests/*.test.ts && node scripts/verify-legacy-storage.mjs",
+    "format": "prettier --write src tests scripts/*.mjs docs README.md index.html package.json vite.config.ts tsconfig*.json .github/workflows/*.yml",
+    "format:check": "prettier --check src tests scripts/*.mjs docs README.md index.html package.json vite.config.ts tsconfig*.json .github/workflows/*.yml"
+  },
+  "dependencies": {
+    "@fontsource/lato": "^5.3.0",
+    "@fontsource/montserrat": "^5.3.0",
+    "lucide-react": "^1.51.0",
+    "maplibre-gl": "^6.12.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "prettier": "^3.9.9",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  },
+  "engines": {
+    "node": ">=24.16.0 <25",
+    "npm": ">=11 <12"
+  },
+  "packageManager": "npm@11.13.0"
+}

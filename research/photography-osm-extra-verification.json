@@ -1,0 +1,41 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-24T11:04:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3256930630,
+      "tags": {
+        "name": "Santuario Nacional de Ampay",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5980287486,
+      "tags": {
+        "name": "Mirador de Apurímac, Capitán Rumi",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6127094389,
+      "tags": {
+        "name": "Puesto Control de Visitantes - SNA"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6582905286,
+      "tags": {
+        "name": "Mirador San Christobal",
+        "tourism": "viewpoint"
+      }
+    }
+  ]
+}

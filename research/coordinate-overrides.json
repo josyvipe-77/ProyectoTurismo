@@ -1,0 +1,65 @@
+{
+  "9023": {
+    "coordinates": [
+      -72.9768126,
+      -13.5628083
+    ],
+    "coordinateStatus": "referencial",
+    "coordinateSource": "https://www.openstreetmap.org/way/310159538",
+    "coordinateNote": "Referencia del tramo de túneles cartografiado en OpenStreetMap, contrastada con la ficha MINCETUR. No representa una entrada verificada ni confirma la apertura actual."
+  },
+  "4678": {
+    "coordinates": [
+      -72.8631776,
+      -13.6247538
+    ],
+    "coordinateSource": "https://www.openstreetmap.org/way/820492381",
+    "coordinateNote": "Referencia del parque de Taraccasa cartografiado en OpenStreetMap. No representa el sendero ni el punto exacto de fotografía del mirador.",
+    "coordinateStatus": "referencial"
+  },
+  "31": {
+    "coordinates": [
+      -72.9375826,
+      -13.6632178
+    ],
+    "coordinateSource": "https://www.openstreetmap.org/way/421441253",
+    "coordinateNote": "Centro del puente cartografiado en OpenStreetMap, contrastado con su ficha turística.",
+    "coordinateStatus": "referencial"
+  },
+  "8066": {
+    "coordinates": [
+      -72.8100393,
+      -13.4430955
+    ],
+    "coordinateSource": "https://www.openstreetmap.org/node/633601947",
+    "coordinateNote": "Mirador cartografiado en OpenStreetMap y ubicado en Cachora según MINCETUR. El punto queda fuera del límite regional simplificado: se conserva su coordenada, sin desplazarla para encajar en el polígono.",
+    "coordinateStatus": "referencial"
+  },
+  "577": {
+    "coordinates": [
+      -72.8758931,
+      -13.6033688
+    ],
+    "coordinateStatus": "referencial",
+    "coordinateSource": "https://www.openstreetmap.org/node/6127094389",
+    "coordinateNote": "Puesto de control de visitantes del Santuario Nacional de Ampay cartografiado en OpenStreetMap. Se señala el acceso, no una laguna: el sendero y la laguna de la jornada siguen por delimitar."
+  },
+  "2039": {
+    "coordinates": [
+      -72.7070679,
+      -13.5190662
+    ],
+    "coordinateStatus": "referencial",
+    "coordinateSource": "https://www.openstreetmap.org/node/5980287486",
+    "coordinateNote": "Mirador Capitán Rumi cartografiado en OpenStreetMap, contrastado con su ficha turística en Curahuasi. El recorrido y los tiempos de acceso están por comprobar."
+  },
+  "3055": {
+    "coordinates": [
+      -72.6950286,
+      -13.5228676
+    ],
+    "coordinateStatus": "referencial",
+    "coordinateSource": "https://www.openstreetmap.org/node/6582905286",
+    "coordinateNote": "Mirador San Cristóbal cartografiado en OpenStreetMap, contrastado con su ficha turística en Curahuasi. El recorrido y los tiempos de acceso están por comprobar."
+  }
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "type": "node",
+    "id": 3256930630,
+    "lat": -13.6033068,
+    "lon": -72.8759455,
+    "tags": {
+      "name": "Santuario Nacional de Ampay",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5980287486,
+    "lat": -13.5190662,
+    "lon": -72.7070679,
+    "tags": {
+      "name": "Mirador de Apurímac, Capitán Rumi",
+      "tourism": "viewpoint"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6127094389,
+    "lat": -13.6033688,
+    "lon": -72.8758931,
+    "tags": {
+      "name": "Puesto Control de Visitantes - SNA"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6582905286,
+    "lat": -13.5228676,
+    "lon": -72.6950286,
+    "tags": {
+      "name": "Mirador San Christobal",
+      "tourism": "viewpoint"
+    }
+  }
+]
