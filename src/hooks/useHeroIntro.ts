@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { releaseBootScene } from '../lib/boot-scene';
 
 export type HeroIntroPhase = 'waiting' | 'revealing' | 'opening' | 'settling' | 'done';
 let hasShownIntro = false;
@@ -16,30 +17,14 @@ export function useHeroIntro() {
   useEffect(() => {
     const hero = ref.current;
     if (!hero) return;
-    const curtain = document.getElementById('boot-scene');
     const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
     let current = hero.dataset.introPhase;
     let cancelled = false;
     let frame = 0;
     let readinessTimer = 0;
     let finishTimer = 0;
-    let curtainTimer = 0;
     let openingTimer = 0;
 
-    const removeCurtain = () => {
-      window.clearTimeout(curtainTimer);
-      curtain?.remove();
-      delete document.documentElement.dataset.homeBoot;
-    };
-    const onCurtainEnd = (event: TransitionEvent) => {
-      if (event.target === curtain && event.propertyName === 'opacity') removeCurtain();
-    };
-    const releaseCurtain = () => {
-      if (!curtain || curtainTimer) return;
-      document.documentElement.dataset.homeBoot = 'revealing';
-      // The CSS transition owns the exit; the timer only covers missing events.
-      curtainTimer = window.setTimeout(removeCurtain, preference.matches ? 0 : 1750);
-    };
     const finish = () => {
       current = 'done';
       hasShownIntro = true;
@@ -51,7 +36,7 @@ export function useHeroIntro() {
       window.clearTimeout(openingTimer);
       window.clearTimeout(finishTimer);
       window.cancelAnimationFrame(frame);
-      releaseCurtain();
+      releaseBootScene();
       current = 'settling';
       hasShownIntro = true;
       setPhase('settling');
@@ -68,7 +53,7 @@ export function useHeroIntro() {
       window.clearTimeout(readinessTimer);
       current = 'revealing';
       setPhase('revealing');
-      releaseCurtain();
+      releaseBootScene();
       hasShownIntro = true;
       // Clouds already drift during the handoff; only the text entrance waits.
       openingTimer = window.setTimeout(open, 1000);
@@ -89,7 +74,7 @@ export function useHeroIntro() {
     };
 
     if (current === 'done') {
-      removeCurtain();
+      releaseBootScene(true);
       return;
     }
 
@@ -111,7 +96,6 @@ export function useHeroIntro() {
       queueReveal();
     });
     readinessTimer = window.setTimeout(queueReveal, 6000);
-    curtain?.addEventListener('transitionend', onCurtainEnd);
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('wheel', settle, { passive: true });
     window.addEventListener('touchstart', settle, { passive: true });
@@ -124,9 +108,7 @@ export function useHeroIntro() {
       window.cancelAnimationFrame(frame);
       window.clearTimeout(readinessTimer);
       window.clearTimeout(finishTimer);
-      window.clearTimeout(curtainTimer);
       window.clearTimeout(openingTimer);
-      curtain?.removeEventListener('transitionend', onCurtainEnd);
       window.removeEventListener('scroll', onScroll);
       window.removeEventListener('wheel', settle);
       window.removeEventListener('touchstart', settle);
@@ -134,8 +116,6 @@ export function useHeroIntro() {
       window.removeEventListener('keydown', settle);
       preference.removeEventListener('change', onPreference);
       delete hero.dataset.imageReady;
-      // Strict Mode rehearses effects before paint: retain that first curtain.
-      if (current !== 'waiting' || !hero.isConnected) removeCurtain();
     };
   }, []);
 

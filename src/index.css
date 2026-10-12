@@ -1565,7 +1565,7 @@ input[type='checkbox'] {
 
 /* Quiet closing pages and accessible native dialogs. */
 .site-footer {
-  background: #292820;
+  background: var(--green);
   color: #f7f2e8;
   padding: 62px 0 25px;
 }

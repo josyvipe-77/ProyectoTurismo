@@ -13,27 +13,34 @@
     <title>JACS Destinos · Apurímac a través de tu objetivo</title>
     <style>
       html {
-        background: #252525;
+        background: #f8f6ef;
       }
       body {
         margin: 0;
       }
-      html[data-home-boot] {
+      html[data-app-boot][data-boot-theme='hero'] {
         background: #252525;
       }
-      #boot-scene {
-        display: none;
-      }
-      html[data-home-boot] #boot-scene {
+      .page-loader {
+        --boot-background: #f8f6ef;
+        --boot-track: #284d4029;
+        --boot-progress: #284d40b3;
+        --boot-caption: #5a645c;
         display: grid;
         place-items: center;
         position: fixed;
         inset: 0;
         z-index: 100;
-        pointer-events: none;
-        background: #252525;
+        pointer-events: auto;
+        background: var(--boot-background);
         opacity: 1;
         transition: opacity 1600ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      html[data-boot-theme='hero'] #boot-scene {
+        --boot-background: #252525;
+        --boot-track: #f7f2e829;
+        --boot-progress: #f7f2e8b3;
+        --boot-caption: #bbb6ae;
       }
       .boot-logo {
         width: min(340px, 78vw);
@@ -96,14 +103,14 @@
       .boot-track {
         width: 72px;
         height: 1px;
-        background: #f7f2e829;
+        background: var(--boot-track);
         overflow: hidden;
       }
       .boot-track span {
         display: block;
         width: 22px;
         height: 100%;
-        background: #f7f2e8b3;
+        background: var(--boot-progress);
         animation: boot-progress 1.5s ease-in-out infinite;
       }
       .boot-caption {
@@ -111,7 +118,7 @@
           400 9px / 1.4 system-ui,
           sans-serif;
         letter-spacing: 0.16em;
-        color: #bbb6ae;
+        color: var(--boot-caption);
       }
       @keyframes boot-progress {
         from {
@@ -137,15 +144,15 @@
           opacity: 0.95;
         }
       }
-      html[data-home-boot='revealing'] #boot-scene {
+      html[data-app-boot='revealing'] #boot-scene {
         opacity: 0;
       }
-      html[data-home-boot='revealing'] .boot-inner {
+      html[data-app-boot='revealing'] .boot-inner {
         opacity: 0;
         transform: translateY(-6px);
       }
       @media (prefers-reduced-motion: reduce) {
-        html[data-home-boot] #boot-scene {
+        html[data-app-boot] #boot-scene {
           transition: none;
         }
         .boot-logo {
@@ -167,24 +174,30 @@
       }
     </style>
     <script>
+      document.documentElement.dataset.appBoot = 'pending';
+      if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+      const bootImages = ['/images/jacs-destinos-logo-transparent.png'];
       if (location.pathname === '/' && !location.hash) {
-        document.documentElement.dataset.homeBoot = 'pending';
-        for (const source of [
-          '/images/hero-user-v2.png',
-          '/images/cloud-wisp.webp',
-          '/images/jacs-destinos-logo-transparent.png',
-        ]) {
-          const preload = document.createElement('link');
-          preload.rel = 'preload';
-          preload.as = 'image';
-          preload.href = source;
-          document.head.append(preload);
-        }
+        document.documentElement.dataset.bootTheme = 'hero';
+        bootImages.push('/images/hero-user-v2.png', '/images/cloud-wisp.webp');
+      }
+      for (const source of bootImages) {
+        const preload = document.createElement('link');
+        preload.rel = 'preload';
+        preload.as = 'image';
+        preload.href = source;
+        document.head.append(preload);
       }
     </script>
   </head>
   <body>
-    <div id="boot-scene" role="status" aria-live="polite" aria-label="Cargando JACS Destinos">
+    <div
+      id="boot-scene"
+      class="page-loader"
+      role="status"
+      aria-live="polite"
+      aria-label="Cargando JACS Destinos"
+    >
       <div class="boot-inner" aria-hidden="true">
         <img
           class="boot-logo"

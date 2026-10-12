@@ -11,10 +11,6 @@ import './review-refinements.css';
 import './travel-planning.css';
 import App from './App';
 
-if (location.pathname !== '/' || location.hash) {
-  document.getElementById('boot-scene')?.remove();
-}
-
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
