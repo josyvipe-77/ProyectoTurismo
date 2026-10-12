@@ -1,0 +1,68 @@
+{
+  "reviewedOn": "2026-10-11",
+  "scope": "Comparación de la ficha grupal, el programa actual y fuentes públicas. Propuestas para revisar; no son reservas, cotizaciones ni horarios operativos confirmados.",
+  "integration": {
+    "intermediateStopsAlreadyDisplayed": ["Abancay", "Tamburco", "Puente de Paqpachaca", "Chicha Qasa", "Ribera del río Pachachaca", "Acceso a Ampay"],
+    "missing": ["Descripciones y enfoque fotográfico de cada parada", "Lemas de la ficha mostrados literalmente", "Recorrido concreto de Ampay", "Noches y alojamientos", "Comidas y descansos completos", "Dificultad y desnivel comprobados", "Presupuesto por tamaño de grupo"],
+    "currentThemes": ["La primera mirada", "Las formas del tiempo", "La memoria en piedra", "El bosque y el agua", "La mirada que permanece"],
+    "sourceTaglines": ["Taraccasa: donde Apurímac se contempla desde las alturas", "Una mirada a Pampachiri: el paraíso que la naturaleza tardó años en crear", "Pachachaca: la joya colonial de Apurímac a través de tu lente", "Ampay: la joya natural de Apurímac te espera", "Captura la inmensidad del cañón de Apurímac"]
+  },
+  "findings": [
+    {
+      "place": "Taraccasa",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4678",
+      "published": "Visita 08:00–17:00; ingreso adulto S/2. La fauna descrita incluye animales de zoológico.",
+      "currentConflict": "La sesión actual 18:00–19:45 queda fuera del horario publicado.",
+      "proposal": "Adelantar el recorrido urbano y terminar la visita al mirador antes de las 17:00. El atardecer dependerá de fecha y acceso confirmado."
+    },
+    {
+      "place": "Paqpachaca",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=13092",
+      "published": "Comunidad Cotarma, Pichirhua; acceso desde Abancay indicado en 35 km/35 min; visita 08:00–17:00; ingreso libre.",
+      "currentConflict": "La visita actual comienza a las 07:50.",
+      "proposal": "Mantener como parada propuesta, comenzar desde las 08:00 y revisar estado del puente y acceso del grupo."
+    },
+    {
+      "place": "Chichaqasa",
+      "source": "https://www.gob.pe/institucion/cultura/normas-legales/2921430-000024-2022-dgpa-mc",
+      "published": "El Ministerio de Cultura documenta el sitio arqueológico Chichaqasa en Pampachiri en 2022.",
+      "proposal": "Unificar el nombre; confirmar apertura y recorrido para visitantes. La existencia del sitio no acredita horario, servicios o acceso turístico actual."
+    },
+    {
+      "place": "Pampachiri",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8264",
+      "published": "Referencia directa Abancay–sector Huaccoto: 130 km/3 h en automóvil. Visita 08:00–17:00; en enero–marzo se recomienda hasta las 14:00. Ingreso general publicado S/2. Sectores mencionados: Ayamachay, Killka, Zona Roja, Pankula, Pabellones y Suka Suka.",
+      "currentConflict": "La sesión actual termina a las 18:00; el recorrido con dos paradas no equivale al acceso directo publicado.",
+      "proposal": "Elegir sectores y priorizar tiempo fotográfico. Evaluar una sola parada previa para el día base; las dos paradas requieren conexión comprobada."
+    },
+    {
+      "place": "Pachachaca",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=31",
+      "published": "16 km/25 min desde Abancay; ingreso libre; horario 06:00–18:00. La ficha atribuye su construcción a 1654 y registra reconocimiento patrimonial de 1974.",
+      "currentConflict": "La caminata actual por la ribera termina a las 19:00.",
+      "proposal": "Visitar antes y volver al vehículo antes de las 18:00. Delimitar el tramo seguro de ribera. Presentar la historia con atribución a la ficha, sin resolver por intuición sus variantes de topónimo."
+    },
+    {
+      "place": "Ampay",
+      "sources": ["https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=577", "https://visitaareasnaturales.sernanp.gob.pe/anps/santuario-nacional-de-ampay/", "https://repositorio.promperu.gob.pe/bitstreams/1dad4376-4311-4459-9cd4-42f34245a97b/download"],
+      "published": "PROMPERÚ identifica el trayecto centro de visitantes–Angasq’ocha en 2 km/1 h 30 min. MINCETUR indica 2 km/1 h y un tramo posterior bosque–Usphaq’ocha de 4 km/2 h. SERNANP recomienda 2 días para la ruta completa de bosques y lagunas; tarifa de un día: adulto nacional S/11, general S/30, local S/5.",
+      "sourceConflicts": ["SERNANP publica lunes–viernes 08:00–13:00 y 15:00–18:00; MINCETUR indica 06:00–17:00. Confirmar horario de ingreso y salida con el santuario.", "La tabla MINCETUR contiene 300 km/10 min para el tramo laguna–bosque, dato incoherente que no se utiliza."],
+      "proposal": "Base recomendada para conservar las cinco jornadas: bosque y Angasq’ocha, con pausas fotográficas y regreso. Usphaq’ocha como extensión de mayor esfuerzo y duración, a diseñar aparte. Fotografiar el nevado desde vistas autorizadas; una ascensión necesita un producto de montaña diferente.",
+      "draftTiming": ["08:30–09:00 traslado", "09:00–09:15 registro y preparación", "09:15–11:15 caminata con pausas", "11:15–12:15 fotografía en laguna", "12:15–13:00 picnic", "13:00–15:00 regreso a control", "15:00–15:30 regreso a Abancay"],
+      "timingStatus": "Estimación de diseño, no horario verificado del grupo. Ajustar con gestor, guía, dificultad y estado del sendero."
+    },
+    {
+      "place": "Miradores",
+      "sources": ["https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=2039", "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3055", "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8066"],
+      "proposal": "Variantes: Curahuasi con un mirador o combinación de San Cristóbal/Capitán Rumi por validar; Cachora con Capuliyoc. Salida matinal y fin de actividades dentro de horarios publicados. Los tres miradores seleccionados requieren rediseñar duración.",
+      "sourceConflict": "La tabla de San Cristóbal indica 4 km/20 min a pie mientras su descripción menciona 20 min de ascenso; no usar como duración garantizada sin contrastar distancia."
+    }
+  ],
+  "accommodationReferences": [
+    {"name": "Siball Hotel", "source": "https://siball-hotel.com/?currency=USD", "published": "Doble de dos camas S/135; anuncia desayuno e IGV incluidos.", "calculationExample": "Cuatro noches compartiendo entre dos: S/270 por persona solo de alojamiento.", "status": "Tarifa publicada; confirmar fecha, ocupación, desayuno temprano, disponibilidad y condiciones para grupo."},
+    {"name": "Hostal Dubal", "source": "https://hostaldubal.pe/", "published": "Habitación doble desde S/80 por noche.", "calculationExample": "Cuatro noches compartiendo entre dos: desde S/160 por persona solo de alojamiento.", "status": "Referencia de costo; verificar servicios, desayunos, habitaciones disponibles y condiciones para grupo."}
+  ],
+  "budgetMethod": "Separar alojamiento y costos individuales de transporte y guía por grupo. Comparar costos por participante para 6, 8 y 10 personas. Sumar comidas, accesos, seguro, contingencia y margen antes de fijar precio de venta. Determinar primero las noches incluidas y el suplemento individual.",
+  "nextDecisions": ["Mes y fechas de operación para luz y condiciones", "Jornada de Pampachiri con una o dos paradas", "Angasq’ocha como recorrido base de Ampay", "Variante del quinto día", "Número de noches", "Alojamientos y comidas a cotizar"],
+  "proposalPresentation": "Cada día debería mostrar lema, ruta principal, paradas, interés fotográfico, horario estimado, comidas, esfuerzo, servicios e información de acceso. Lugares observables desde un mirador y extensiones se distinguen de paradas incluidas. Los pendientes resueltos pasan a información útil; solo las cuestiones operativas restantes conservan estado de confirmación."
+}

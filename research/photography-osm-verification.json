@@ -1,0 +1,115 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-05-31T22:37:44Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 633601947,
+      "lat": -13.4430955,
+      "lon": -72.8100393,
+      "tags": {
+        "name": "Mirador de Capuliyoc",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3544494612,
+      "lat": -13.6180469,
+      "lon": -72.8595919,
+      "tags": {
+        "name": "Taraccasa",
+        "source": "bing,geocatmin,GNS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4890692521,
+      "lat": -13.4322463,
+      "lon": -72.825757,
+      "tags": {
+        "name": "Cocamasana",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "way",
+      "id": 421441253,
+      "center": {
+        "lat": -13.6632178,
+        "lon": -72.9375826
+      },
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "name": "Puente Pachachaca"
+      }
+    },
+    {
+      "type": "way",
+      "id": 509105199,
+      "center": {
+        "lat": -13.6699769,
+        "lon": -72.9283083
+      },
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified"
+      }
+    },
+    {
+      "type": "way",
+      "id": 509105201,
+      "center": {
+        "lat": -13.6682945,
+        "lon": -72.9250447
+      },
+      "tags": {
+        "bridge": "yes",
+        "highway": "trunk",
+        "name": "Carretera Longitudinal de la Sierra Sur"
+      }
+    },
+    {
+      "type": "way",
+      "id": 682568539,
+      "center": {
+        "lat": -14.2810037,
+        "lon": -73.4572586
+      },
+      "tags": {
+        "name": "Bosque de piedra",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "way",
+      "id": 820492381,
+      "center": {
+        "lat": -13.6247538,
+        "lon": -72.8631776
+      },
+      "tags": {
+        "name": "Zoologico Taraccasa",
+        "tourism": "zoo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1020611619,
+      "center": {
+        "lat": -13.6671933,
+        "lon": -72.9258005
+      },
+      "tags": {
+        "bridge": "yes",
+        "highway": "trunk",
+        "name": "Carretera Longitudinal de la Sierra Sur"
+      }
+    }
+  ]
+}

@@ -12,19 +12,17 @@ jobs:
   frontend:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    defaults:
-      run:
-        working-directory: apu-rimaq-react
     steps:
       - uses: actions/checkout@v7
         with:
           persist-credentials: false
       - uses: actions/setup-node@v7
         with:
-          node-version-file: apu-rimaq-react/.nvmrc
+          node-version-file: .nvmrc
           cache: npm
-          cache-dependency-path: apu-rimaq-react/package-lock.json
+          cache-dependency-path: package-lock.json
       - run: npm ci
       - run: npm run lint
+      - run: npm run format:check
       - run: npm run test
       - run: npm run build
