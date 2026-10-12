@@ -46,6 +46,10 @@ Los puntos son referencias del paisaje o del atractivo, no accesos GPS garantiza
 
 `npm run build` genera `dist/`. El servidor debe devolver `index.html` para las rutas del cliente, incluyendo enlaces directos a `/experiencia`, `/construye`, `/rutas`, `/cultura` y `/consultora`. Los archivos reales de `images`, `maps`, `materiales` y `research` deben conservar sus respuestas normales.
 
+La compilación incluye `dist/.htaccess` para Hostinger/Apache y entradas `index.html` en cada sección para servidores estáticos que no procesan ese archivo. Conserva todo el contenido de `dist`, incluidos los archivos ocultos. En Hostinger, utiliza la raíz del repositorio, `npm run build` y salida `dist`; si subes los archivos manualmente, coloca el contenido de `dist` en `public_html` o en la raíz del subdominio. No reemplaces reglas de proxy de otra aplicación con este `.htaccess`.
+
+El cargador con el logo aparece en cualquier entrada directa o recarga y durante la carga de páginas diferidas. Se retira cuando la página, el logo y las fuentes están listos; Inicio conserva su animación de nubes. El scroll comienza arriba, excepto cuando la URL incluye un enlace a una sección. Comprueba las entradas directas y la recarga en el dominio publicado tras cada despliegue.
+
 El sitio incluye `noindex, nofollow`. Conserva esa política hasta que se decida publicar para buscadores. No hay backend, autenticación, reservas ni pagos. GitHub Actions valida el proyecto y no lo despliega.
 
 ## Trabajo compartido

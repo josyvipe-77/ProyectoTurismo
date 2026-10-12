@@ -4,6 +4,8 @@ import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { useTravel } from '../hooks/useTravel';
 import { ModuleBoundary, PageLoadFailure } from '../components/ModuleBoundary';
+import { PageLoader } from '../components/PageLoader';
+import { prepareBootReveal } from '../lib/boot-scene';
 
 export function MainLayout() {
   const { pathname } = useLocation();
@@ -16,13 +18,7 @@ export function MainLayout() {
       <Header />
       <main id="main-content" tabIndex={-1}>
         <ModuleBoundary key={pathname} fallback={<PageLoadFailure />}>
-          <Suspense
-            fallback={
-              <div className="container page" role="status">
-                Abriendo el cuaderno…
-              </div>
-            }
-          >
+          <Suspense fallback={<PageLoader />}>
             <PageContent />
           </Suspense>
         </ModuleBoundary>
@@ -41,6 +37,11 @@ export function MainLayout() {
 function PageContent() {
   const { pathname, hash } = useLocation();
   useEffect(() => {
+    // Home owns its cloud animation; all other entries release the same curtain.
+    if (pathname === '/' && !hash) return;
+    return prepareBootReveal();
+  }, [pathname, hash]);
+  useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
     document.getElementById('main-content')?.focus({ preventScroll: true });
     const titles: Record<string, string> = {
@@ -52,7 +53,7 @@ function PageContent() {
       '/consultora': 'La consultora',
       '/rutas/chanka': 'Planifica tu viaje',
     };
-    const title = titles[pathname] ?? 'Página no encontrada';
+    const title = titles[pathname.replace(/\/$/, '') || '/'] ?? 'Página no encontrada';
     document.title = `${title} · JACS Destinos`;
     const frame = requestAnimationFrame(() => {
       if (!hash) return;
