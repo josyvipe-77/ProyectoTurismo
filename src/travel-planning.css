@@ -1,0 +1,282 @@
+.planning-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.planning-fields label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+  color: var(--green);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.planning-fields small {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 400;
+}
+.planning-fields input {
+  width: 100%;
+  min-height: 50px;
+  border: 1px solid #bacabb;
+  border-radius: 12px;
+  background: var(--surface);
+  padding: 12px 16px;
+  color: var(--ink);
+}
+.planning-overview {
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+}
+.planning-shortcuts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 30px 0;
+}
+.planning-shortcuts a {
+  padding: 10px 16px;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  color: var(--green);
+  font-size: 13px;
+}
+.planning-shortcuts a:hover {
+  background: var(--green-light);
+}
+.program-tagline {
+  color: var(--earth);
+  max-width: 780px;
+  font-size: clamp(15px, 1.4vw, 18px);
+  line-height: 1.7;
+  margin-top: 13px;
+}
+.program-day {
+  scroll-margin-top: 10px;
+}
+.program-stop-details {
+  margin-top: 25px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: clip;
+}
+.program-stop-details > div {
+  padding: 0 22px;
+}
+.program-stop-details article {
+  padding: 24px 0;
+  border-top: 1px solid var(--border);
+}
+.program-stop-details article:first-child {
+  border-top: 0;
+}
+.program-stop-details h4 {
+  font-family: Montserrat, sans-serif;
+  font-size: 17px;
+  margin: 12px 0;
+}
+.program-stop-details p {
+  font-size: 14px;
+  line-height: 1.8;
+  margin-top: 10px;
+}
+.program-stop-details a {
+  color: var(--green);
+  font-size: 12px;
+}
+.stop-status {
+  display: inline-block;
+  font-size: 11px;
+  padding: 5px 10px;
+  color: var(--blue);
+  border-radius: 20px;
+  background: #e7eef0;
+}
+.day-practical {
+  margin-top: 26px;
+  padding: 0;
+}
+.day-practical > div {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+}
+.day-practical dt {
+  color: var(--green);
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+.day-practical dd {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.schedule-empty {
+  padding: 18px;
+  font-size: 14px;
+}
+.ampay-choices .viewpoint-options {
+  grid-template-columns: 1fr;
+}
+.program-extension {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: clip;
+}
+.program-extension > div {
+  padding: 20px;
+}
+.program-extension h4 {
+  font-size: 16px;
+  color: var(--green);
+  margin: 15px 0 8px;
+}
+.program-extension p,
+.program-extension a {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.travel-services > h2,
+.trip-budget > h2 {
+  margin: 18px 0;
+  font-size: clamp(28px, 3vw, 43px);
+}
+.travel-services > p,
+.trip-budget > p {
+  max-width: 900px;
+}
+.service-notes {
+  margin: 30px 0;
+}
+.service-notes article {
+  padding: 24px;
+  border-radius: 12px;
+  background: var(--green-light);
+}
+.service-notes h3 {
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+.service-notes p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.lodging-section {
+  margin-top: 40px;
+  scroll-margin-top: 10px;
+}
+.lodging-section > h3 {
+  font-size: 25px;
+  margin: 15px 0;
+}
+.lodging-cards {
+  margin: 25px 0;
+}
+.lodging-cards article {
+  padding: 28px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+}
+.lodging-cards h4 {
+  font-family: Montserrat, sans-serif;
+  font-size: 22px;
+  margin: 18px 0;
+}
+.lodging-cards strong {
+  color: var(--green);
+  line-height: 1.7;
+}
+.lodging-cards p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.trip-budget .planning-fields {
+  margin-top: 25px;
+}
+.budget-entry-note {
+  font-size: 13px;
+  margin-top: 20px;
+  line-height: 1.8;
+}
+.budget-inputs {
+  margin: 25px 0;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: clip;
+}
+.budget-inputs > .planning-fields {
+  padding: 0 24px 24px;
+}
+.budget-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+.budget-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+.budget-table caption {
+  text-align: left;
+  padding: 18px;
+  font-weight: 700;
+  color: var(--green);
+  background: var(--green-light);
+}
+.budget-table th,
+.budget-table td {
+  padding: 16px;
+  text-align: left;
+  line-height: 1.6;
+  border-top: 1px solid var(--border);
+}
+.budget-table thead {
+  background: var(--green);
+  color: white;
+}
+.budget-table th {
+  font-weight: 700;
+}
+.budget-result-note {
+  padding: 18px 20px;
+  margin: 25px 0;
+  border-radius: 12px;
+  background: var(--green-light);
+  color: var(--green);
+}
+.product-planning-link {
+  margin-bottom: 25px;
+}
+@media (max-width: 800px) {
+  .planning-fields {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .planning-overview {
+    padding: 18px;
+  }
+  .program-day-heading {
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .program-tagline {
+    font-size: 15px;
+  }
+  .budget-table {
+    min-width: 650px;
+  }
+  .budget-table th,
+  .budget-table td {
+    padding: 12px;
+  }
+  .lodging-cards article {
+    padding: 22px;
+  }
+}

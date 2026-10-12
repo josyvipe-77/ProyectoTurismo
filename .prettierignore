@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.cache/
+tmp/
+output/
+qa/
+research/
+public/
+src/data/*.json
+*-repositorio*/

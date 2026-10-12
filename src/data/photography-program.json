@@ -1,0 +1,436 @@
+[
+  {
+    "day": 1,
+    "id": "taraccasa",
+    "title": "Mirador de Taraccasa",
+    "theme": "La primera mirada",
+    "tagline": "Taraccasa: donde Apurímac se contempla desde las alturas",
+    "photoId": "4678",
+    "description": "Conocer Abancay y Tamburco antes de fotografiar la relación entre valle, ciudad y montaña desde Taraccasa.",
+    "stops": [
+      "Abancay",
+      "Tamburco",
+      "Mirador de Taraccasa"
+    ],
+    "photography": "Panorámicas, composición por planos y relación entre paisaje y vida urbana.",
+    "stopDetails": [
+      {
+        "name": "Abancay",
+        "description": "Encuentro del grupo, orientación del viaje y paseo urbano con el guía.",
+        "photography": "Escenas urbanas y detalles del entorno, con permiso para retratar personas.",
+        "duration": "1 hora propuesta",
+        "effort": "Paseo urbano; accesibilidad por revisar.",
+        "status": "Parada del programa"
+      },
+      {
+        "name": "Tamburco",
+        "description": "Una pausa para interpretar el entorno local y su relación con el valle.",
+        "photography": "Arquitectura, calles y contexto del paisaje.",
+        "duration": "45 minutos propuestos",
+        "effort": "Paseo urbano con pausas.",
+        "status": "Parada del programa"
+      },
+      {
+        "name": "Taraccasa",
+        "description": "Parque y mirador sobre el valle. Las referencias de fauna del parque incluyen animales de zoológico.",
+        "photography": "Panorámicas del valle y contraste entre vegetación y ciudad.",
+        "duration": "1 hora propuesta",
+        "effort": "Senderos del parque; pendientes y punto de observación por verificar.",
+        "status": "Destino principal",
+        "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4678"
+      }
+    ],
+    "schedule": [
+      {
+        "time": "12:00–13:00",
+        "activity": "Recepción, encuesta inicial, almuerzo y presentación de las jornadas en Abancay."
+      },
+      {
+        "time": "13:00–14:00",
+        "activity": "Paseo interpretativo por Abancay."
+      },
+      {
+        "time": "14:10–14:25",
+        "activity": "Traslado propuesto a Tamburco."
+      },
+      {
+        "time": "14:25–15:10",
+        "activity": "Visita y fotografía en Tamburco."
+      },
+      {
+        "time": "15:10–15:40",
+        "activity": "Traslado propuesto a Taraccasa."
+      },
+      {
+        "time": "15:45–16:45",
+        "activity": "Paseo y práctica fotográfica en el mirador."
+      },
+      {
+        "time": "16:45–17:15",
+        "activity": "Regreso a Abancay; tiempo libre y hospedaje por cuenta del participante."
+      },
+      {
+        "time": "19:00–20:00",
+        "activity": "Cena local propuesta."
+      }
+    ],
+    "access": "MINCETUR publica visitas de 08:00 a 17:00 e ingreso adulto de S/2. La sesión se adelanta para respetar ese límite.",
+    "meals": "Almuerzo de bienvenida y cena en Abancay. Desayuno de llegada opcional según la hora de arribo.",
+    "effort": "Recorrido urbano y senderos del parque. Duración y pendientes se comprobarán con el guía.",
+    "weatherPlan": "Si el mirador cierra o la visibilidad es insuficiente, paseo urbano y revisión fotográfica en Abancay.",
+    "pending": "Confirmar fecha, llegada del grupo, apertura del parque y punto seguro de observación. La luz del atardecer se calculará para la fecha elegida.",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4678",
+    "objective": "componer una primera mirada a la región de Apurímac a través de uno de los más interesantes miradores de la ciudad de Abancay."
+  },
+  {
+    "day": 2,
+    "id": "pampachiri",
+    "title": "Bosque de Piedras de Pampachiri",
+    "theme": "Las formas del tiempo",
+    "tagline": "Una mirada a Pampachiri: el paraíso que la naturaleza tardó años en crear",
+    "photoId": "8264",
+    "description": "Paqpachaca como parada previa y una jornada centrada en formaciones rocosas de Pampachiri. Chichaqasa se conserva como visita adicional propuesta, cuya conexión debe verificarse.",
+    "stops": [
+      "Abancay",
+      "Puente de Paqpachaca",
+      "Pampachiri: Pabellones y Ayamachay"
+    ],
+    "photography": "Texturas, siluetas y escala de las formaciones. Viviendas y vida local se fotografían con autorización.",
+    "stopDetails": [
+      {
+        "name": "Puente colgante de Paqpachaca",
+        "description": "Puente de Cotarma, Pichirhua, sobre el río Pachachaca. Su ficha documenta el acceso desde Abancay.",
+        "photography": "Líneas del puente y paisaje del río.",
+        "duration": "35 minutos propuestos",
+        "effort": "Acceso peatonal corto; estado del puente y espacio del grupo por comprobar.",
+        "status": "Parada del programa",
+        "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=13092"
+      },
+      {
+        "name": "Pabellones",
+        "description": "Sector de formaciones pétreas incluido en la descripción del bosque.",
+        "photography": "Formas, sombras y escala del paisaje.",
+        "duration": "Hasta 2 horas repartidas en la visita",
+        "effort": "Terreno natural de montaña; sendero y desnivel por confirmar.",
+        "status": "Sector del destino",
+        "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8264"
+      },
+      {
+        "name": "Ayamachay",
+        "description": "Sector conocido por sus construcciones y formas de roca. La interpretación con habitantes requiere acuerdo previo.",
+        "photography": "Relación entre materiales, arquitectura local y paisaje.",
+        "duration": "1 hora propuesta",
+        "effort": "Recorrido local que debe comprobarse con el guía.",
+        "status": "Sector propuesto; acceso por confirmar",
+        "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8264"
+      },
+      {
+        "name": "Sitio arqueológico Chichaqasa",
+        "description": "Nombre documentado por el Ministerio de Cultura en Pampachiri. Su apertura para visitantes y la conexión con esta jornada requieren confirmación.",
+        "photography": "Interpretación del patrimonio y detalles autorizados del sitio.",
+        "duration": "Por definir al verificar acceso y conexión",
+        "effort": "Sendero y condiciones todavía por evaluar.",
+        "status": "Visita adicional fuera del horario base",
+        "source": "https://www.gob.pe/institucion/cultura/normas-legales/2921430-000024-2022-dgpa-mc"
+      }
+    ],
+    "schedule": [
+      {
+        "time": "06:15–06:45",
+        "activity": "Desayuno temprano previsto."
+      },
+      {
+        "time": "07:00–07:50",
+        "activity": "Traslado propuesto a Paqpachaca."
+      },
+      {
+        "time": "08:00–08:35",
+        "activity": "Visita fotográfica al puente."
+      },
+      {
+        "time": "08:45–11:45",
+        "activity": "Ventana estimada para llegar al bosque; conexión por validar."
+      },
+      {
+        "time": "11:45–13:00",
+        "activity": "Primera práctica fotográfica en Pabellones."
+      },
+      {
+        "time": "13:00–14:00",
+        "activity": "Almuerzo local o picnic y descanso."
+      },
+      {
+        "time": "14:00–15:00",
+        "activity": "Ayamachay, sujeto a acceso acordado."
+      },
+      {
+        "time": "15:00–16:00",
+        "activity": "Fotografía de formas y detalles del bosque."
+      },
+      {
+        "time": "16:15–20:15",
+        "activity": "Regreso estimado a Abancay, con pausas del conductor."
+      },
+      {
+        "time": "20:30–21:15",
+        "activity": "Cena prevista al regreso."
+      }
+    ],
+    "access": "Paqpachaca publica visitas de 08:00 a 17:00 e ingreso libre. Pampachiri publica 08:00–17:00 y S/2 de ingreso; entre enero y marzo recomienda terminar hasta las 14:00. El acceso directo desde Abancay aparece como 130 km/3 h en automóvil; las paradas requieren tiempo adicional.",
+    "meals": "Desayuno temprano, almuerzo local o picnic, agua y cena al regreso.",
+    "effort": "Jornada larga de carretera y caminatas en un paisaje a unos 3.600 m según la ficha. Desnivel y longitud del recorrido por medir.",
+    "weatherPlan": "Enero–marzo: versión abreviada hasta las 14:00. Una alerta o cierre puede requerir reprogramación de la jornada.",
+    "pending": "Validar conexión Paqpachaca–bosque, estado de la carretera y acceso a Ayamachay. Cotizar almuerzo y transporte. Incorporar Chichaqasa solo tras comprobar acceso y recalcular el día.",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8264",
+    "objective": "conocer las formas del tiempo visitando el paisaje volcánico de Pampachiri."
+  },
+  {
+    "day": 3,
+    "id": "pachachaca",
+    "title": "Puente colonial de Pachachaca",
+    "theme": "La memoria en piedra",
+    "tagline": "Pachachaca: la joya colonial de Apurímac",
+    "photoId": "31",
+    "description": "Fotografía del puente y su entorno fluvial. MINCETUR atribuye la construcción a 1654 y registra su reconocimiento patrimonial de 1974; el guía desarrollará el relato con estas referencias.",
+    "stops": [
+      "Abancay",
+      "Puente de Pachachaca",
+      "Tramo autorizado de la ribera"
+    ],
+    "photography": "Arco, líneas, materiales y composición del puente con el río.",
+    "stopDetails": [
+      {
+        "name": "Puente colonial",
+        "description": "Patrimonio arquitectónico que relaciona el paisaje del río con la historia del territorio.",
+        "photography": "Arco y texturas de los materiales; distintas perspectivas desde puntos seguros.",
+        "duration": "50 minutos propuestos",
+        "effort": "Paseo peatonal y pausas de interpretación.",
+        "status": "Destino principal",
+        "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=31"
+      },
+      {
+        "name": "Ribera del Pachachaca",
+        "description": "Tramo breve para situar el puente en su paisaje, condicionado por el caudal y un acceso seguro.",
+        "photography": "Planos del río y encuadres del puente.",
+        "duration": "1 hora 10 minutos propuesta",
+        "effort": "Superficie y desnivel por verificar; visita sujeta al estado del río.",
+        "status": "Tramo por delimitar"
+      }
+    ],
+    "schedule": [
+      {
+        "time": "08:00–09:00",
+        "activity": "Desayuno y tiempo de descanso."
+      },
+      {
+        "time": "12:30–13:30",
+        "activity": "Almuerzo en Abancay."
+      },
+      {
+        "time": "14:30–15:00",
+        "activity": "Traslado al puente."
+      },
+      {
+        "time": "15:10–16:00",
+        "activity": "Visita interpretativa y fotografía del puente."
+      },
+      {
+        "time": "16:00–17:10",
+        "activity": "Fotografía en la ribera autorizada, con pausas."
+      },
+      {
+        "time": "17:15–17:45",
+        "activity": "Regreso a Abancay."
+      },
+      {
+        "time": "19:00–20:00",
+        "activity": "Cena y selección de fotografías."
+      }
+    ],
+    "access": "La ficha publica 16 km/25 min desde Abancay, ingreso libre y visitas de 06:00 a 18:00. La propuesta termina antes de ese límite.",
+    "meals": "Desayuno, almuerzo y cena en Abancay; pausa con agua durante la visita.",
+    "effort": "Paseo patrimonial y tramo de ribera cuya dificultad se evaluará antes de ofrecerlo.",
+    "weatherPlan": "Si el caudal impide acercarse a la ribera, fotografía del puente desde puntos habilitados y sesión de edición al regreso.",
+    "pending": "Delimitar la ribera con el guía, comprobar caudal y accesos, y preparar el relato histórico. Las variantes del significado del topónimo requieren revisión cultural.",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=31",
+    "objective": "conocer el patrimonio colonial e histórico de la región, mostrar el puente del río Pachachaca como ejemplo de la memoria en piedra."
+  },
+  {
+    "day": 4,
+    "id": "ampay",
+    "title": "Santuario Nacional de Ampay",
+    "theme": "El bosque y el agua",
+    "tagline": "Ampay: la joya natural de Apurímac te espera",
+    "photoId": "577",
+    "description": "Recorrido base por el bosque y la laguna Angasq’ocha. También puedes comparar una alternativa por el bosque sin llegar a la laguna.",
+    "stops": [
+      "Abancay",
+      "Control de visitantes",
+      "Bosque de intimpa",
+      "Laguna Angasq’ocha"
+    ],
+    "photography": "Vegetación, reflejos de la laguna y paisaje del bosque. El mapa señala el acceso; el sendero se confirmará con el santuario.",
+    "stopDetails": [
+      {
+        "name": "Control de visitantes",
+        "description": "Registro, orientación y comprobación de las condiciones antes de caminar.",
+        "photography": "Preparar el equipo y las pautas de fotografía respetuosa.",
+        "duration": "15 minutos propuestos",
+        "effort": "Acceso en vehículo; traslado de unos 20–30 minutos según las referencias.",
+        "status": "Acceso cartografiado",
+        "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=577"
+      },
+      {
+        "name": "Bosque de intimpa",
+        "description": "Ecosistema protegido. La ficha documenta intimpas, helechos, musgos y orquídeas, además del ave colaespina de Apurímac.",
+        "photography": "Texturas, vegetación y observación de aves a distancia, sin garantizar avistamientos.",
+        "duration": "Pausas dentro de la caminata",
+        "effort": "Ascenso en sendero de montaña; longitud y desnivel del tramo elegido por comprobar.",
+        "status": "Parada del recorrido",
+        "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=577"
+      },
+      {
+        "name": "Laguna Angasq’ocha",
+        "description": "Laguna chica del recorrido base. PROMPERÚ señala aproximadamente 2 km/1 h 30 min de ida desde el centro de visitantes.",
+        "photography": "Reflejos y encuadres de bosque y agua.",
+        "duration": "1 hora fotográfica propuesta",
+        "effort": "Caminata con ascenso y regreso por el sendero autorizado.",
+        "status": "Destino de la opción base",
+        "source": "https://repositorio.promperu.gob.pe/bitstreams/1dad4376-4311-4459-9cd4-42f34245a97b/download"
+      }
+    ],
+    "schedule": [
+      {
+        "time": "07:30–08:00",
+        "activity": "Desayuno y preparación de agua y picnic."
+      },
+      {
+        "time": "08:30–09:00",
+        "activity": "Traslado al puesto de control."
+      },
+      {
+        "time": "09:00–09:15",
+        "activity": "Registro y orientación del recorrido."
+      },
+      {
+        "time": "09:15–11:15",
+        "activity": "Caminata con pausas por el bosque hasta Angasq’ocha."
+      },
+      {
+        "time": "11:15–12:15",
+        "activity": "Fotografía e interpretación del paisaje de la laguna."
+      },
+      {
+        "time": "12:15–13:00",
+        "activity": "Picnic y descanso en lugar autorizado."
+      },
+      {
+        "time": "13:00–15:00",
+        "activity": "Descenso con pausas al control."
+      },
+      {
+        "time": "15:00–15:30",
+        "activity": "Regreso a Abancay."
+      },
+      {
+        "time": "19:00–20:00",
+        "activity": "Cena local propuesta."
+      }
+    ],
+    "access": "Entrada de un día publicada: adulto nacional S/11, general S/30 y local S/5. Las fuentes muestran horarios distintos: SERNANP indica lunes–viernes 08:00–13:00 y 15:00–18:00; MINCETUR, 06:00–17:00. La ventana de ingreso y salida debe confirmarse con el santuario.",
+    "meals": "Desayuno, agua, picnic y cena en Abancay.",
+    "effort": "El recorrido base requiere caminar en montaña. Los tiempos incluyen pausas; altitud, desnivel y adaptación del grupo se revisarán con el guía.",
+    "weatherPlan": "Acortar al tramo del bosque que autorice el santuario o reprogramar si existe alerta o cierre.",
+    "pending": "Confirmar sendero habilitado, registro, guía, desnivel y horario de salida. SERNANP recomienda dos días para la ruta completa de bosques y lagunas; Usphaq’ocha se presenta como extensión por diseñar.",
+    "source": "https://visitaareasnaturales.sernanp.gob.pe/anps/santuario-nacional-de-ampay/",
+    "objective": "observar la fauna y la flora del Santuario Nacional de Ampay, disfrutar del entorno creado por el bosque y el agua."
+  },
+  {
+    "day": 5,
+    "id": "canon",
+    "title": "Miradores del cañón del Apurímac",
+    "theme": "La mirada que permanece",
+    "tagline": "Captura la inmensidad del cañón de Apurímac",
+    "description": "Una salida matinal con variante Curahuasi o Cachora, tiempo para fotografiar el cañón y una selección final de las imágenes del viaje.",
+    "stops": [
+      "Abancay",
+      "Mirador por elegir",
+      "Entorno autorizado del mirador"
+    ],
+    "photography": "Profundidad, planos y panorámicas. La presencia de aves y la visibilidad de las montañas dependen de las condiciones.",
+    "stopDetails": [
+      {
+        "name": "Curahuasi",
+        "description": "Variante para San Cristóbal o Capitán Rumi; la combinación de ambos necesita verificar el enlace y la duración.",
+        "photography": "Paisaje del cañón y del valle.",
+        "duration": "Referencia de una jornada con un mirador",
+        "effort": "Acceso de montaña y caminata según el mirador elegido.",
+        "status": "Variante elegible"
+      },
+      {
+        "name": "Cachora y Capuliyoc",
+        "description": "Variante por Cachora hacia el mirador y su parador. La ficha describe acceso en vehículo y una panorámica del cañón.",
+        "photography": "Planos del valle, relieve y detalles del parador.",
+        "duration": "Referencia de una jornada con un mirador",
+        "effort": "Acceso carrozable y caminata local por comprobar.",
+        "status": "Variante elegible",
+        "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8066"
+      },
+      {
+        "name": "Ccónoc",
+        "description": "Visita adicional que exige tiempo propio de traslado y permanencia; se evaluaría para una extensión del viaje.",
+        "photography": "Paisaje del río y entorno termal, respetando la privacidad de visitantes.",
+        "duration": "Por diseñar fuera del horario base",
+        "effort": "Accesos y servicios por comprobar.",
+        "status": "Extensión propuesta",
+        "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=575"
+      },
+      {
+        "name": "Choquequirao en el paisaje",
+        "description": "La ficha de Capuliyoc lo menciona como referencia de la panorámica y del sendero que parte del sector. Visitar el complejo requiere otro itinerario.",
+        "photography": "Contexto del paisaje y lectura de los caminos.",
+        "duration": "Interpretación durante la visita al mirador",
+        "effort": "El programa base permanece en el entorno autorizado del mirador.",
+        "status": "Referencia del paisaje; no visita al complejo",
+        "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8066"
+      }
+    ],
+    "schedule": [
+      {
+        "time": "07:00–07:45",
+        "activity": "Desayuno y encuentro del grupo; equipaje y hospedaje por cuenta del participante."
+      },
+      {
+        "time": "08:00–10:30",
+        "activity": "Traslado y acceso propuestos a un mirador; ajustar al recorrido elegido."
+      },
+      {
+        "time": "10:30–12:00",
+        "activity": "Fotografía e interpretación desde el mirador."
+      },
+      {
+        "time": "12:00–12:45",
+        "activity": "Paseo breve por el entorno autorizado y descanso."
+      },
+      {
+        "time": "13:00–14:00",
+        "activity": "Almuerzo local o picnic."
+      },
+      {
+        "time": "14:00–16:30",
+        "activity": "Regreso estimado a Abancay."
+      },
+      {
+        "time": "16:30–17:30",
+        "activity": "Selección de fotografías, cierre y despedida."
+      }
+    ],
+    "access": "San Cristóbal y Capuliyoc publican visitas de 08:00 a 17:00; Capitán Rumi, 07:00–17:00. Sus fichas indican ingreso libre. La referencia horaria corresponde a un solo mirador.",
+    "meals": "Desayuno y almuerzo local o picnic. Cena opcional al cierre; hospedaje por cuenta del participante.",
+    "effort": "San Cristóbal requiere ascenso a pie; su tabla de distancia/tiempo contiene una discrepancia que debe contrastarse. Los accesos de cada variante requieren evaluación del guía.",
+    "weatherPlan": "Elegir la variante habilitada según carretera y visibilidad; reprogramar ante cierres. No sustituir recorridos sin comprobar los accesos.",
+    "pending": "Confirmar variante, accesos y duración. Una selección de varios miradores requiere recalcular todo el horario y puede ampliar la estancia.",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=602",
+    "objective": "Contemplar el paisaje y la profundidad del cañón del Apurímac, con atención a los planos y las condiciones de luz."
+  }
+]

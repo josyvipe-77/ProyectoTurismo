@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" type="image/png" href="/images/jacs-destinos-logo-transparent.png" />
+    <meta name="theme-color" content="#F8F6EF" />
+    <meta
+      name="description"
+      content="JACS Destinos presenta Apurímac a través de tu objetivo: una experiencia fotográfica de cinco días entre naturaleza, paisaje y patrimonio."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JACS Destinos · Apurímac a través de tu objetivo</title>
+    <style>
+      html {
+        background: #252525;
+      }
+      body {
+        margin: 0;
+      }
+      html[data-home-boot] {
+        background: #252525;
+      }
+      #boot-scene {
+        display: none;
+      }
+      html[data-home-boot] #boot-scene {
+        display: grid;
+        place-items: center;
+        position: fixed;
+        inset: 0;
+        z-index: 100;
+        pointer-events: none;
+        background: #252525;
+        opacity: 1;
+        transition: opacity 1600ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .boot-logo {
+        width: min(340px, 78vw);
+        height: auto;
+        border-radius: 12px;
+      }
+      .boot-inner {
+        display: grid;
+        justify-items: center;
+        gap: 22px;
+        padding: 24px;
+        opacity: 1;
+        transform: translateY(0);
+        transition:
+          opacity 650ms ease,
+          transform 850ms ease;
+      }
+      .boot-emblem {
+        display: block;
+        width: 112px;
+        height: 66px;
+        overflow: visible;
+        fill: none;
+        stroke: #f7f2e8;
+        stroke-width: 1.35;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .boot-emblem .boot-ridge-far {
+        opacity: 0.3;
+      }
+      .boot-emblem .boot-ridge-near {
+        opacity: 0.85;
+      }
+      .boot-emblem .boot-sun {
+        stroke: #bea66c;
+        animation: boot-sun-breathe 2.8s ease-in-out infinite alternate;
+      }
+      .boot-emblem .boot-mist {
+        opacity: 0.45;
+        animation: boot-mist-drift 3s ease-in-out infinite alternate;
+      }
+      .boot-emblem .boot-mist-back {
+        opacity: 0.2;
+        animation-delay: -1.5s;
+      }
+      .boot-brand {
+        margin: 0;
+        font:
+          normal 600 32px / 1.1 Montserrat,
+          serif;
+        letter-spacing: -0.06em;
+        color: #f7f2e8;
+      }
+      .boot-brand-dot {
+        color: #856348;
+        font-size: 24px;
+        margin-left: 5px;
+      }
+      .boot-track {
+        width: 72px;
+        height: 1px;
+        background: #f7f2e829;
+        overflow: hidden;
+      }
+      .boot-track span {
+        display: block;
+        width: 22px;
+        height: 100%;
+        background: #f7f2e8b3;
+        animation: boot-progress 1.5s ease-in-out infinite;
+      }
+      .boot-caption {
+        font:
+          400 9px / 1.4 system-ui,
+          sans-serif;
+        letter-spacing: 0.16em;
+        color: #bbb6ae;
+      }
+      @keyframes boot-progress {
+        from {
+          transform: translateX(-22px);
+        }
+        to {
+          transform: translateX(72px);
+        }
+      }
+      @keyframes boot-mist-drift {
+        from {
+          transform: translateX(-4px);
+        }
+        to {
+          transform: translateX(4px);
+        }
+      }
+      @keyframes boot-sun-breathe {
+        from {
+          opacity: 0.45;
+        }
+        to {
+          opacity: 0.95;
+        }
+      }
+      html[data-home-boot='revealing'] #boot-scene {
+        opacity: 0;
+      }
+      html[data-home-boot='revealing'] .boot-inner {
+        opacity: 0;
+        transform: translateY(-6px);
+      }
+      @media (prefers-reduced-motion: reduce) {
+        html[data-home-boot] #boot-scene {
+          transition: none;
+        }
+        .boot-logo {
+          width: min(340px, 78vw);
+          height: auto;
+          border-radius: 12px;
+        }
+        .boot-inner {
+          transition: none;
+        }
+        .boot-track span {
+          animation: none;
+          transform: translateX(25px);
+        }
+        .boot-emblem .boot-mist,
+        .boot-emblem .boot-sun {
+          animation: none;
+        }
+      }
+    </style>
+    <script>
+      if (location.pathname === '/' && !location.hash) {
+        document.documentElement.dataset.homeBoot = 'pending';
+        for (const source of [
+          '/images/hero-user-v2.png',
+          '/images/cloud-wisp.webp',
+          '/images/jacs-destinos-logo-transparent.png',
+        ]) {
+          const preload = document.createElement('link');
+          preload.rel = 'preload';
+          preload.as = 'image';
+          preload.href = source;
+          document.head.append(preload);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="boot-scene" role="status" aria-live="polite" aria-label="Cargando JACS Destinos">
+      <div class="boot-inner" aria-hidden="true">
+        <img
+          class="boot-logo"
+          src="/images/jacs-destinos-logo-transparent.png"
+          alt=""
+          width="1774"
+          height="887"
+        />
+        <div class="boot-track"><span></span></div>
+        <span class="boot-caption">Abriendo tu próxima mirada</span>
+      </div>
+    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

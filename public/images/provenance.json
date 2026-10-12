@@ -1,0 +1,54 @@
+[
+  {
+    "file": "jacs-destinos-logo-transparent.png",
+    "source": "jacs-destinos-logo.png, logo proporcionado por el usuario y conservado sin modificar",
+    "status": "Fondo retirado mediante la herramienta integrada de edición de imágenes; PNG RGBA con transparencia. Se utiliza en navegación, pie, consultora, carga inicial y favicon.",
+    "editedAt": "2026-10-12",
+    "editPrompt": "Retirar únicamente el fondo marfil, conservando el emblema, avión, colores y los textos JACS Destinos y CONSULTORÍA DE TURISMO; conservar las nubes y espuma blancas del dibujo."
+  },
+  {
+    "file": "horno.webp",
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuDdGSFiteSy1q9YW-Zr9QBj3TrOkij43NpDf3yNLR-n5fw-ZGCoiVNR89oVOFkGBpfH6n9GIhHA3vPzhRY9Qg_pJ0Q8fRMRdm6MA8FPZ8pPcyDv9xflNC8iur5jIvsb_nOQJQVdTfUuBNli4tiYqPSccpndF4lLQNWollA_f3jIsiphtTBtgqLcNlASq9DK-pEi7LutgSGFezyyBtIg4DT8eyxUmLU75Ud8etTF1ozAXjCW0AI2bBsfKf0seBR2lBN9ZBaWJgd_FJgx",
+    "status": "Imagen generada por Stitch; representación referencial, no fotografía documental verificada"
+  },
+  {
+    "file": "telar.webp",
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuDXy47HAOr53ZuCglOErVKbGXEZVVxlNsn9vE6tNh9IoEhP-wrkgESQlyabgLh-8ARszqJER0cgG8zFTsK0j7KHT4r7Oaybq42xzjKQl_uZeJeJ275QEt0onxJGN8mrlkzIF7ijqC-WSwWeCJoWn107tbUr2-XqCHFW5q-g8wEXAh6KvtDyGp4_NDL3yt7hrcDjziV09K6nylN5N6qaEmGLWpykT5cllIzfK1pTJQRNH448ItQKvJAB6_-GqJ8j6uSOIE1zZcXlbLtk",
+    "status": "Imagen generada por Stitch; representación referencial, no fotografía documental verificada"
+  },
+  {
+    "file": "ceramica.webp",
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuDDTcPqfRWhyJvCvlCrJMS0ZxgAwnIWKrnvmvrPYzogCfXaOSZLFLxdRzb1m2jETkagZ3dNhL275IeMgzODZx_RjfqSLGtYqqCMZaX0vbd60ZoRMddj_9YEB8rs_jl8zPkSpZnAM0q9piElusSGt5HWqSRkIBtA-BTa7UxUVziJ50ZTT1rH_ce5U1fqXvOKIFqarQcBZbSNsRzjqKCevohFtjudJjcehyPRF8U1t1YqDL6TzMcQAoUgdSoUDVlcZH8LA30jdZHxgLlS",
+    "status": "Imagen generada por Stitch; representación referencial, no fotografía documental verificada"
+  },
+  {
+    "file": "madera.webp",
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuCIcuN-X7n5BmuTOaGiry3Dn9fI3o5kuQWxf7piEHaA3nEGiSEYTjQhcMI4bU-xjyb1eIwwZvnZ7NWTwbsQhFHcEPxyAy2_pykuu2WfmMUHErIv_RxhGyH54JU-CkeiWtQH_znfhHBhAxmwunRlZ9X0v48LU9P11iNpFM6NLsiWKYkmrbMklJ747HRjYPEr6uzZLt-oJOfLUJNy6_ZMLnZusZ0JiWgG3AY-YkyhecXBTODoM3LFbTQYrM61V0mcsmfAZsKMZcW0vv67",
+    "status": "Imagen generada por Stitch; representación referencial, no fotografía documental verificada"
+  },
+  {
+    "file": "musica.webp",
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuA19WqKVLVNUuU0_r2HwkPuvOTQsJ-kFwv1DqewWnf0bjc89rjFILsY_k0bHAwMpsaqhBiiiUhSYsYdCUMD6lLdprs8jKZ28F3mQjENqtc_EiMYXakgOLWu9mx-r51DGzEfXC74H27YQOFcnUpTIbEl_Qpt9Vf77gkb8QImOHZgaFkEwO853Ealc9eCW--R8fA3cu3nNKqS33-UXhDEMC8t0s3KHl3ChJMEHl_eC2n6EqetfD7Dw0TghKqyBoLk9rgmw9DxTbcQ0mdU",
+    "status": "Imagen generada por Stitch; representación referencial, no fotografía documental verificada"
+  },
+  {
+    "file": "hero-user.png",
+    "source": "Imagen adjunta por el usuario: codex-clipboard-64d84842-4622-4658-a44e-87e8887c436b.png",
+    "status": "Imagen referencial aportada por el usuario; ubicación no verificada"
+  },
+  {
+    "file": "hero-user-v2.png",
+    "source": "Imagen adjunta por el usuario: codex-clipboard-e0728142-c48b-43aa-bda8-08907133246c.png",
+    "status": "Imagen referencial aportada por el usuario; ubicación no verificada"
+  },
+  {
+    "file": "cloud-wisp.svg",
+    "source": "Textura SVG procedural creada para la apertura del hero, animada mediante CSS",
+    "status": "Recurso decorativo local. La solicitud de generación en Higgsfield fue rechazada por requerir plan Basic o superior; este archivo no procede de Higgsfield"
+  },
+  {
+    "file": "cloud-wisp.webp",
+    "source": "Rasterización a 1400 × 800 del recurso local cloud-wisp.svg mediante Canvas en el navegador",
+    "status": "Textura decorativa local con transparencia; versión precalculada para evitar filtros SVG durante la animación. No procede de Higgsfield"
+  }
+]
