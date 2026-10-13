@@ -30,7 +30,7 @@ export function CultureCalendar() {
         <label>
           <span>Mes</span>
           <select value={month} onChange={(event) => setMonth(event.target.value)}>
-            <option value="">Todos los Meses</option>
+            <option value="">Todos los meses</option>
             <option value="02">Febrero</option>
             <option value="03">Marzo</option>
             <option value="04">Abril</option>
