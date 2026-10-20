@@ -2,6 +2,7 @@ import { ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useInfo } from '../hooks/useInfo';
 import { BrandLogo } from './BrandLogo';
+import { projectEmailHref, projectMaterials } from '../data/project-materials';
 const currentYear = new Date().getFullYear();
 export function Footer() {
   const openInfo = useInfo();
@@ -29,6 +30,9 @@ export function Footer() {
           <Link to="/rutas">
             Explora Apurímac <ArrowUpRight size={15} />
           </Link>
+          <Link to="/rutas#galeria">
+            Miradas de Apurímac · Galería <ArrowUpRight size={15} />
+          </Link>
           <Link to="/cultura">
             Cultura viva <ArrowUpRight size={15} />
           </Link>
@@ -38,6 +42,15 @@ export function Footer() {
           <Link to="/consultora">
             Sobre JACS Destinos <ArrowUpRight size={15} />
           </Link>
+          <Link to="/consultora#contacto">
+            Contacto <ArrowUpRight size={15} />
+          </Link>
+          <a href={projectEmailHref()}>
+            {projectMaterials.email} <ArrowUpRight size={15} />
+          </a>
+          <a href={projectMaterials.instagram} target="_blank" rel="noreferrer">
+            Instagram · @jacsdestinos <ArrowUpRight size={15} />
+          </a>
           <button
             onClick={() =>
               openInfo({
@@ -58,7 +71,7 @@ export function Footer() {
       </div>
       <div className="container footer-bottom">
         <span>© {currentYear} JACS Destinos · Proyecto académico COIL USC–UNAMBA</span>
-        <span>Programa preliminar · Precio por estimar · Fotografías con fuentes</span>
+        <span>Programa de diseño · Fotografía y patrimonio · Fotografías con fuentes</span>
       </div>
     </footer>
   );

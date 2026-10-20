@@ -9,6 +9,9 @@ import './index.css';
 import './phase-three.css';
 import './review-refinements.css';
 import './travel-planning.css';
+import './project-completion.css';
+import './home-media.css';
+import './visual-finish.css';
 import App from './App';
 
 createRoot(document.getElementById('root')!).render(

@@ -48,7 +48,7 @@ export function ExperienceOverview({
           {action === 'program' ? 'Ver itinerario de cinco días' : 'Conoce la experiencia'}{' '}
           <ArrowRight size={18} />
         </Link>
-        <p className="small muted">Diseño de producto COIL · Precio pendiente de estimación.</p>
+        <p className="small muted">Diseño de producto COIL USC–UNAMBA · Alojamiento no incluido.</p>
       </div>
     </section>
   );

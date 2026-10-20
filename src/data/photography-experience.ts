@@ -1,9 +1,7 @@
 import program from './photography-program.json' with { type: 'json' };
 import { photographyViewpoints } from './photography-map.ts';
 import {
-  groupScenarios,
   ampayOptions,
-  budgetEstimate,
   defaultTripPlanning,
   monthNames,
   rainyPampachiri,
@@ -30,6 +28,9 @@ export interface PhotographyDay {
   stops: string[];
   stopDetails: PhotographyStop[];
   photography: string;
+  culturalReading: string;
+  observation: string;
+  culturalSources: { label: string; url: string }[];
   schedule: { time: string; activity: string }[];
   access: string;
   meals: string;
@@ -144,6 +145,7 @@ export function plannedPhotographyDays(
     if (day.day === 5)
       return {
         ...day,
+        photoId: selected.length === 1 ? selected[0].id : undefined,
         stops: [
           'Abancay',
           ...(selected.length
@@ -181,9 +183,7 @@ export function photographyProgramText(
     `Mes: ${monthNames[planning.month]}`,
     `Grupo propuesto: ${photographyExperience.group}`,
     `Perfil de referencia: ${photographyExperience.age}; hipótesis de diseño.`,
-    `Presupuesto orientativo del cliente: ${photographyExperience.clientBudget}; no es la tarifa del programa.`,
     photographyExperience.languages,
-    `Precio: ${photographyExperience.price}`,
     'Horarios de diseño ajustados a referencias publicadas; confirmar fechas, accesos, caminos y condiciones con gestores y guía.',
     '',
     ...plannedPhotographyDays(planning, viewpointIds).flatMap((day) => [
@@ -193,6 +193,11 @@ export function photographyProgramText(
       day.description,
       `Paradas propuestas: ${day.stops.join(' → ')}`,
       `Enfoque fotográfico: ${day.photography}`,
+      `Qué nos cuenta este lugar: ${day.culturalReading}`,
+      `Una mirada para llevarte: ${day.observation}`,
+      ...day.culturalSources.map(
+        (source) => `Lectura del territorio - ${source.label}: ${source.url}`,
+      ),
       ...day.stopDetails.flatMap((stop) => [
         `${stop.name} · ${stop.status}`,
         `${stop.description} Fotografía: ${stop.photography}`,
@@ -223,20 +228,13 @@ export function photographyProgramText(
     'Las vistas del nevado dependen de las condiciones; una ascensión requiere otro itinerario de montaña.',
     '',
     'ALOJAMIENTO EXCLUIDO: cada participante organiza y paga su hospedaje. Las cuatro noches indican la duración de la estancia y no una prestación contratada.',
-    'PRESUPUESTO DE DISEÑO: comidas, entradas, seguro y otros costos individuales, más vehículo y guía repartidos entre participantes. No incluye alojamiento. Los costos pendientes no se convierten en cero para publicar un precio.',
-    `Categoría de ingreso: ${planning.admission === 'general' ? 'general' : planning.admission === 'local' ? 'local' : 'nacional'}.`,
-    `Costos introducidos: transporte por grupo ${planning.transport ?? 'pendiente'}; guía por grupo ${planning.guide ?? 'pendiente'}; alimentación por persona ${planning.meals ?? 'pendiente'}; seguro por persona ${planning.insurance ?? 'pendiente'}; otros por persona ${planning.other}. Todos los importes son S/.`,
-    `Reserva para imprevistos: ${planning.contingency}%; margen sobre venta: ${planning.margin}%. Son supuestos editables.`,
-    ...groupScenarios.map((count) => {
-      const estimate = budgetEstimate(planning, count);
-      return `${count} personas: subtotal de costos conocidos S/${estimate.cost.toFixed(2)} por persona; ${estimate.estimate === null ? 'precio por estimar: faltan cotizaciones' : `simulación de precio S/${estimate.estimate.toFixed(2)} por persona, sin oferta ni disponibilidad confirmadas`}.`;
-    }),
     '',
     'Servicios previstos en el diseño; proveedores y disponibilidad sin confirmar.',
     ...photographyExperience.services.map(([title, detail]) => `${title}: ${detail}`),
     `Exclusiones: ${photographyExperience.exclusions}`,
     '',
     'Propuesta académica COIL USC–UNAMBA. Sin reservas ni pagos.',
+    'JACS Destinos en Instagram: https://www.instagram.com/jacsdestinos/',
     'Respeta los senderos, conserva distancia de la fauna y pide autorización para fotografiar personas.',
   ].join('\n');
 }

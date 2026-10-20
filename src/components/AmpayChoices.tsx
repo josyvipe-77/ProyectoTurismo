@@ -52,8 +52,7 @@ export function AmpayChoices() {
             Consultar rutas de SERNANP ↗
           </a>
           <p className="small muted">
-            Estas extensiones no están incluidas en las cinco jornadas ni en las referencias del
-            presupuesto.
+            Estas extensiones no están incluidas en las cinco jornadas del programa base.
           </p>
         </div>
       </details>

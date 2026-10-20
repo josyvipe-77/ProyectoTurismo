@@ -15,7 +15,7 @@ import { monthNames, rainyPampachiri } from '../data/photography-planning';
 import type { TripPlanning } from '../data/photography-planning';
 import { AmpayChoices } from '../components/AmpayChoices';
 import { TravelServices } from '../components/TravelServices';
-import { TripBudget } from '../components/TripBudget';
+import { projectMaterials } from '../data/project-materials';
 
 function downloadProgram(viewpointIds: string[], planning: TripPlanning) {
   const url = URL.createObjectURL(
@@ -50,15 +50,21 @@ export default function BuilderPage() {
       <div className="program-toolbar">
         <div>
           <strong>5 días · 4 noches de estancia · {experience.group}</strong>
-          <span>Precio: {experience.price.toLowerCase()}</span>
+          <span>Programa de diseño · Alojamiento no incluido</span>
         </div>
         <button
           className="button button-outline"
           onClick={() => downloadProgram(viewpointIds, planning)}
         >
-          <Download size={18} /> Descargar programa
+          <Download size={18} /> Mi programa · TXT
         </button>
       </div>
+      <p className="program-download-note">
+        <a className="text-link" href={projectMaterials.programPdf} download>
+          <Download size={16} /> Descargar programa base · PDF
+        </a>
+        <span>El PDF presenta el recorrido general. El TXT conserva tus elecciones.</span>
+      </p>
       <p className="program-status">
         Horarios estimados ajustados a referencias publicadas y con pausas para fotografía, comidas
         y descanso. Confirmar fecha, condiciones de acceso y logística con gestores y guía.
@@ -102,7 +108,6 @@ export default function BuilderPage() {
       <nav className="planning-shortcuts" aria-label="Información para preparar el viaje">
         <Link to="#servicios-del-viaje">Servicios y comidas</Link>
         <Link to="#exclusiones-del-viaje">Exclusiones</Link>
-        <Link to="#presupuesto-del-viaje">Presupuesto</Link>
         <Link to="#photography-route-heading">Mapa del recorrido</Link>
       </nav>
       <nav className="program-index" aria-label="Jornadas del programa">
@@ -139,13 +144,28 @@ export default function BuilderPage() {
                 </ol>
                 {day.day === 5 && <ViewpointChoices />}
                 {day.day === 4 && <AmpayChoices />}
-                <h3>Objetivo de la jornada</h3>
-                <p>{day.objective}</p>
                 <h3>Qué fotografiar</h3>
                 <p>{day.photography}</p>
+                <aside className="cultural-reading" aria-labelledby={`${day.id}-culture`}>
+                  <span className="eyebrow blue">Paisaje y patrimonio</span>
+                  <h3 id={`${day.id}-culture`}>Qué nos cuenta este lugar</h3>
+                  <p>{day.culturalReading}</p>
+                  <p className="observation-prompt">
+                    <strong>Una mirada para llevarte.</strong> {day.observation}
+                  </p>
+                  <div className="cultural-sources">
+                    {day.culturalSources.map((source) => (
+                      <a key={source.url} href={source.url} target="_blank" rel="noreferrer">
+                        {source.label} ↗
+                      </a>
+                    ))}
+                  </div>
+                </aside>
                 <details className="program-stop-details">
-                  <summary>Paradas, intereses fotográficos y esfuerzo · Día {day.day}</summary>
+                  <summary>Detalles de las paradas · Día {day.day}</summary>
                   <div>
+                    <h3>Objetivo de la jornada</h3>
+                    <p>{day.objective}</p>
                     {day.stopDetails.map((stop) => (
                       <article key={stop.name}>
                         <span className="stop-status">{stop.status}</span>
@@ -190,31 +210,36 @@ export default function BuilderPage() {
                     ))}
                   </ol>
                 </details>
-                <dl className="day-practical">
-                  <div>
-                    <dt>Accesos y referencias</dt>
-                    <dd>{day.access}</dd>
+                <details className="program-practical-details">
+                  <summary>Preparación y condiciones · Día {day.day}</summary>
+                  <div className="program-practical-content">
+                    <dl className="day-practical">
+                      <div>
+                        <dt>Accesos y referencias</dt>
+                        <dd>{day.access}</dd>
+                      </div>
+                      <div>
+                        <dt>Comidas y pausas</dt>
+                        <dd>{day.meals}</dd>
+                      </div>
+                      <div>
+                        <dt>Esfuerzo del recorrido</dt>
+                        <dd>{day.effort}</dd>
+                      </div>
+                      <div>
+                        <dt>Alternativa por condiciones</dt>
+                        <dd>{day.weatherPlan}</dd>
+                      </div>
+                    </dl>
+                    <div className="program-pending">
+                      <strong>Confirmación operativa</strong>
+                      <p>{day.pending}</p>
+                    </div>
+                    <a href={day.source} target="_blank" rel="noreferrer" className="text-link">
+                      Fuente del destino ↗
+                    </a>
                   </div>
-                  <div>
-                    <dt>Comidas y pausas</dt>
-                    <dd>{day.meals}</dd>
-                  </div>
-                  <div>
-                    <dt>Esfuerzo del recorrido</dt>
-                    <dd>{day.effort}</dd>
-                  </div>
-                  <div>
-                    <dt>Alternativa por condiciones</dt>
-                    <dd>{day.weatherPlan}</dd>
-                  </div>
-                </dl>
-                <div className="program-pending">
-                  <strong>Confirmación operativa</strong>
-                  <p>{day.pending}</p>
-                </div>
-                <a href={day.source} target="_blank" rel="noreferrer" className="text-link">
-                  Fuente del destino ↗
-                </a>
+                </details>
               </div>
               {day.photoId && <ExperiencePhoto id={day.photoId} name={day.title} />}
             </div>
@@ -222,7 +247,6 @@ export default function BuilderPage() {
         ))}
       </div>
       <TravelServices />
-      <TripBudget />
       <PhotographyRoute choices={false} />
       {savedPlan && (
         <section className="section" id="cuaderno-anterior">

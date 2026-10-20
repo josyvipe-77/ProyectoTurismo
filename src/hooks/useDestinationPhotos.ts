@@ -25,8 +25,8 @@ function ficheId(source: string) {
   }
 }
 
-export function useDestinationPhotos(source: string) {
-  const id = ficheId(source);
+export function useDestinationPhotos(source: string, galleryId?: string) {
+  const id = galleryId ?? ficheId(source);
   const available = id !== null && availableGalleries.includes(id);
   const [result, setResult] = useState<{
     id: string;

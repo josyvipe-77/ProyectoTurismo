@@ -16,38 +16,41 @@ export const interests = ['Cultura', 'Naturaleza', 'Gastronomía', 'Aventura'];
 export interface Festival {
   id: string;
   title: string;
-  month: string;
+  months: string[];
   day: string;
   location: string;
-  category: string;
+  photoResourceId: string;
   note: string;
 }
 export const festivals: Festival[] = [
   {
     id: 'carnaval',
-    title: 'Tiempo de carnavales',
-    month: '02',
+    title: 'Carnaval Abanquino',
+    months: ['02', '03'],
     day: 'FEB–MAR',
-    location: 'Distintas localidades',
-    category: 'Celebraciones',
-    note: 'La programación y las fechas cambian cada año. Consulta la agenda local antes de viajar.',
-  },
-  {
-    id: 'semana',
-    title: 'Semana Santa',
-    month: '04',
-    day: 'FECHA VARIABLE',
-    location: 'Apurímac',
-    category: 'Celebraciones',
-    note: 'Una oportunidad para acercarte con respeto a las celebraciones de cada localidad.',
+    location: 'Abancay',
+    photoResourceId: '8004',
+    note: 'Comparsas, música y danzas reúnen a la comunidad en las calles de Abancay. Su fecha es variable; confirma el programa anual y pide permiso antes de retratar a los participantes.',
   },
   {
     id: 'cocharcas',
     title: 'Virgen de Cocharcas',
-    month: '09',
+    months: ['09'],
     day: '08 SEP',
     location: 'Cocharcas · Chincheros',
-    category: 'Celebraciones',
-    note: 'La fecha central es el 8 de septiembre. El programa completo debe confirmarse localmente.',
+    photoResourceId: '7512',
+    note: 'La devoción a la Mamacha Cocharcas reúne a peregrinos en torno al santuario. La fecha central es el 8 de septiembre; consulta la programación local y respeta los momentos de culto.',
+  },
+  {
+    id: 'ninuchanchik',
+    title: 'Festividad del Niñuchanchik',
+    months: ['12', '01'],
+    day: 'DIC–ENE',
+    location: 'Talavera · Andahuaylas · San Jerónimo',
+    photoResourceId: '6935',
+    note: 'El ciclo navideño enlaza celebraciones del Niño Jesús entre diciembre y enero, con música, danzas y participación colectiva. Las fechas y los recorridos dependen de cada localidad.',
   },
 ];
+
+// Only months represented by documented celebrations are offered by the calendar.
+export const festivalMonths = [...new Set(festivals.flatMap((festival) => festival.months))].sort();

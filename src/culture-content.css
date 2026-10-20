@@ -1,0 +1,138 @@
+.culture-contents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 28px;
+}
+.culture-contents a {
+  padding: 10px 15px;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  font-size: 12px;
+  color: var(--blue);
+}
+.culture-contents a:hover {
+  background: var(--surface);
+}
+.culture-section-intro {
+  max-width: 780px;
+  margin-bottom: 28px;
+}
+.culture-page .calendar-card {
+  padding: 0;
+  overflow: hidden;
+}
+.culture-page .calendar-copy {
+  padding: 24px;
+}
+.culture-page .calendar-top {
+  margin-bottom: 20px;
+}
+.culture-page .experience-photo {
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.culture-page .calendar-card .experience-photo,
+.culture-food-card .experience-photo {
+  border-radius: 0;
+}
+.culture-page .calendar-card .experience-photo img,
+.culture-page .culture-food-card .experience-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.culture-page .experience-photo figcaption {
+  flex-wrap: wrap;
+  gap: 7px;
+  padding: 12px 16px;
+}
+.culture-page .documentary-strip {
+  margin-bottom: 24px;
+}
+.culture-craft {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 40px;
+  align-items: start;
+}
+.culture-craft .photo {
+  height: auto;
+  aspect-ratio: 4 / 5;
+  border-radius: 12px;
+}
+.culture-craft-copy h3,
+.culture-food-card h3 {
+  font-size: 24px;
+  line-height: 1.3;
+  margin: 16px 0;
+}
+.culture-craft-copy p {
+  font-size: 14px;
+}
+.culture-craft-copy .text-link {
+  font-size: 12px;
+}
+.culture-craft-note {
+  margin-top: 28px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+.culture-craft-note h3 {
+  font-size: 20px;
+}
+.culture-food-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.culture-food-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--surface);
+}
+.culture-food-card > div {
+  padding: 28px;
+}
+.culture-food-card p {
+  font-size: 14px;
+}
+.culture-photo-prompt {
+  border-top: 1px solid var(--border);
+  padding-top: 18px;
+  margin-top: 22px;
+  color: var(--green);
+}
+@media (max-width: 900px) {
+  .culture-craft {
+    gap: 26px;
+  }
+  .culture-page .calendar-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 650px) {
+  .culture-craft,
+  .culture-food-grid,
+  .culture-page .calendar-grid {
+    grid-template-columns: 1fr;
+  }
+  .culture-craft .photo {
+    aspect-ratio: 4 / 3;
+  }
+  .culture-page .calendar-copy,
+  .culture-food-card > div {
+    padding: 22px;
+  }
+  .culture-page .culture-filters {
+    gap: 14px;
+  }
+  .culture-page .culture-filters > span {
+    margin: 0;
+  }
+}

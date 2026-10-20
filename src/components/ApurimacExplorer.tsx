@@ -102,12 +102,13 @@ export function ApurimacExplorer({
   function setSelected(next: number | null | ((value: number | null) => number | null)) {
     setSelection({ list: places, index: typeof next === 'function' ? next(selected) : next });
   }
-  const [threeD, setThreeD] = useState(true);
-  const [satellite, setSatellite] = useState(true);
+  const [threeD, setThreeD] = useState(false);
+  const [satellite, setSatellite] = useState(false);
   const [status, setStatus] = useState<MapStatus>('loading');
   const [attempt, setAttempt] = useState(0);
   const [moduleFailed, setModuleFailed] = useState(false);
   const place = selected === null ? null : places[selected];
+  const overviewLabel = sequence && places.length > 1 ? 'Ver recorrido completo' : 'Toda Apurímac';
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -205,7 +206,7 @@ export function ApurimacExplorer({
                 : `${String(selected + 1).padStart(2, '0')} / ${String(places.length).padStart(2, '0')}`}
             </span>
             <h3 aria-live="polite" aria-atomic="true">
-              {place?.title ?? 'Hay muchas formas de encontrar tu camino.'}
+              {place?.title ?? 'Elige dónde detener la mirada.'}
             </h3>
             {(!place || place.title !== place.name) && (
               <strong className="atlas-place-name">
@@ -216,8 +217,8 @@ export function ApurimacExplorer({
             <p className={place ? 'atlas-place-description' : undefined}>
               {place?.description ??
                 (sequence
-                  ? 'El mapa muestra las paradas que cuentan con una coordenada referencial. El orden completo, los accesos publicados y los ramales están en el itinerario. Los pins no representan el trazado de una carretera.'
-                  : 'Bosques, agua y memoria en piedra. Explora el relieve, acércate a cada lugar y empieza a imaginar tu próxima pausa.')}
+                  ? 'Selecciona un punto o una jornada para ver sus fotografías. Los puntos ubican destinos; no dibujan el recorrido por carretera.'
+                  : 'Selecciona un lugar para ver sus fotografías e historia. Puedes activar el satélite o el relieve 3D desde el mapa.')}
             </p>
             {place && <DestinationGallery key={place.id} source={place.source} name={place.name} />}
             {place?.coordinateNote && (
@@ -305,9 +306,12 @@ export function ApurimacExplorer({
             </ModuleBoundary>
           )}
           <div className="atlas-tools" role="group" aria-label="Opciones del mapa">
-            <button onClick={() => setSelected(null)} aria-label="Ver toda Apurímac">
+            <button
+              onClick={() => setSelected(null)}
+              aria-label={overviewLabel === 'Toda Apurímac' ? 'Ver toda Apurímac' : overviewLabel}
+            >
               <RotateCcw size={15} />
-              <span>Toda Apurímac</span>
+              <span>{overviewLabel}</span>
             </button>
             <button
               onClick={() => setThreeD((value) => !value)}
@@ -328,7 +332,7 @@ export function ApurimacExplorer({
               onClick={() => setSatellite((value) => !value)}
               aria-pressed={satellite && status === 'ready'}
               disabled={status !== 'ready'}
-              aria-label={satellite ? 'Cambiar a mapa ilustrado' : 'Cambiar a vista satelital'}
+              aria-label={satellite ? 'Cambiar a mapa cartográfico' : 'Cambiar a vista satelital'}
             >
               <Satellite size={16} />
               <span>{satellite && status === 'ready' ? 'Satélite' : 'Mapa'}</span>
@@ -353,10 +357,10 @@ export function ApurimacExplorer({
           {status !== 'ready' && (
             <div className="atlas-status" role="status">
               {status === 'loading' ? (
-                'Preparando el relieve…'
+                'Preparando el mapa…'
               ) : (
                 <>
-                  <span>Vista 2D · El relieve no pudo cargarse.</span>
+                  <span>Vista de referencia · El mapa interactivo no pudo cargarse.</span>
                   <button
                     onClick={() => {
                       // Browsers can cache a rejected dynamic import until the page reloads.
@@ -382,7 +386,13 @@ export function ApurimacExplorer({
           Relieve del terreno y señales de ubicación. Límites y puntos referenciales; no es un mapa
           de navegación.
         </span>
-        <span>Imagen satelital histórica EOX · El detalle al acercarse es limitado.</span>
+        {satellite && status === 'ready' ? (
+          <span>
+            Imagen satelital histórica EOX (2016–2017) · El detalle al acercarse es limitado.
+          </span>
+        ) : (
+          <span>Mapa cartográfico · Satélite histórico y relieve 3D opcionales.</span>
+        )}
       </div>
     </section>
   );

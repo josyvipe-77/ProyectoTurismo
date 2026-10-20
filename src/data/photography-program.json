@@ -80,7 +80,15 @@
     "weatherPlan": "Si el mirador cierra o la visibilidad es insuficiente, paseo urbano y revisión fotográfica en Abancay.",
     "pending": "Confirmar fecha, llegada del grupo, apertura del parque y punto seguro de observación. La luz del atardecer se calculará para la fecha elegida.",
     "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4678",
-    "objective": "componer una primera mirada a la región de Apurímac a través de uno de los más interesantes miradores de la ciudad de Abancay."
+    "objective": "componer una primera mirada a la región de Apurímac a través de uno de los más interesantes miradores de la ciudad de Abancay.",
+    "culturalReading": "Desde Taraccasa, la ciudad y el valle pueden leerse en una misma imagen. El mirador permite relacionar el entorno de Abancay y Tamburco con el relieve que los rodea. La lectura cultural propuesta parte de esa convivencia entre espacio habitado y paisaje; no presupone encuentros con residentes.",
+    "observation": "Busca un encuadre que reúna ciudad y montaña. ¿Qué cambia en tu relato si muestras también las calles o los espacios habitados?",
+    "culturalSources": [
+      {
+        "label": "Ficha de Taraccasa",
+        "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4678"
+      }
+    ]
   },
   {
     "day": 2,
@@ -182,7 +190,15 @@
     "weatherPlan": "Enero–marzo: versión abreviada hasta las 14:00. Una alerta o cierre puede requerir reprogramación de la jornada.",
     "pending": "Validar conexión Paqpachaca–bosque, estado de la carretera y acceso a Ayamachay. Cotizar almuerzo y transporte. Incorporar Chichaqasa solo tras comprobar acceso y recalcular el día.",
     "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8264",
-    "objective": "conocer las formas del tiempo visitando el paisaje volcánico de Pampachiri."
+    "objective": "conocer las formas del tiempo visitando el paisaje volcánico de Pampachiri.",
+    "culturalReading": "Pampachiri invita a observar las formas de roca junto con las construcciones del sector de Ayamachay descritas en su ficha. La propuesta es mirar la relación entre materiales, arquitectura y entorno. Acercarse a viviendas o conversar con habitantes requiere un acuerdo previo; no forma parte de una visita garantizada.",
+    "observation": "Compara una forma de roca con un detalle construido visible desde el recorrido autorizado. Fotografía viviendas o personas solo con permiso.",
+    "culturalSources": [
+      {
+        "label": "Ficha de Pampachiri",
+        "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8264"
+      }
+    ]
   },
   {
     "day": 3,
@@ -253,7 +269,15 @@
     "weatherPlan": "Si el caudal impide acercarse a la ribera, fotografía del puente desde puntos habilitados y sesión de edición al regreso.",
     "pending": "Delimitar la ribera con el guía, comprobar caudal y accesos, y preparar el relato histórico. Las variantes del significado del topónimo requieren revisión cultural.",
     "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=31",
-    "objective": "conocer el patrimonio colonial e histórico de la región, mostrar el puente del río Pachachaca como ejemplo de la memoria en piedra."
+    "objective": "conocer el patrimonio colonial e histórico de la región, mostrar el puente del río Pachachaca como ejemplo de la memoria en piedra.",
+    "culturalReading": "El puente colonial de Pachachaca es patrimonio construido en el paisaje del río. Su ficha de inventario ofrece un punto de partida para interpretar su historia y sus materiales. Esta jornada propone pasar de la vista general al detalle y preguntar cómo una construcción organiza nuestra manera de mirar un territorio.",
+    "observation": "Haz una imagen del puente en su entorno y otra de sus materiales. Relaciona ambas con una breve nota basada en la ficha patrimonial.",
+    "culturalSources": [
+      {
+        "label": "Ficha del puente de Pachachaca",
+        "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=31"
+      }
+    ]
   },
   {
     "day": 4,
@@ -343,7 +367,19 @@
     "weatherPlan": "Acortar al tramo del bosque que autorice el santuario o reprogramar si existe alerta o cierre.",
     "pending": "Confirmar sendero habilitado, registro, guía, desnivel y horario de salida. SERNANP recomienda dos días para la ruta completa de bosques y lagunas; Usphaq’ocha se presenta como extensión por diseñar.",
     "source": "https://visitaareasnaturales.sernanp.gob.pe/anps/santuario-nacional-de-ampay/",
-    "objective": "observar la fauna y la flora del Santuario Nacional de Ampay, disfrutar del entorno creado por el bosque y el agua."
+    "objective": "observar la fauna y la flora del Santuario Nacional de Ampay, disfrutar del entorno creado por el bosque y el agua.",
+    "culturalReading": "Ampay es un área natural protegida. La lectura del territorio se centra en la relación entre la observación, el cuidado del bosque y las reglas que hacen posible la visita. Interpretar también implica reconocer los límites del recorrido y evitar que una fotografía altere el entorno o el comportamiento de la fauna.",
+    "observation": "Construye una pequeña secuencia del bosque: un plano general y dos detalles, siempre desde el sendero autorizado y sin manipular elementos.",
+    "culturalSources": [
+      {
+        "label": "Inventario de Ampay",
+        "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=577"
+      },
+      {
+        "label": "SERNANP - Ampay",
+        "url": "https://visitaareasnaturales.sernanp.gob.pe/anps/santuario-nacional-de-ampay/"
+      }
+    ]
   },
   {
     "day": 5,
@@ -431,6 +467,22 @@
     "weatherPlan": "Elegir la variante habilitada según carretera y visibilidad; reprogramar ante cierres. No sustituir recorridos sin comprobar los accesos.",
     "pending": "Confirmar variante, accesos y duración. Una selección de varios miradores requiere recalcular todo el horario y puede ampliar la estancia.",
     "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=602",
-    "objective": "Contemplar el paisaje y la profundidad del cañón del Apurímac, con atención a los planos y las condiciones de luz."
+    "objective": "Contemplar el paisaje y la profundidad del cañón del Apurímac, con atención a los planos y las condiciones de luz.",
+    "culturalReading": "Un mirador permite reconocer planos del valle, relieve y caminos visibles. La interpretación cambia según se elija Curahuasi o Cachora; son variantes del programa y no una misma parada. La propuesta cultural es mirar el paisaje como un espacio relacionado con la vida del territorio, sin atribuir historias que no estén documentadas.",
+    "observation": "Elige una imagen del cañón y acompáñala con una pregunta sobre el territorio. Distingue lo que observas de aquello que necesitarías investigar.",
+    "culturalSources": [
+      {
+        "label": "Mirador de San Cristóbal",
+        "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3055"
+      },
+      {
+        "label": "Mirador de Capitán Rumi",
+        "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=2039"
+      },
+      {
+        "label": "Mirador de Capuliyoc",
+        "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8066"
+      }
+    ]
   }
 ]

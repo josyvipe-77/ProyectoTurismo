@@ -101,6 +101,21 @@
   margin-top: 26px;
   padding: 0;
 }
+.program-practical-details {
+  margin-top: 24px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: clip;
+}
+.program-practical-content {
+  padding: 0 22px 22px;
+}
+.program-practical-content .day-practical {
+  margin-top: 0;
+}
+.program-stop-details > div > h3:first-child {
+  padding-top: 20px;
+}
 .day-practical > div {
   padding: 16px 0;
   border-bottom: 1px solid var(--border);

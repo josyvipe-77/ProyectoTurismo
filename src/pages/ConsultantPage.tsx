@@ -4,6 +4,8 @@ import { RespectNote, SectionHeading } from '../components/Editorial';
 import { TeamMemberCard } from '../components/TeamMemberCard';
 import type { ConsultantMember } from '../components/TeamMemberCard';
 import { BrandLogo } from '../components/BrandLogo';
+import { projectMaterials } from '../data/project-materials';
+import { ProjectContact } from '../components/ProjectContact';
 
 const teams: { university: string; country: string; members: ConsultantMember[] }[] = [
   {
@@ -49,9 +51,13 @@ export default function ConsultantPage() {
         </div>
         <div>
           <p>
-            JACS Destinos es la identidad de nuestra consultora académica en el proyecto COIL
-            «Aplicación de la Inteligencia Artificial para el Diseño de Productos de Turismo
-            Cultural».
+            JACS Destinos es la identidad de nuestra consultora académica en el proyecto «
+            {projectMaterials.projectName}».
+          </p>
+          <p className="project-approval">
+            Plan de trabajo aprobado mediante la {projectMaterials.approval}, para el semestre
+            2026-II, presentado por el Dr. Manuel Jesús Ibarra Cabrera. La aprobación corresponde al
+            plan académico.
           </p>
           <p>
             Nuestro trabajo conecta la caracterización territorial, el diagnóstico turístico y el
@@ -60,8 +66,8 @@ export default function ConsultantPage() {
             local por coordinar.
           </p>
           <p>
-            Este sitio presenta el diseño del producto. La operación, los proveedores y los precios
-            siguen en desarrollo.
+            Este sitio presenta el diseño del producto. La operación y los proveedores requieren
+            coordinación antes de realizar el viaje.
           </p>
           <Link to="/experiencia" className="text-link">
             Conoce nuestro producto <ArrowRight size={18} />
@@ -91,16 +97,16 @@ export default function ConsultantPage() {
         <div>
           <span className="eyebrow blue">Aprendizaje Galicia–Apurímac</span>
           <h2>
-            Compartir criterios.
+            Dos territorios.
             <br />
-            <em>Respetar cada territorio.</em>
+            <em>Una mirada compartida.</em>
           </h2>
         </div>
         <div>
           <p>
-            La comparación entre Galicia y Apurímac nos permite proponer criterios comunes:
-            interpretar el paisaje junto con su historia, dar espacio a las voces locales y vincular
-            las visitas con servicios de la comunidad.
+            El equipo reúne estudiantes de la USC, en Galicia, y de la UNAMBA, en Apurímac. Esa
+            composición binacional es el punto de partida de nuestro enfoque: observar el paisaje,
+            interpretar el patrimonio y diseñar una fotografía respetuosa.
           </p>
           <p>
             En Apurímac esos criterios se adaptan a los recorridos de montaña, la altitud, los
@@ -112,8 +118,15 @@ export default function ConsultantPage() {
             beneficios deberán evaluarse con actores del territorio; no se presentan como impactos
             ya logrados.
           </p>
+          <p>
+            La inteligencia artificial apoya la preparación editorial y visual de este sitio. Las
+            fotografías documentales conservan sus fuentes y las imágenes generadas se identifican
+            como referenciales. El contenido del itinerario distingue las propuestas de los
+            servicios que todavía deben coordinarse.
+          </p>
         </div>
       </section>
+      <ProjectContact />
       <RespectNote />
     </div>
   );
