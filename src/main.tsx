@@ -12,6 +12,7 @@ import './travel-planning.css';
 import './project-completion.css';
 import './home-media.css';
 import './visual-finish.css';
+import './photo-cards.css';
 import App from './App';
 
 createRoot(document.getElementById('root')!).render(

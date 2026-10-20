@@ -1,4 +1,4 @@
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export function SharedTerritories() {
@@ -16,9 +16,31 @@ export function SharedTerritories() {
           experiencia fotográfica que conecte paisaje, patrimonio y respeto por quienes habitan el
           territorio.
         </p>
-        <Link to="/consultora" className="text-link">
-          Conoce al equipo y nuestro enfoque <ArrowRight size={17} />
-        </Link>
+        <div className="shared-territories-links">
+          <Link to="/consultora" className="text-link">
+            Conoce al equipo y nuestro enfoque <ArrowRight size={17} />
+          </Link>
+        </div>
+        <a
+          href="https://plan-turistico.vercel.app/"
+          className="territories-map-card"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/images/plan-turistico/emblema-coil.webp"
+            alt=""
+            width={160}
+            height={160}
+            loading="lazy"
+          />
+          <span>
+            <small>Perú + España · Mapa interactivo</small>
+            <strong>Dos territorios, dos relatos</strong>
+            <span>Explora Apurímac y Galicia</span>
+          </span>
+          <ArrowUpRight size={23} aria-hidden="true" />
+        </a>
       </div>
       <div className="territory-pair">
         <div>

@@ -3,6 +3,8 @@ import type { MouseEvent } from 'react';
 import { ArrowLeft, ArrowRight, Expand, ExternalLink } from 'lucide-react';
 import { useDestinationPhotos } from '../hooks/useDestinationPhotos';
 import { PhotoFrame, PhotoLightbox } from './PhotoLightbox';
+import { ContextPhoto } from './ContextPhoto';
+import { getContextPhoto } from '../data/catalog-context';
 import './destination-gallery.css';
 
 interface DestinationGalleryProps {
@@ -32,6 +34,9 @@ export function DestinationGallery({
     setExpanded(true);
   }
 
+  const contextId = galleryId ?? source.match(/[?&]cod_Ficha=([^&]+)/)?.[1];
+  if (!photo && !loading && contextId && getContextPhoto(contextId))
+    return <ContextPhoto id={contextId} name={name} />;
   if (!photo)
     return (
       <div className="destination-gallery-empty">

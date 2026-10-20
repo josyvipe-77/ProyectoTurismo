@@ -5,6 +5,7 @@ import { resourceById } from '../data/regional-tourism';
 import { useDestinationPhotos } from '../hooks/useDestinationPhotos';
 import { PhotoFrame, PhotoLightbox } from './PhotoLightbox';
 import { ContactLinks } from './ProjectContact';
+import { PhotoCard } from './PhotoCard';
 
 type Selection = (typeof selection)[number];
 const categories = ['Todas', 'Paisajes', 'Patrimonio', 'Cultura viva'];
@@ -14,38 +15,38 @@ function GalleryCard({ item, onOpen }: { item: Selection; onOpen: () => void }) 
   const { gallery, loading } = useDestinationPhotos(resource.source, resource.id);
   const photo = gallery?.photos.find((image) => image.id === item.photoId);
   return (
-    <article className="curated-photo-card">
-      <button
-        className="curated-photo-preview"
-        type="button"
-        onClick={(event) => {
-          event.currentTarget.focus({ preventScroll: true });
-          onOpen();
-        }}
-        disabled={!photo}
-        aria-label={`Ampliar fotografía de ${resource.name}`}
-      >
-        {photo ? (
-          <PhotoFrame photo={photo} />
-        ) : (
-          <span className="curated-photo-placeholder">
-            <Camera size={32} aria-hidden="true" />
-            {loading ? 'Preparando fotografía…' : 'Fotografía no disponible'}
-          </span>
-        )}
-        {photo && (
-          <span className="curated-photo-expand">
-            <Expand size={17} /> Ampliar
-          </span>
-        )}
-      </button>
-      <div className="curated-photo-copy">
-        <span className="eyebrow blue">
-          {item.category} · {resource.province}
-        </span>
-        <h3>{resource.name}</h3>
-        <p>{item.description}</p>
-      </div>
+    <PhotoCard
+      className="curated-photo-card"
+      title={resource.name}
+      eyebrow={`${item.category} · ${resource.province}`}
+      image={
+        <button
+          className="curated-photo-preview"
+          type="button"
+          onClick={(event) => {
+            event.currentTarget.focus({ preventScroll: true });
+            onOpen();
+          }}
+          disabled={!photo}
+          aria-label={`Ampliar fotografía de ${resource.name}`}
+        >
+          {photo ? (
+            <PhotoFrame photo={photo} />
+          ) : (
+            <span className="curated-photo-placeholder">
+              <Camera size={32} aria-hidden="true" />
+              {loading ? 'Preparando fotografía…' : 'Fotografía no disponible'}
+            </span>
+          )}
+          {photo && (
+            <span className="curated-photo-expand">
+              <Expand size={17} /> Ampliar
+            </span>
+          )}
+        </button>
+      }
+    >
+      <p>{item.description}</p>
       <a
         className="curated-photo-source"
         href={resource.source}
@@ -54,7 +55,7 @@ function GalleryCard({ item, onOpen }: { item: Selection; onOpen: () => void }) 
       >
         Fuente: ficha MINCETUR <ExternalLink size={12} />
       </a>
-    </article>
+    </PhotoCard>
   );
 }
 

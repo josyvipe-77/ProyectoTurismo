@@ -34,7 +34,7 @@ export default function HomePage() {
             Conversemos sobre tu proyecto <ArrowRight size={18} />
           </Link>
         </div>
-        <PhotographyRoute />
+        <PhotographyRoute compact />
         <section className="section">
           <SectionHeading
             number="03"
