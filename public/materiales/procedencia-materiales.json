@@ -1,0 +1,134 @@
+{
+  "film": {
+    "file": "jacs-destinos-40s.mp4",
+    "durationSeconds": 40,
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "method": "Montaje local de 16 planos con 15 fotografías documentales, zoom, fundidos, títulos y subtítulos integrados. Sin escenas ni personas generadas.",
+    "narration": true,
+    "voice": {
+      "provider": "Microsoft Edge Read Aloud via edge-tts",
+      "voice": "es-PE-CamilaNeural",
+      "durationSeconds": 40,
+      "synthetic": true,
+      "paidGenerations": 0,
+      "synchronization": "8 segments of 5 seconds"
+    }
+  },
+  "photos": [
+    {
+      "fiche": "8264",
+      "name": "Bosque de Piedras de Pampachiri",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8264",
+      "file": "/images/mincetur/8264-413871-1400.webp",
+      "sha256": "592e6c864a0ed80914278655a14735785624c880a3e35a0dbc5c5e166c9fb354"
+    },
+    {
+      "fiche": "577",
+      "name": "Santuario Nacional de Ampay",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=577",
+      "file": "/images/mincetur/577-777096-1400.webp",
+      "sha256": "4591e3111714e0b3184694b91706d2529ee23f97944df692d1066b4b5d453f2b"
+    },
+    {
+      "fiche": "4678",
+      "name": "Mirador de Taraccasa",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4678",
+      "file": "/images/mincetur/4678-575419-1400.webp",
+      "sha256": "bce302369703d2ae0c9a5b26658dda18c8ccdc387af02167015e5a6a036f76e1"
+    },
+    {
+      "fiche": "4678",
+      "name": "Mirador de Taraccasa",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4678",
+      "file": "/images/mincetur/4678-575420-1400.webp",
+      "sha256": "dc93c0d1895db6395e1b6a4f54642f4650433a95c5e5f03e97de68a4425f6ace"
+    },
+    {
+      "fiche": "8264",
+      "name": "Bosque de Piedras de Pampachiri",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8264",
+      "file": "/images/mincetur/8264-312281-1400.webp",
+      "sha256": "d819bfb2efecf59e56e52c18e0b5ea44dcfda5062b05db03af3d98af573a3502"
+    },
+    {
+      "fiche": "8264",
+      "name": "Bosque de Piedras de Pampachiri",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8264",
+      "file": "/images/mincetur/8264-312285-1400.webp",
+      "sha256": "e868add014899505e9a8bf389a6e62ea0801d16766b1a2a20f59d1119b9ad3ec"
+    },
+    {
+      "fiche": "31",
+      "name": "Puente Colonial Pachachaca",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=31",
+      "file": "/images/mincetur/31-292013-1400.webp",
+      "sha256": "19ae583788141a3199d95f93d29ac8252a1206f1b520579b179fbd84cf9a38ad"
+    },
+    {
+      "fiche": "31",
+      "name": "Puente Colonial Pachachaca",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=31",
+      "file": "/images/mincetur/31-292014-1400.webp",
+      "sha256": "ad44293e1f71df52e111e664426550d677d8f409d474fec4dad7019bddafbc23"
+    },
+    {
+      "fiche": "577",
+      "name": "Santuario Nacional de Ampay",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=577",
+      "file": "/images/mincetur/577-777090-1400.webp",
+      "sha256": "ed48f6ebc85cbe781a5ec81fd3590c0c9efb75b936724f3c556a132ea60e5b96"
+    },
+    {
+      "fiche": "3055",
+      "name": "Mirador de San Cristóbal",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3055",
+      "file": "/images/mincetur/3055-545306-1400.webp",
+      "sha256": "336181375805eda25b9e47748b817a045efeb28fc5aa2d5c9b5602aee6049502"
+    },
+    {
+      "fiche": "3055",
+      "name": "Mirador de San Cristóbal",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3055",
+      "file": "/images/mincetur/3055-545332-1400.webp",
+      "sha256": "e30971e19ea5dca7e00495754d44dc1b3068158eddcd3f8cfeab69a2803e238f"
+    },
+    {
+      "fiche": "31",
+      "name": "Puente Colonial Pachachaca",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=31",
+      "file": "/images/mincetur/31-420797-1400.webp",
+      "sha256": "b855daac22c8baf8760310671e2a16a1a7595ab6153cff3c0f2e7c793de00cd5"
+    },
+    {
+      "fiche": "4678",
+      "name": "Mirador de Taraccasa",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4678",
+      "file": "/images/mincetur/4678-575421-1400.webp",
+      "sha256": "70f5093295b57062f4ecce8dab28672e45441a5ca0642131240584b780b9bb72"
+    },
+    {
+      "fiche": "3055",
+      "name": "Mirador de San Cristóbal",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3055",
+      "file": "/images/mincetur/3055-545345-1400.webp",
+      "sha256": "444c26c663201b1c026eb68c180bdd8bbc6eef3dbcdd7e1c0dc7a3a63d08b26f"
+    },
+    {
+      "fiche": "8264",
+      "name": "Bosque de Piedras de Pampachiri",
+      "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8264",
+      "file": "/images/mincetur/8264-413872-1400.webp",
+      "sha256": "1ddd80037c38bcf555b55449beb8473599b48e39fc683cb24353d23c56016eb1"
+    }
+  ],
+  "audio": {
+    "provider": "Microsoft Edge Read Aloud via edge-tts",
+    "voice": "es-PE-CamilaNeural",
+    "durationSeconds": 75,
+    "synthetic": true,
+    "paidGenerations": 0
+  },
+  "note": "Fotografías del archivo local de fichas MINCETUR: Taraccasa (4678), Pampachiri (8264), Pachachaca (31), Ampay (577) y San Cristóbal (3055). La ficha es la fuente de consulta; no se atribuye autoría individual ni licencia abierta."
+}

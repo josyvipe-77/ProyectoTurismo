@@ -26,17 +26,21 @@ npm run build
 
 ## Páginas
 
-| Ruta            | Contenido                                                                                  |
-| --------------- | ------------------------------------------------------------------------------------------ |
-| `/`             | Presentación, paisaje y animación de apertura.                                             |
-| `/experiencia`  | Programa, público y servicios previstos.                                                   |
-| `/construye`    | Planificación de cinco días, miradores, servicios, presupuesto orientativo y descarga TXT. |
-| `/rutas`        | Catálogo regional, circuitos, mapas y galerías.                                            |
-| `/cultura`      | Contexto cultural y calendario orientativo.                                                |
-| `/consultora`   | Equipo de JACS Destinos y proyecto COIL.                                                   |
-| `/rutas/chanka` | Redirección a Planifica tu viaje para conservar enlaces anteriores.                        |
+| Ruta            | Contenido                                                                                 |
+| --------------- | ----------------------------------------------------------------------------------------- |
+| `/`             | Presentación, paisaje y animación de apertura.                                            |
+| `/experiencia`  | Programa, público y servicios previstos.                                                  |
+| `/construye`    | Planificación de cinco días, miradores, contexto cultural, servicios y descargas TXT/PDF. |
+| `/rutas`        | Catálogo regional, circuitos, mapas y galerías.                                           |
+| `/cultura`      | Contexto cultural y calendario orientativo.                                               |
+| `/consultora`   | Equipo de JACS Destinos y proyecto COIL.                                                  |
+| `/rutas/chanka` | Redirección a Planifica tu viaje para conservar enlaces anteriores.                       |
 
-Las elecciones del programa y los datos anteriores se guardan únicamente en el navegador. No hay cuentas, reservas, pagos ni envío de consultas. Accesos, horarios, disponibilidad y proveedores requieren confirmación local; los importes del planificador son estimaciones.
+Las elecciones del programa y los datos anteriores se guardan únicamente en el navegador. No hay cuentas, reservas, pagos ni envío de consultas. Accesos, horarios, disponibilidad y proveedores requieren confirmación local. El presupuesto de diseño queda como herramienta académica, fuera de la interfaz y de las descargas públicas.
+
+Inicio y Sobre JACS presentan el vínculo Apurímac–Galicia. Inicio incluye una galería deslizable con fotografías y transiciones al pasar el cursor, adaptada a la preferencia de movimiento reducido. La experiencia incluye un programa base en PDF, los folletos, un vídeo fotográfico narrado de 40 segundos y una presentación con voz sintética en español de 75 segundos. Los reproductores funcionan por iniciativa del visitante. Instagram se abre mediante un enlace externo a `@jacsdestinos`.
+
+«Miradas de Apurímac», en `/rutas#galeria`, reúne doce fotografías documentales con filtros y ampliación. Los aportes se reciben por correo o Instagram para revisión del equipo. `/consultora#contacto` ofrece enlaces a `jacsdestinos@gmail.com` y `@jacsdestinos`; Inicio y el pie dan acceso a ambas secciones. La experiencia incorpora una infografía de las cinco jornadas basada en los mismos datos del programa.
 
 ## Estructura
 
@@ -47,7 +51,7 @@ Las elecciones del programa y los datos anteriores se guardan únicamente en el 
 - `research/`: fuentes, evidencia e importadores del inventario turístico.
 - `docs/`: desarrollo, publicación y procedencia de recursos.
 
-El mapa utiliza MapLibre, OpenFreeMap, Mapterhorn e imágenes históricas EOX. El satélite tiene detalle limitado y los servicios cartográficos requieren internet. Se conservan atribuciones y respaldos cuando falla la carga. Las páginas secundarias y el motor del mapa se cargan bajo demanda.
+El mapa utiliza MapLibre, OpenFreeMap, Mapterhorn e imágenes históricas EOX. Abre en vista cartográfica 2D con sombreado suave; el satélite y el relieve 3D son opcionales. El satélite tiene detalle limitado y los servicios cartográficos requieren internet. Se conservan atribuciones y respaldos cuando falla la carga. Las páginas secundarias y el motor del mapa se cargan bajo demanda.
 
 ## Preparar para Git
 
@@ -66,5 +70,7 @@ El exportador no sobrescribe destinos y genera un manifiesto de archivos. El ZIP
 - [Guía de desarrollo](docs/DESARROLLO.md).
 - [Colaborar en el repositorio](docs/REPOSITORIO-PRIVADO.md).
 - [Procedencia y licencias](docs/RECURSOS.md).
+- [Materiales y regeneración](docs/MATERIALES.md).
+- [Presupuesto académico](docs/PRESUPUESTO-ACADEMICO.md).
 
 Las entregas y las copias de trabajo se mantienen fuera del repositorio; si se utiliza una carpeta local `qa/`, queda excluida de Git.

@@ -1,6 +1,80 @@
 .destination-gallery {
   margin: 20px 0 24px;
 }
+.destination-gallery--catalog .destination-gallery-media {
+  position: relative;
+  isolation: isolate;
+}
+.destination-gallery--catalog .destination-gallery-preview {
+  aspect-ratio: 16 / 10;
+  border-radius: 0;
+}
+.destination-gallery--catalog .destination-gallery-heading {
+  position: absolute;
+  inset: 12px 12px auto;
+  z-index: 2;
+  margin: 0;
+  pointer-events: none;
+}
+.destination-gallery--catalog .destination-gallery-heading .eyebrow {
+  padding: 9px 11px;
+  border-radius: 30px;
+  background: #173c32d9;
+  color: #fffdf8;
+  font-size: 8px;
+  letter-spacing: 0.08em;
+}
+.destination-gallery--catalog .destination-gallery-heading > button {
+  pointer-events: auto;
+  color: #fffdf8;
+  background: #173c32e8;
+  padding: 0 12px;
+  border-radius: 30px;
+  font-size: 10px;
+}
+.destination-gallery--catalog .destination-gallery-expand {
+  display: none;
+}
+.destination-gallery--catalog .destination-gallery-media > .destination-gallery-controls {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  z-index: 2;
+  display: flex;
+  margin: 0;
+  gap: 0;
+  padding: 2px;
+  border: 1px solid #ffffff55;
+  border-radius: 30px;
+  background: #173c32e8;
+  color: #fffdf8;
+}
+.destination-gallery--catalog .destination-gallery-media > .destination-gallery-controls button {
+  border: 0;
+  color: inherit;
+}
+.destination-gallery--catalog
+  .destination-gallery-media
+  > .destination-gallery-controls
+  button:hover {
+  background: #ffffff22;
+}
+.destination-gallery--catalog .destination-gallery-media > .destination-gallery-controls span {
+  min-width: 40px;
+}
+.destination-gallery--catalog > .destination-gallery-source {
+  display: flex;
+  min-height: 44px;
+  margin: 0;
+  padding: 10px 20px;
+  border-bottom: 1px solid var(--border);
+  background: #f1f4ed;
+  text-decoration: none;
+  font-size: 10px;
+}
+.destination-gallery--catalog > .destination-gallery-source:hover {
+  text-decoration: underline;
+}
 .destination-gallery-heading {
   display: flex;
   justify-content: space-between;

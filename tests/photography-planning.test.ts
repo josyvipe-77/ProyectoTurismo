@@ -122,9 +122,38 @@ test('los escenarios históricos de hotel no alteran el presupuesto ni se export
   assert.equal(budgetEstimate(stored, 8).cost, budgetEstimate(defaultTripPlanning, 8).cost);
   const text = photographyProgramText(['3055'], stored);
   assert.doesNotMatch(text, /Siball|Dubal|habitación compartida|6 noches/);
-  assert.match(text, /12 personas:/);
+  assert.doesNotMatch(text, /12 personas:|simulación de precio|margen sobre venta/i);
   assert.match(text, /6–12 participantes/);
   assert.match(text, /30–70 años/);
+});
+
+test('la descarga pública excluye las cotizaciones guardadas y conserva el contexto cultural', () => {
+  const stored = {
+    ...defaultTripPlanning,
+    transport: 4321,
+    guide: 1234,
+    meals: 567,
+    insurance: 89,
+    other: 456,
+    margin: 27,
+    contingency: 19,
+  };
+  const before = JSON.stringify(stored);
+  const text = photographyProgramText(['8066'], stored);
+  assert.equal(JSON.stringify(stored), before);
+  assert.ok(validTripPlanning(stored));
+  assert.ok(budgetEstimate(stored, 8).complete);
+  assert.doesNotMatch(
+    text,
+    /4321|1234|567|Costos introducidos|margen|simulación de precio|700–1.000/i,
+  );
+  assert.equal((text.match(/^DÍA \d:/gm) ?? []).length, 5);
+  for (const day of photographyDays) {
+    assert.ok(text.includes(day.culturalReading));
+    assert.ok(text.includes(day.observation));
+    for (const source of day.culturalSources) assert.ok(text.includes(source.url));
+  }
+  assert.match(text, /instagram.com\/jacsdestinos/);
 });
 test('seleccionar varios miradores no conserva falsamente el horario de un solo mirador', () => {
   assert.equal(plannedPhotographyDays(defaultTripPlanning, ['3055'])[4].schedule.length, 7);

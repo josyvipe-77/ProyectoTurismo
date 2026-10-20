@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { photographyExperience as experience } from '../data/photography-experience';
 import { ExperienceOverview } from '../components/ExperienceOverview';
 import { RespectNote, SectionHeading } from '../components/Editorial';
+import { ProjectMaterials } from '../components/ProjectMaterials';
+import { JourneyInfographic } from '../components/JourneyInfographic';
 
 export default function ExperiencePage() {
   return (
@@ -34,6 +36,7 @@ export default function ExperiencePage() {
         </span>
       </div>
       <ExperienceOverview action="program" />
+      <JourneyInfographic />
       <section className="section product-columns">
         <div>
           <span className="eyebrow blue">Para quién</span>
@@ -51,8 +54,7 @@ export default function ExperiencePage() {
           <p>
             El perfil de referencia es de 30–70 años, con interés en grupos reducidos y buena
             organización. Europa occidental, América y Japón son mercados exploratorios; la demanda
-            debe contrastarse. El presupuesto orientativo del cliente es de{' '}
-            {experience.clientBudget}; no es el precio del programa.
+            debe contrastarse.
           </p>
           <p>
             Se informará del esfuerzo, altitud, accesos y equipo antes del viaje. En la recepción se
@@ -101,7 +103,7 @@ export default function ExperiencePage() {
           condiciones todavía deben confirmarse.
         </p>
         <Link to="/construye#servicios-del-viaje" className="text-link product-planning-link">
-          Servicios, comidas y presupuesto de diseño <ArrowRight size={18} />
+          Servicios, comidas y exclusiones <ArrowRight size={18} />
         </Link>
         <dl className="product-services">
           {experience.services.map(([title, text]) => (
@@ -111,15 +113,6 @@ export default function ExperiencePage() {
             </div>
           ))}
         </dl>
-        <div className="product-price">
-          <span>Precio por participante</span>
-          <strong>{experience.price}</strong>
-          <p>
-            Se calculará con transporte, alimentación, guianza, actividades fotográficas, entradas y
-            seguro. El alojamiento está excluido. Los 700–1.000 euros del perfil son presupuesto del
-            cliente, no la tarifa.
-          </p>
-        </div>
       </section>
       <section className="section product-columns">
         <div>
@@ -146,45 +139,7 @@ export default function ExperiencePage() {
           </Link>
         </div>
       </section>
-      <section className="section" id="materiales">
-        <SectionHeading
-          label="Materiales de la experiencia"
-          title="Imágenes que cuentan el viaje"
-        />
-        <div className="grid-three product-values">
-          <article>
-            <span>Carteles</span>
-            <h3>La invitación a mirar</h3>
-            <p>
-              Dos folletos presentan la experiencia y las cinco jornadas. Los carteles promocionales
-              se incorporarán con sus archivos finales.
-            </p>
-            <a className="text-link" href="/materiales/folletos-jacs-apurimac.pdf" download>
-              Descargar los dos folletos <ArrowRight size={16} />
-            </a>
-          </article>
-          <article>
-            <span>Video</span>
-            <h3>Un primer recorrido</h3>
-            <p>
-              Anuncio audiovisual pendiente de desarrollar. El episodio 3 del podcast tiene guion
-              preparado y su audio está pendiente de generar y revisar.
-            </p>
-          </article>
-          <article>
-            <span>Galería del proyecto</span>
-            <h3>Memorias compartidas</h3>
-            <p>
-              Instagram se contempla como canal divulgativo; falta incorporar su enlace. Una
-              selección de fotografías con créditos y autorización. Las imágenes del catálogo
-              mantienen su fuente; aún no hay aportaciones de viajeros.
-            </p>
-            <Link to="/rutas#catalogo-regional" className="text-link">
-              Ver fotografías del catálogo <ArrowRight size={16} />
-            </Link>
-          </article>
-        </div>
-      </section>
+      <ProjectMaterials />
       <RespectNote />
     </div>
   );

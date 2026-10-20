@@ -1,37 +1,36 @@
-import { useEffect, useId, useRef, useState } from 'react';
-import { ArrowLeft, ArrowRight, Expand, ExternalLink, X } from 'lucide-react';
+import { useState } from 'react';
+import type { MouseEvent } from 'react';
+import { ArrowLeft, ArrowRight, Expand, ExternalLink } from 'lucide-react';
 import { useDestinationPhotos } from '../hooks/useDestinationPhotos';
-import type { DestinationPhoto } from '../hooks/useDestinationPhotos';
+import { PhotoFrame, PhotoLightbox } from './PhotoLightbox';
 import './destination-gallery.css';
 
 interface DestinationGalleryProps {
   source: string;
   name: string;
+  galleryId?: string;
+  variant?: 'default' | 'catalog';
 }
 
-export function DestinationGallery({ source, name }: DestinationGalleryProps) {
-  const { gallery, loading } = useDestinationPhotos(source);
+export function DestinationGallery({
+  source,
+  name,
+  galleryId,
+  variant = 'default',
+}: DestinationGalleryProps) {
+  const { gallery, loading } = useDestinationPhotos(source, galleryId);
   const [index, setIndex] = useState(0);
   const [expanded, setExpanded] = useState(false);
-  const dialog = useRef<HTMLDialogElement>(null);
-  const titleId = useId();
   const photos = gallery?.photos ?? [];
   const photo = photos[index];
   const gallerySource = gallery?.source ?? source;
   function step(direction: -1 | 1) {
     setIndex((current) => (current + direction + photos.length) % photos.length);
   }
-  useEffect(() => {
-    if (!expanded) return;
-    const element = dialog.current;
-    element?.showModal();
-    const previousOverflow = document.body.style.overflow;
-    document.body.style.overflow = 'hidden';
-    return () => {
-      element?.close();
-      document.body.style.overflow = previousOverflow;
-    };
-  }, [expanded]);
+  function open(event: MouseEvent<HTMLButtonElement>) {
+    event.currentTarget.focus({ preventScroll: true });
+    setExpanded(true);
+  }
 
   if (!photo)
     return (
@@ -44,13 +43,13 @@ export function DestinationGallery({ source, name }: DestinationGalleryProps) {
         </a>
       </div>
     );
-  const controls = (large = false) => (
+  const controls = () => (
     <div className="destination-gallery-controls">
       <button
         type="button"
         disabled={photos.length < 2}
         onClick={() => step(-1)}
-        aria-label={`Foto anterior de ${name}${large ? ', ampliada' : ''}`}
+        aria-label={`Foto anterior de ${name}`}
       >
         <ArrowLeft size={18} />
       </button>
@@ -61,7 +60,7 @@ export function DestinationGallery({ source, name }: DestinationGalleryProps) {
         type="button"
         disabled={photos.length < 2}
         onClick={() => step(1)}
-        aria-label={`Foto siguiente de ${name}${large ? ', ampliada' : ''}`}
+        aria-label={`Foto siguiente de ${name}`}
       >
         <ArrowRight size={18} />
       </button>
@@ -69,7 +68,7 @@ export function DestinationGallery({ source, name }: DestinationGalleryProps) {
   );
   return (
     <section
-      className="destination-gallery"
+      className={`destination-gallery destination-gallery--${variant}`}
       aria-label={`Fotografías de ${name}`}
       aria-roledescription="carrusel"
       onKeyDown={(event) => {
@@ -80,29 +79,27 @@ export function DestinationGallery({ source, name }: DestinationGalleryProps) {
         }
       }}
     >
-      <div className="destination-gallery-heading">
-        <span className="eyebrow">El lugar, en imágenes</span>
+      <div className="destination-gallery-media">
+        <div className="destination-gallery-heading">
+          <span className="eyebrow">El lugar, en imágenes</span>
+          <button type="button" onClick={open} aria-label={`Ampliar fotos de ${name}`}>
+            <Expand size={14} /> Ampliar
+          </button>
+        </div>
         <button
           type="button"
-          onClick={() => setExpanded(true)}
-          aria-label={`Ampliar fotos de ${name}`}
+          className="destination-gallery-preview"
+          onClick={open}
+          aria-label={`Ampliar fotografía ${index + 1} de ${name}`}
         >
-          <Expand size={14} /> Ampliar
+          <PhotoFrame key={photo.thumbnail} photo={photo} />
+          <span className="destination-gallery-expand">
+            <Expand size={18} />
+          </span>
         </button>
+        {controls()}
       </div>
-      <button
-        type="button"
-        className="destination-gallery-preview"
-        onClick={() => setExpanded(true)}
-        aria-label={`Ampliar fotografía ${index + 1} de ${name}`}
-      >
-        <PhotoFrame key={photo.thumbnail} photo={photo} />
-        <span className="destination-gallery-expand">
-          <Expand size={18} />
-        </span>
-      </button>
-      {controls()}
-      {photos.length > 1 && (
+      {photos.length > 1 && variant !== 'catalog' && (
         <div className="destination-gallery-dots" aria-label="Elegir fotografía">
           {photos.map((item, number) => (
             <button
@@ -125,61 +122,17 @@ export function DestinationGallery({ source, name }: DestinationGalleryProps) {
       >
         Fotos de la ficha MINCETUR <ExternalLink size={12} />
       </a>
-      <dialog
-        ref={dialog}
-        className="destination-lightbox"
-        aria-labelledby={titleId}
-        onCancel={() => setExpanded(false)}
-        onClose={() => setExpanded(false)}
-        onClick={(event) => {
-          if (event.target === event.currentTarget) setExpanded(false);
-        }}
-      >
-        {expanded && (
-          <div className="destination-lightbox-inner">
-            <div className="destination-lightbox-heading">
-              <div>
-                <span className="eyebrow">Inventario turístico · MINCETUR</span>
-                <h2 id={titleId}>{name}</h2>
-              </div>
-              <button
-                type="button"
-                className="icon-button"
-                onClick={() => setExpanded(false)}
-                aria-label="Cerrar fotografías ampliadas"
-              >
-                <X size={24} />
-              </button>
-            </div>
-            <PhotoFrame key={photo.full} photo={photo} full />
-            <div className="destination-lightbox-footer">
-              {controls(true)}
-              <a href={gallerySource} target="_blank" rel="noopener noreferrer">
-                Ver ficha de MINCETUR <ExternalLink size={14} />
-              </a>
-            </div>
-          </div>
-        )}
-      </dialog>
+      {expanded && (
+        <PhotoLightbox
+          photo={photo}
+          name={name}
+          source={gallerySource}
+          index={index}
+          count={photos.length}
+          onStep={step}
+          onClose={() => setExpanded(false)}
+        />
+      )}
     </section>
-  );
-}
-
-function PhotoFrame({ photo, full = false }: { photo: DestinationPhoto; full?: boolean }) {
-  const [failed, setFailed] = useState(false);
-  return failed ? (
-    <span className="destination-photo-unavailable">
-      No se pudo cargar esta fotografía. Consulta la ficha de MINCETUR.
-    </span>
-  ) : (
-    <img
-      src={full ? photo.full : photo.thumbnail}
-      alt={photo.alt}
-      width={full ? 1400 : 480}
-      height={full ? 1050 : 360}
-      loading={full ? 'eager' : 'lazy'}
-      decoding="async"
-      onError={() => setFailed(true)}
-    />
   );
 }

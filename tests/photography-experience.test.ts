@@ -5,7 +5,8 @@ import { photographyDays, photographyProgramText } from '../src/data/photography
 test('el programa descargable contiene las cinco jornadas sin reutilizar las tarifas del constructor', () => {
   const text = photographyProgramText();
   assert.match(text, /^JACS DESTINOS/);
-  assert.match(text, /Precio: Pendiente de estimación/);
+  assert.doesNotMatch(text, /Precio:|Presupuesto orientativo del cliente|margen sobre venta/i);
+  assert.equal((text.match(/Qué nos cuenta este lugar:/g) ?? []).length, 5);
   assert.equal((text.match(/^DÍA \d:/gm) ?? []).length, 5);
   for (const place of ['Taraccasa', 'Pampachiri', 'Pachachaca', 'Ampay', 'cañón del Apurímac'])
     assert.ok(text.includes(place));

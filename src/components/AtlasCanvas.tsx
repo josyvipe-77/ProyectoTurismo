@@ -115,7 +115,7 @@ export default function AtlasCanvas({
           [regionBounds[1][0] + 0.65, regionBounds[1][1] + 0.5],
         ],
         minZoom: 6,
-        maxZoom: satelliteMaxZoom,
+        maxZoom: 15,
         maxPitch: 55,
         keyboard: false,
         cooperativeGestures: true,
@@ -143,7 +143,7 @@ export default function AtlasCanvas({
       // Limit overzoom according to the available photographic source.
       map.setMaxZoom(imagery ? satelliteMaxZoom : 15);
       map.setLayoutProperty('apurimac-satellite', 'visibility', imagery ? 'visible' : 'none');
-      map.setPaintProperty('apurimac-shading', 'hillshade-exaggeration', imagery ? 0 : 0.35);
+      map.setPaintProperty('apurimac-shading', 'hillshade-exaggeration', imagery ? 0 : 0.1);
       map.setPaintProperty('apurimac-border', 'line-color', imagery ? '#e4b46a' : '#284d40');
       // Only text labels are retained above the photograph; native raster colors stay intact.
       for (const layer of map.getStyle().layers ?? []) {
@@ -198,10 +198,22 @@ export default function AtlasCanvas({
       else if (current.current.sequence && current.current.places.length > 1) {
         const bounds = new LngLatBounds();
         current.current.places.forEach((place) => bounds.extend(place.coordinates));
-        map.fitBounds(bounds, { padding: 75, maxZoom: 12.3, pitch: 0, bearing: 0, duration });
+        const narrow = map.getContainer().clientWidth < 480;
+        map.fitBounds(bounds, {
+          padding: {
+            top: narrow ? 95 : 90,
+            bottom: 65,
+            left: narrow ? 48 : 65,
+            right: narrow ? 48 : 65,
+          },
+          maxZoom: 12.3,
+          pitch: 0,
+          bearing: 0,
+          duration,
+        });
       } else
         map.fitBounds(regionBounds, {
-          padding: { top: 65, bottom: 45, left: 35, right: 35 },
+          padding: { top: 95, bottom: 65, left: 45, right: 45 },
           pitch: 0,
           bearing: 0,
           duration,
@@ -253,6 +265,7 @@ export default function AtlasCanvas({
           id: 'apurimac-satellite',
           type: 'raster',
           source: 'apurimac-imagery',
+          layout: { visibility: current.current.satellite ? 'visible' : 'none' },
           paint: {
             'raster-fade-duration': 450,
             'raster-saturation': 0,
@@ -297,7 +310,7 @@ export default function AtlasCanvas({
           type: 'hillshade',
           source: 'apurimac-hillshade',
           paint: {
-            'hillshade-exaggeration': 0.35,
+            'hillshade-exaggeration': 0.1,
             'hillshade-shadow-color': '#142b27',
             'hillshade-highlight-color': '#fff8e6',
           },
@@ -374,7 +387,11 @@ export default function AtlasCanvas({
   }, [satellite]);
   return (
     <>
-      <div ref={host} className="atlas-canvas" data-imagery-provider="eox" />
+      <div
+        ref={host}
+        className="atlas-canvas"
+        data-imagery-provider={satellite ? 'eox' : 'openfreemap'}
+      />
       {readyMap && activePlace && destinationArtwork(activePlace.id) && (
         <AtlasDestinationCallout key={activePlace.id} map={readyMap} place={activePlace} />
       )}

@@ -5,6 +5,9 @@ import { PhotographyRoute } from '../components/PhotographyRoute';
 import { ExperienceOverview } from '../components/ExperienceOverview';
 import { HomeHero, HomeIntroduction, HomeClosing } from '../components/HomeSections';
 import { useHomeMotion } from '../hooks/useHomeMotion';
+import { SharedTerritories } from '../components/SharedTerritories';
+import { ExperiencePhoto } from '../components/ExperiencePhoto';
+import { JourneyGallery } from '../components/JourneyGallery';
 export default function HomePage() {
   const motion = useHomeMotion();
   return (
@@ -19,8 +22,18 @@ export default function HomePage() {
       </div>
       <div className="container">
         <HomeIntroduction />
+        <SharedTerritories />
 
         <ExperienceOverview />
+        <JourneyGallery />
+        <div className="home-visual-links" aria-label="Galería y contacto de JACS">
+          <Link to="/rutas#galeria" className="button button-outline">
+            Miradas de Apurímac · Ver galería <MoveUpRight size={17} />
+          </Link>
+          <Link to="/consultora#contacto" className="text-link">
+            Conversemos sobre tu proyecto <ArrowRight size={18} />
+          </Link>
+        </div>
         <PhotographyRoute />
         <section className="section">
           <SectionHeading
@@ -39,21 +52,21 @@ export default function HomePage() {
             </Link>
           </SectionHeading>
           <div className="culture-feature">
-            <Photo name="telar" alt="Representación generada de manos trabajando en un telar" />
+            <ExperiencePhoto id="31" name="Puente colonial de Pachachaca" />
             <div>
-              <span className="eyebrow red">Oficios que cuentan</span>
+              <span className="eyebrow red">Patrimonio que cuenta</span>
               <h3>
-                Un hilo también
+                La memoria también
                 <br />
-                puede ser un camino.
+                se construye en piedra.
               </h3>
               <p>
-                Acercarse a un oficio es aprender a observar. Los materiales, las herramientas y los
-                gestos abren una conversación con el territorio.
+                El puente de Pachachaca invita a mirar sus arcos, sus materiales y su relación con
+                el río. Fotografiarlo es una oportunidad para leer el paisaje junto con su historia.
               </p>
               <p className="small muted">
-                Las visitas y los talleres se deben acordar con sus anfitriones. No hay experiencias
-                reservables en este prototipo.
+                Conoce la lectura cultural de cada jornada y observa el patrimonio desde puntos de
+                acceso autorizados.
               </p>
               <Link to="/cultura" className="button button-outline">
                 Abrir esta historia <MoveUpRight size={16} />

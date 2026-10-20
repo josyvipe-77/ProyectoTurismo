@@ -94,6 +94,10 @@ catalog.append({'id':'sig-8320-tres-cruces','name':'Tres Cruces de Mamara (regis
  'coordinateSource':None,'access':'Acceso sin confirmar. Referencia histórica que requiere revisión con DIRCETUR.','parent':None,'aliases':[]})
 overrides = json.loads((ROOT/'research/coordinate-overrides.json').read_text(encoding='utf-8'))
 for entry in catalog:
+    if entry['id'] == 'waywaka':
+        # Same Huayhuaca lookout already documented by PROMPERU; keep its stable local ID.
+        entry['source'] = 'https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=13276'
+        entry['origin'] = 'Ficha MINCETUR + guía PROMPERÚ 2023'
     if entry['id'] in overrides:
         entry.update(overrides[entry['id']])
 catalog.sort(key=lambda x:(x['province'],x['name']))

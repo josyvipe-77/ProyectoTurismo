@@ -2,6 +2,7 @@ import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { RegionalRoutes } from '../components/RegionalRoutes';
 import { RespectNote } from '../components/Editorial';
+import { CuratedGallery } from '../components/CuratedGallery';
 export default function RoutesPage() {
   return (
     <div className="container page">
@@ -21,6 +22,7 @@ export default function RoutesPage() {
           Conoce «Apurímac a través de tu objetivo» <ArrowRight size={18} />
         </Link>
       </div>
+      <CuratedGallery />
       <RegionalRoutes />
       <RespectNote />
     </div>

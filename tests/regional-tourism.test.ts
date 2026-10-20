@@ -14,6 +14,25 @@ import {
   routeMapPlaces,
 } from '../src/data/regional-tourism.ts';
 
+test('las galerías conservan su ficha real, también para fiestas e identificadores locales', () => {
+  const index = JSON.parse(
+    readFileSync('src/data/mincetur-gallery-index.json', 'utf8'),
+  ) as string[];
+  assert.equal(new Set(index).size, index.length);
+  for (const id of index) {
+    const resource = resourceById.get(id);
+    assert.ok(resource, `Galería sin recurso: ${id}`);
+    const gallery = JSON.parse(readFileSync(`public/images/mincetur/galleries/${id}.json`, 'utf8'));
+    assert.equal(gallery.source, resource.source);
+    assert.ok(gallery.photos.length > 0);
+  }
+  assert.ok(index.includes('8004'), 'El carnaval también tiene fotografías');
+  assert.ok(index.includes('13092'), 'Un recurso sin pin conserva sus fotografías');
+  assert.equal(resourceById.get('13092')?.coordinates, null);
+  assert.ok(index.includes('waywaka'));
+  assert.equal(new URL(resourceById.get('waywaka')!.source).searchParams.get('cod_Ficha'), '13276');
+});
+
 test('el inventario conserva su alcance y no cuenta fiestas ni Illanya dos veces como pins', () => {
   assert.equal(resources.length, 135);
   assert.equal(new Set(resources.map((resource) => resource.id)).size, resources.length);

@@ -4,6 +4,7 @@ import { SectionHeading } from './Editorial';
 import { festivals } from '../data';
 import { CloudIntro } from './CloudIntro';
 import { useHeroIntro } from '../hooks/useHeroIntro';
+import { ExperiencePhoto } from './ExperiencePhoto';
 export function HomeHero() {
   const { ref, phase } = useHeroIntro();
   return (
@@ -108,28 +109,15 @@ export function HomeClosing() {
             <em>tienen voz propia.</em>
           </h2>
           <p>
-            Este espacio está pensado para las voces de artesanos, cocineras, músicos y guías
-            locales.
+            Observar también significa escuchar a quienes habitan el territorio. Una fotografía
+            respetuosa empieza por preguntar y aceptar la respuesta de cada persona.
           </p>
           <p className="small muted">
-            Las historias y los perfiles se incorporarán con autorización de sus protagonistas. Aquí
-            no se presentan testimonios reales.
+            Pide permiso antes de retratar a alguien y acuerda el uso de la imagen. El encuentro
+            tiene su propio tiempo, más allá de la cámara.
           </p>
         </div>
-        <div className="voice-card">
-          <span className="voice-mark" aria-hidden="true">
-            “
-          </span>
-          <h3>
-            Un cuaderno que empieza
-            <br />
-            por escuchar.
-          </h3>
-          <p>Historias locales por construir juntos.</p>
-          <Link to="/cultura" className="text-link">
-            Conoce el enfoque <ArrowRight size={18} />
-          </Link>
-        </div>
+        <ExperiencePhoto id="3055" name="San Cristóbal · Un paisaje para observar con respeto" />
       </section>
       <section className="section">
         <SectionHeading
