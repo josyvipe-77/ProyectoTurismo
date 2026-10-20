@@ -83,11 +83,13 @@ export function ApurimacExplorer({
   sequence = false,
   routeName,
   focusFirst = false,
+  compact = false,
 }: {
   places?: TouristPlace[];
   sequence?: boolean;
   routeName?: string;
   focusFirst?: boolean;
+  compact?: boolean;
 }) {
   const isProgram = useLocation().pathname === '/construye';
   const root = useRef<HTMLElement>(null);
@@ -136,26 +138,29 @@ export function ApurimacExplorer({
     <section
       ref={root}
       id="explora-apurimac"
-      className="section apurimac-explorer"
-      aria-labelledby="atlas-heading"
+      className={`section apurimac-explorer${compact ? ' apurimac-explorer--compact' : ''}`}
+      aria-labelledby={compact ? undefined : 'atlas-heading'}
+      aria-label={compact ? 'Mapa interactivo de las cinco jornadas' : undefined}
       data-selected-place={place?.id ?? 'overview'}
       data-map-state={status}
       data-map-mode={threeD && status === 'ready' ? '3d' : '2d'}
       data-map-surface={satellite && status === 'ready' ? 'satellite' : 'map'}
     >
-      <div className="atlas-heading">
-        <div>
-          <span className="eyebrow blue">02 / Cartografía de un encuentro</span>
-          <h2 id="atlas-heading">
-            Apurímac, <em>a tu ritmo.</em>
-          </h2>
+      {!compact && (
+        <div className="atlas-heading">
+          <div>
+            <span className="eyebrow blue">02 / Cartografía de un encuentro</span>
+            <h2 id="atlas-heading">
+              Apurímac, <em>a tu ritmo.</em>
+            </h2>
+          </div>
+          <p>
+            {routeName
+              ? `Paradas con coordenadas referenciales de ${routeName}. Las escalas sin pin aparecen en el itinerario.`
+              : 'Seis lugares para empezar a escuchar el territorio. Elige una parada o avanza con las flechas.'}
+          </p>
         </div>
-        <p>
-          {routeName
-            ? `Paradas con coordenadas referenciales de ${routeName}. Las escalas sin pin aparecen en el itinerario.`
-            : 'Seis lugares para empezar a escuchar el territorio. Elige una parada o avanza con las flechas.'}
-        </p>
-      </div>
+      )}
       <div
         className="atlas-destinations"
         role="group"
@@ -192,6 +197,7 @@ export function ApurimacExplorer({
       >
         <div
           className="atlas-story"
+          hidden={compact && !place}
           role="region"
           aria-label="Información y fotografías del destino"
           tabIndex={0}
@@ -382,16 +388,20 @@ export function ApurimacExplorer({
       </div>
       <div className="atlas-footer">
         <span>Selecciona un punto · Flechas para cambiar de lugar · Arrastra para explorar</span>
-        <span>
-          Relieve del terreno y señales de ubicación. Límites y puntos referenciales; no es un mapa
-          de navegación.
-        </span>
-        {satellite && status === 'ready' ? (
-          <span>
-            Imagen satelital histórica EOX (2016–2017) · El detalle al acercarse es limitado.
-          </span>
-        ) : (
-          <span>Mapa cartográfico · Satélite histórico y relieve 3D opcionales.</span>
+        {!compact && (
+          <>
+            <span>
+              Relieve del terreno y señales de ubicación. Límites y puntos referenciales; no es un
+              mapa de navegación.
+            </span>
+            {satellite && status === 'ready' ? (
+              <span>
+                Imagen satelital histórica EOX (2016–2017) · El detalle al acercarse es limitado.
+              </span>
+            ) : (
+              <span>Mapa cartográfico · Satélite histórico y relieve 3D opcionales.</span>
+            )}
+          </>
         )}
       </div>
     </section>

@@ -66,11 +66,9 @@ export function HomeIntroduction() {
   return (
     <>
       <section id="cuaderno" className="intro-section">
-        <div>
+        <div className="intro-visual">
           <span className="eyebrow blue">La mirada de viaje</span>
-          <span className="intro-mark" aria-hidden="true">
-            ✳
-          </span>
+          <ExperiencePhoto id="577" name="Ampay · Entre el bosque y el agua" />
         </div>
         <div>
           <h2>

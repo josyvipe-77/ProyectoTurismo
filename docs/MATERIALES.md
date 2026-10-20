@@ -21,6 +21,20 @@ El PDF se genera en `output/pdf/` y se copia a `public/materiales/programa-base-
 
 Renderizar y revisar las nueve páginas antes de entregar una nueva versión. Los folletos existentes tienen un enlace independiente y no son sustituidos por este programa.
 
+## Folleto ilustrado
+
+`python scripts/create_brochures_pdf.py` genera dos páginas A4 en `output/pdf/folletos-jacs-apurimac.pdf`, las copia a `public/materiales` y prepara su portada WebP. Requiere `reportlab`, `Pillow`, `pypdfium2` y Arial de Windows. Reutiliza los paneles visuales de las láminas 01 y 05-09 de `output/imagegen/presentacion-jacs-unificada`, conservadas localmente. Los textos del PDF son seleccionables; las imágenes se identifican como composiciones ilustrativas de la presentación. `procedencia-folletos.json` registra archivos y huellas SHA-256. La web incluye una vista previa y un enlace de descarga con versión para evitar el PDF anterior en caché.
+
+## Enlace al mapa Perú-España
+
+La sección de territorios incluye una tarjeta enlazada a `https://plan-turistico.vercel.app/`. Su emblema de los dos viajeros procede del propio sitio y se sirve como WebP local de 36 KB, con su URL de origen en `public/images/plan-turistico/procedencia.json`. No requiere imágenes remotas al abrir la web. «La mirada de viaje» incorpora una fotografía del archivo de Ampay, con crédito a su ficha.
+
+## Inicio y tarjetas fotográficas
+
+Inicio muestra un solo mapa del programa base, con las cinco paradas. La variante compacta de `PhotographyRoute` oculta el esquema cartográfico y las opciones de planificación; el explorador presenta la ficha con fotos después de seleccionar un destino. La selección de miradores y los mapas completos siguen en el planificador. El cierre «Tu próxima mirada empieza aquí» combina una fotografía del cañón del Apurímac con una invitación breve a planificar.
+
+`PhotoCard` presenta imagen, título y ubicación, con detalles nativos de HTML para desplegar textos y fuentes. Se usa en las catorce tarjetas de Cultura viva y en las doce imágenes de la galería editorial; conserva los controles de ampliación existentes. `photo-cards.css` unifica los marcos fotográficos, bordes redondeados de 14 px, créditos y sombras. Las tarjetas desplegables usan imágenes 16:9 y se alinean arriba, para no estirar las vecinas al abrir una. Los logos y el hero conservan sus formatos propios.
+
 ## Regenerar el vídeo y los guiones
 
 Dependencias de autoría: `Pillow` e `imageio-ffmpeg`. El script acepta su instalación temporal en `tmp/tool-deps`, sin añadir dependencias a la aplicación.
@@ -35,9 +49,9 @@ Para repetir solo el montaje con la voz ya generada, se puede omitir `--video-sp
 
 Inicio incorpora una galería de cinco lugares con dos fotografías por tarjeta. En escritorio cambia de perspectiva con el cursor o el foco; en móvil se desliza con el dedo o con los controles. Respeta la preferencia de movimiento reducido y conserva enlaces a las fichas originales.
 
-El catálogo de Explora Apurímac presenta las galerías locales de los 107 registros que tienen fotografías. Cada tarjeta permite recorrerlas y ampliarlas; las imágenes se preparan cuando la tarjeta se acerca a la pantalla, sin cargar las galerías de las provincias cerradas. Los otros 28 registros indican que no hay fotografía verificada en el archivo. No se asignan fotografías de lugares próximos ni de sectores relacionados a un registro diferente.
+El catálogo de Explora Apurímac presenta las galerías propias de 107 registros. Las otras 28 referencias tienen una portada de contexto ampliable, con la indicación «Imagen de contexto», el nombre real del lugar fotografiado y un enlace a su fuente. Se mantiene visible que falta una fotografía específica. Estas portadas no se añaden al manifiesto de fotografías propias ni cambian la cobertura verificada. `research/build_context_photos.py` prepara `src/data/catalog-context-photos.json` a partir del archivo existente; la prueba de cobertura verifica que cada referencia tenga una galería propia o una portada identificada y que sus archivos existan.
 
-Las tarjetas del catálogo usan un marco fotográfico 16:10, controles sobre la imagen, crédito separado y un cuerpo con título, ubicación y acciones. Las observaciones de coordenadas se conservan en «Sobre esta ubicación». Los registros sin fotografía mantienen las mismas proporciones mediante un panel informativo. La variante `catalog` de la galería comparte la ampliación existente; las galerías del mapa conservan su presentación habitual.
+Las tarjetas del catálogo muestran una imagen 16:9, nombre y ubicación. «Ver detalles» despliega el estado de la ubicación, observaciones, fuentes y acciones. Las tarjetas se alinean arriba y no heredan la altura de otras tarjetas expandidas. Las portadas de contexto mantienen la identificación visible y presentan su procedencia completa al desplegar los detalles o ampliar la imagen. Las galerías y las portadas comparten el visor de ampliación.
 
 Las fotografías interiores de Inicio usan marcos 4:3 con bordes redondeados y créditos en una franja separada. Las tarjetas de las cinco jornadas comparten ese formato. La ilustración gastronómica conserva su identificación visible en una franja inferior. Estas reglas están limitadas a Inicio en `src/home-media.css`; la portada y las nubes mantienen su diseño y comportamiento.
 

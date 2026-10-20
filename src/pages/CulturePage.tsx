@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { BuildCallout, Photo, RespectNote, SectionHeading } from '../components/Editorial';
 import { CultureCalendar } from '../components/CultureCalendar';
 import { ExperiencePhoto } from '../components/ExperiencePhoto';
+import { PhotoCard } from '../components/PhotoCard';
 import '../culture-content.css';
 
 export default function CulturePage() {
@@ -60,9 +61,38 @@ export default function CulturePage() {
           inventario turístico.
         </p>
         <div className="documentary-strip">
-          <ExperiencePhoto id="4678" name="Taraccasa · Ciudad y paisaje" />
-          <ExperiencePhoto id="31" name="Pachachaca · Patrimonio construido" />
-          <ExperiencePhoto id="577" name="Ampay · Conservación del territorio" />
+          <PhotoCard
+            title="Taraccasa"
+            eyebrow="Abancay · Ciudad y paisaje"
+            image={<ExperiencePhoto id="4678" name="Taraccasa · Ciudad y paisaje" />}
+          >
+            <p>Una primera mirada a la relación entre Abancay, el valle y sus montañas.</p>
+            <Link className="text-link" to="/construye#taraccasa">
+              Conoce la jornada <ArrowRight size={16} />
+            </Link>
+          </PhotoCard>
+          <PhotoCard
+            title="Pachachaca"
+            eyebrow="Abancay · Patrimonio construido"
+            image={<ExperiencePhoto id="31" name="Pachachaca · Patrimonio construido" />}
+          >
+            <p>
+              El puente colonial invita a observar sus arcos, la piedra y su relación con el río.
+            </p>
+            <Link className="text-link" to="/construye#pachachaca">
+              Conoce la jornada <ArrowRight size={16} />
+            </Link>
+          </PhotoCard>
+          <PhotoCard
+            title="Ampay"
+            eyebrow="Abancay · Conservación del territorio"
+            image={<ExperiencePhoto id="577" name="Ampay · Conservación del territorio" />}
+          >
+            <p>El bosque y el agua acercan la mirada al paisaje y al cuidado del santuario.</p>
+            <Link className="text-link" to="/construye#ampay">
+              Conoce la jornada <ArrowRight size={16} />
+            </Link>
+          </PhotoCard>
         </div>
         <Link className="text-link" to="/construye">
           Lee el contexto cultural de las cinco jornadas <ArrowRight size={17} />
@@ -81,14 +111,18 @@ export default function CulturePage() {
             </>
           }
         />
-        <div className="culture-craft">
-          <Photo
-            name="telar"
-            alt="Ilustración generada de un telar andino; no representa un taller identificado"
-          />
+        <PhotoCard
+          className="culture-craft-card"
+          title="Materiales, técnica y autoría"
+          eyebrow="Cotabambas · Textiles y oficios"
+          image={
+            <Photo
+              name="telar"
+              alt="Ilustración generada de un telar andino; no representa un taller identificado"
+            />
+          }
+        >
           <div className="culture-craft-copy">
-            <span className="eyebrow blue">Cotabambas · Un ejemplo documentado</span>
-            <h3>Materiales, técnica y autoría.</h3>
             <p>
               El directorio Ruraq Maki del Ministerio de Cultura documenta a la Asociación de
               Artesanos Apu Killani, de Huamaniray, Cotabambas. Su trabajo textil emplea lana de
@@ -124,7 +158,7 @@ export default function CulturePage() {
               </a>
             </div>
           </div>
-        </div>
+        </PhotoCard>
       </section>
       <section className="section" id="sabores">
         <SectionHeading
@@ -139,11 +173,13 @@ export default function CulturePage() {
           }
         />
         <div className="culture-food-grid">
-          <article className="culture-food-card">
-            <ExperiencePhoto id="8067" name="Tallarín de casa abanquino" />
+          <PhotoCard
+            className="culture-food-card"
+            title="Tallarín de casa"
+            eyebrow="Abancay · Cocina festiva"
+            image={<ExperiencePhoto id="8067" name="Tallarín de casa abanquino" />}
+          >
             <div>
-              <span className="eyebrow blue">Abancay · Cocina festiva</span>
-              <h3>Tallarín de casa</h3>
               <p>
                 Harina de trigo, huevos y mantequilla forman parte de esta preparación. La ficha
                 turística describe su presencia en días festivos, acompañada de estofado de gallina,
@@ -154,12 +190,14 @@ export default function CulturePage() {
                 permiso antes de fotografiar la preparación.
               </p>
             </div>
-          </article>
-          <article className="culture-food-card">
-            <ExperiencePhoto id="3055" name="San Cristóbal · Paisaje de Curahuasi" />
+          </PhotoCard>
+          <PhotoCard
+            className="culture-food-card"
+            title="El territorio del anís"
+            eyebrow="Curahuasi · Paisaje y cultivo"
+            image={<ExperiencePhoto id="3055" name="San Cristóbal · Paisaje de Curahuasi" />}
+          >
             <div>
-              <span className="eyebrow blue">Curahuasi · Paisaje y cultivo</span>
-              <h3>El territorio del anís</h3>
               <p>
                 La ficha del mirador de San Cristóbal sitúa las parcelas de anís en el paisaje del
                 valle de Curahuasi. Este cultivo permite relacionar los sabores del territorio con
@@ -170,7 +208,7 @@ export default function CulturePage() {
                 Acuerda cualquier acceso a un cultivo con sus responsables.
               </p>
             </div>
-          </article>
+          </PhotoCard>
         </div>
       </section>
       <section className="section language-story" id="quechua">

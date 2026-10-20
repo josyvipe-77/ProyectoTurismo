@@ -1,4 +1,23 @@
 /* Editorial photo frames in Home; the opening landscape keeps its own layout. */
+.home-page .intro-section {
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.5fr);
+  align-items: center;
+}
+.home-page .intro-section > .intro-visual {
+  display: block;
+}
+.intro-visual > .eyebrow {
+  display: block;
+  margin-bottom: 20px;
+}
+@media (max-width: 900px) {
+  .home-page .intro-section {
+    grid-template-columns: 1fr;
+  }
+  .intro-visual {
+    max-width: 560px;
+  }
+}
 .home-page .experience-photo {
   align-self: center;
   width: 100%;

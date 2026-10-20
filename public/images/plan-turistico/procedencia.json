@@ -1,0 +1,8 @@
+{
+  "page": "https://plan-turistico.vercel.app/",
+  "source": "https://plan-turistico.vercel.app/assets/brand/emblema-coil-v3.png",
+  "local": "/images/plan-turistico/emblema-coil.webp",
+  "description": "Emblema de los dos viajeros con las banderas de Perú y España, utilizado para identificar el enlace al proyecto.",
+  "processing": "Reducción a 360 píxeles y conversión a WebP con transparencia.",
+  "checked": "2026-10-20"
+}

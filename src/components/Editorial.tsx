@@ -1,6 +1,7 @@
 import { ArrowRight, Feather } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import type { ReactNode } from 'react';
+import { ExperiencePhoto } from './ExperiencePhoto';
 
 interface SectionHeadingProps {
   number?: string;
@@ -57,17 +58,17 @@ export function RespectNote() {
 }
 export function BuildCallout() {
   return (
-    <section className="build-callout">
-      <span className="eyebrow">Apurímac a través de tu objetivo</span>
-      <h2>
-        Cinco jornadas para observar.
-        <br />
-        <em>Una experiencia para recordar.</em>
-      </h2>
-      <Link to="/construye" className="button">
-        Planifica tu viaje <ArrowRight size={18} />
-      </Link>
-      <span className="small">Sin prisa. Con curiosidad. Con respeto.</span>
+    <section className="build-callout build-callout--visual">
+      <ExperiencePhoto id="602" name="Cañón del Apurímac · Una nueva perspectiva" />
+      <div className="build-callout-copy">
+        <h2>
+          Tu próxima mirada <em>empieza aquí.</em>
+        </h2>
+        <p>Consulta las cinco jornadas y prepara tu recorrido.</p>
+        <Link to="/construye" className="button">
+          Planifica tu viaje <ArrowRight size={18} />
+        </Link>
+      </div>
     </section>
   );
 }

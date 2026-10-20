@@ -8,7 +8,7 @@ Las fotografías incorporadas proceden de la ficha específica de cada recurso e
 
 ## Pendientes
 
-Esta lista indica lo que falta en el archivo local; no afirma que no existan fotos públicas. Para completarla se necesita una imagen propia o de otra fuente cuya ubicación, autoría y condiciones de uso puedan documentarse. Los sectores de Ampay requieren imágenes del sector concreto. Los registros históricos necesitan confirmar primero la identidad actual del recurso. No se sustituyen por fotos de lugares cercanos.
+Esta lista indica lo que falta en el archivo local; no afirma que no existan fotos públicas. Para completarla se necesita una imagen propia o de otra fuente cuya ubicación, autoría y condiciones de uso puedan documentarse. Los sectores de Ampay requieren imágenes del sector concreto. Los registros históricos necesitan confirmar primero la identidad actual del recurso. Las tarjetas muestran una imagen de contexto identificada con su lugar de origen; no se cuenta como fotografía propia del recurso. La selección está en `src/data/catalog-context-photos.json` y se regenera con `python research/build_context_photos.py`.
 
 | Referencia                                                          | Provincia   | Fuente documental                                                                                                |
 | ------------------------------------------------------------------- | ----------- | ---------------------------------------------------------------------------------------------------------------- |

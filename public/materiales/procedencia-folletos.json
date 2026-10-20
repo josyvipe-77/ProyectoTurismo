@@ -1,0 +1,31 @@
+{
+  "method": "Diseño PDF con texto seleccionable y paneles visuales de la presentación existente del equipo.",
+  "imageType": "Composiciones ilustrativas creadas previamente con IA; no se presentan como fotografías de campo.",
+  "artwork": [
+    {
+      "file": "output/imagegen/presentacion-jacs-unificada/01-portada.png",
+      "sha256": "1a59f62e5e956afb1a4d44b0c5b0ec7106a2567a50b3c16039afbbdeea10e17e"
+    },
+    {
+      "file": "output/imagegen/presentacion-jacs-unificada/05-dia-1-taraccasa.png",
+      "sha256": "3d0230c44ead25ab7c891605749681df62ee01f58a7b22e750ab28951d331891"
+    },
+    {
+      "file": "output/imagegen/presentacion-jacs-unificada/06-dia-2-pampachiri.png",
+      "sha256": "1e72d495d0384ce270b4c9c4ee3932ef067a04625324f3553ba01562a95351bf"
+    },
+    {
+      "file": "output/imagegen/presentacion-jacs-unificada/07-dia-3-pachachaca.png",
+      "sha256": "36aea5c3abc995c1fdbaf7e670c4fdc57ebd93e44b246703384fd0955293fbe3"
+    },
+    {
+      "file": "output/imagegen/presentacion-jacs-unificada/08-dia-4-ampay.png",
+      "sha256": "f3ffcd46840407eb04d3c4abf90601ac8eef1c0a56f059e370baea5de765ae91"
+    },
+    {
+      "file": "output/imagegen/presentacion-jacs-unificada/09-dia-5-canon-apurimac.png",
+      "sha256": "1c2413568b52f1ec0e7e81768dc94ea2f04559a6f15b6bf7cec658b464051838"
+    }
+  ],
+  "outputSha256": "eb0378678a14a77fa5ed180aa6a47e6f467af485c4cce3e8cd94b73173bf3fe0"
+}

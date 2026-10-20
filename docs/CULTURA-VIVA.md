@@ -1,14 +1,19 @@
 # Cierre de Cultura viva
 
-Revisión editorial: 19 de octubre de 2026. La página aporta contexto cultural; no añade actividades, talleres, establecimientos asociados ni viajes a celebraciones al programa de cinco jornadas.
+Revisión editorial: 20 de octubre de 2026. La página aporta contexto cultural; no añade actividades, talleres, establecimientos asociados ni viajes a celebraciones al programa de cinco jornadas.
 
 ## Calendario documentado
 
 - [Carnaval Abanquino, ficha MINCETUR 8004](https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8004): comparsas, música, danzas y época variable entre febrero y marzo.
 - [Virgen de Cocharcas, ficha MINCETUR 7512](https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=7512): devoción y peregrinación; fecha central de referencia, 8 de septiembre. El filtro muestra el mes central, no todas las novenas.
 - [Niñuchanchik, ficha MINCETUR 6935](https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=6935): ciclo navideño entre diciembre y enero en las localidades descritas por el inventario. No se presenta una agenda anual confirmada.
+- [Pukllay, ficha MINCETUR 8634](https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8634): encuentro de carnaval originario, con fecha variable entre febrero y marzo.
+- [Carnaval de Sacclaya, ficha MINCETUR 8320](https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8320): celebración anterior al Miércoles de Ceniza en José María Arguedas, Andahuaylas.
+- [Sóndor Raymi, ficha MINCETUR 8869](https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8869): escenificación de los relatos Chanka en junio. El calendario muestra el mes, sin fijar la fecha de una edición.
+- [Señor de Ánimas, ficha MINCETUR 5057](https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=5057): celebración de Chalhuanca entre finales de julio y comienzos de agosto; la ficha identifica el 31 de julio como día central.
+- [Huaylía de Antabamba, ficha MINCETUR 8877](https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8877): 23-28 de diciembre, con día central el 25.
 
-Las fotografías reutilizan la portada editorial de cada galería local, con enlace a la ficha original. El selector ofrece únicamente los meses representados; se retira el filtro por intereses, que ofrecía categorías sin registros. Las épocas que cruzan meses se incluyen en ambos. Inicio reutiliza las mismas tres celebraciones.
+Las ocho celebraciones reutilizan fotografías de sus galerías locales, con enlace a la ficha original. El selector ofrece únicamente los meses representados. Las épocas que cruzan meses se incluyen en ambos. Inicio reutiliza el mismo calendario.
 
 ## Textiles y oficios
 

@@ -20,12 +20,33 @@ export function ProjectMaterials() {
         </article>
         <article>
           <span className="eyebrow blue">La invitación</span>
-          <h3>Dos folletos</h3>
+          <h3>Folleto de la experiencia</h3>
+          <a
+            className="brochure-preview"
+            href="/materiales/folletos-jacs-apurimac.pdf?v=20261020"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Ver el folleto ilustrado en PDF"
+          >
+            <img
+              src="/materiales/folletos-jacs-portada.webp"
+              alt="Portada del folleto Apurímac a través de tu objetivo, con un fotógrafo ante el cañón"
+              width={420}
+              height={594}
+              loading="lazy"
+              decoding="async"
+            />
+          </a>
           <p>
-            Una presentación visual de «Apurímac a través de tu objetivo» y de sus cinco jornadas.
+            La experiencia y sus cinco jornadas, ilustradas con las imágenes de nuestra
+            presentación.
           </p>
-          <a className="text-link" href="/materiales/folletos-jacs-apurimac.pdf" download>
-            <Download size={16} /> Descargar folletos · PDF
+          <a
+            className="text-link"
+            href="/materiales/folletos-jacs-apurimac.pdf?v=20261020"
+            download
+          >
+            <Download size={16} /> Descargar folleto · PDF
           </a>
         </article>
         <article>

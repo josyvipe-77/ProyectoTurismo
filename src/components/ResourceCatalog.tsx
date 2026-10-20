@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowUpRight, Download, MapPin, Search } from 'lucide-react';
+import { ArrowUpRight, ChevronDown, Download, MapPin, Search } from 'lucide-react';
 import {
   catalogCounts,
   geographicNeighbors,
@@ -9,6 +9,7 @@ import {
 } from '../data/regional-tourism';
 import type { TourismResource } from '../data/regional-tourism';
 import { CatalogPhotos } from './CatalogPhotos';
+import { getContextPhoto } from '../data/catalog-context';
 
 export function ResourceCatalog({ onLocate }: { onLocate: (resource: TourismResource) => void }) {
   const [query, setQuery] = useState('');
@@ -39,7 +40,8 @@ export function ResourceCatalog({ onLocate }: { onLocate: (resource: TourismReso
       </p>
       <p className="small muted">
         Abre una provincia o busca un destino para ver sus fotografías. Las galerías disponibles
-        conservan su ficha de origen; los registros sin imágenes se indican en cada tarjeta.
+        conservan su ficha de origen; los lugares sin fotografía propia muestran una imagen de
+        contexto con el nombre del lugar fotografiado.
       </p>
       <div className="regional-downloads">
         <a
@@ -144,59 +146,74 @@ function ResourceCard({
   onLocate: (resource: TourismResource) => void;
 }) {
   const neighbors = geographicNeighbors(resource);
+  const contextPhoto = getContextPhoto(resource.id);
   return (
     <article className="regional-resource">
       <CatalogPhotos id={resource.id} name={resource.name} source={resource.source} />
-      <div className="regional-resource-body">
-        <span className="eyebrow">
-          {resource.category} · {resource.district}
-        </span>
-        <h3>{resource.name}</h3>
-        <p className="regional-resource-status">
-          {resource.coordinates
-            ? 'Pin referencial'
-            : resource.kind !== 'Lugar'
-              ? 'Manifestación cultural'
-              : 'Sin pin contrastado'}
-          {resource.parent ? ' · Sector de otro atractivo' : ''}
-        </p>
-        {resource.coordinateNote && (
-          <details className="regional-coordinate-note">
-            <summary>Sobre esta ubicación</summary>
-            <p>{resource.coordinateNote}</p>
-          </details>
-        )}
-        <div className="regional-resource-actions">
-          <a
-            className="text-link small"
-            href={resource.source}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Consultar fuente <ArrowUpRight size={15} />
-          </a>
-          {resource.coordinates && (
-            <button className="text-link small" onClick={() => onLocate(resource)}>
-              <MapPin size={15} /> Ver en mapa
-            </button>
+      <details className="regional-resource-details">
+        <summary>
+          <span className="eyebrow">
+            {resource.category} · {resource.district}
+          </span>
+          <h3>{resource.name}</h3>
+          <span className="regional-resource-more">
+            Ver detalles <ChevronDown size={16} aria-hidden="true" />
+          </span>
+        </summary>
+        <div className="regional-resource-body">
+          <p className="regional-resource-status">
+            {resource.coordinates
+              ? 'Pin referencial'
+              : resource.kind !== 'Lugar'
+                ? 'Manifestación cultural'
+                : 'Sin pin contrastado'}
+            {resource.parent ? ' · Sector de otro atractivo' : ''}
+          </p>
+          {resource.coordinateNote && (
+            <p className="regional-coordinate-note">{resource.coordinateNote}</p>
+          )}
+          {contextPhoto && (
+            <p className="regional-photo-note">
+              Imagen de contexto: {contextPhoto.referenceName}. La fotografía específica de este
+              lugar está por documentar.{' '}
+              <a href={contextPhoto.source} target="_blank" rel="noopener noreferrer">
+                Fuente de la imagen <ArrowUpRight size={12} aria-hidden="true" />
+              </a>
+            </p>
+          )}
+          <div className="regional-resource-actions">
+            <a
+              className="text-link small"
+              href={resource.source}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Consultar fuente <ArrowUpRight size={15} />
+            </a>
+            {resource.coordinates && (
+              <button className="text-link small" onClick={() => onLocate(resource)}>
+                <MapPin size={15} /> Ver en mapa
+              </button>
+            )}
+          </div>
+          {neighbors.length > 0 && (
+            <details className="regional-neighbors">
+              <summary>Otros puntos cercanos en el mapa</summary>
+              <p>
+                Distancia geográfica en línea recta. No indica carretera, sendero ni tiempo de
+                viaje.
+              </p>
+              <ul>
+                {neighbors.map(({ resource: other, distance }) => (
+                  <li key={other.id}>
+                    {other.name} · {distance.toFixed(1)} km
+                  </li>
+                ))}
+              </ul>
+            </details>
           )}
         </div>
-        {neighbors.length > 0 && (
-          <details className="regional-neighbors">
-            <summary>Otros puntos cercanos en el mapa</summary>
-            <p>
-              Distancia geográfica en línea recta. No indica carretera, sendero ni tiempo de viaje.
-            </p>
-            <ul>
-              {neighbors.map(({ resource: other, distance }) => (
-                <li key={other.id}>
-                  {other.name} · {distance.toFixed(1)} km
-                </li>
-              ))}
-            </ul>
-          </details>
-        )}
-      </div>
+      </details>
     </article>
   );
 }

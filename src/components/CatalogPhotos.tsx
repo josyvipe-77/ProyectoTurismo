@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Camera } from 'lucide-react';
 import availableGalleries from '../data/mincetur-gallery-index.json';
 import { DestinationGallery } from './DestinationGallery';
+import { ContextPhoto } from './ContextPhoto';
 
 export function CatalogPhotos({ id, name, source }: { id: string; name: string; source: string }) {
   const container = useRef<HTMLDivElement>(null);
@@ -24,17 +25,7 @@ export function CatalogPhotos({ id, name, source }: { id: string; name: string; 
     return () => observer.disconnect();
   }, [available]);
 
-  if (!available)
-    return (
-      <figure className="catalog-photo-missing">
-        <div className="catalog-photo-missing-stage">
-          <Camera size={32} strokeWidth={1.2} aria-hidden="true" />
-          <span>Una imagen por documentar</span>
-          <small>Sin fotografía verificada en el archivo.</small>
-        </div>
-        <figcaption>Información del lugar disponible en su ficha</figcaption>
-      </figure>
-    );
+  if (!available) return <ContextPhoto id={id} name={name} />;
 
   return (
     <div className="catalog-photos" ref={container}>
